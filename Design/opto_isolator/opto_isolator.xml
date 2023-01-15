@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/spud/Documents/Hardware/Design/opto_isolator/opto_isolator.sch</source>
+    <date>Thursday, January 06, 2022 at 10:53:41 PM</date>
+    <tool>Eeschema (5.1.6-0-10_14)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>opto_isolator.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U5">
+      <value>PS2501-4</value>
+      <footprint>Package_DIP:DIP-16_W7.62mm_LongPads</footprint>
+      <libsource lib="srw_custom" part="PS2501-4" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61D7A6B6</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>receiver_433MHz</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <libsource lib="srw_custom" part="receiver_433MHz" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61D7B760</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>DNI</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61D7F373</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>receiver_433MHz</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <libsource lib="srw_custom" part="receiver_433MHz" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61D84E5D</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>DNI</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61D84E72</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>receiver_433MHz</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <libsource lib="srw_custom" part="receiver_433MHz" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61D86EE7</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>DNI</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61D86EFC</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>receiver_433MHz</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <libsource lib="srw_custom" part="receiver_433MHz" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61D890D0</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>DNI</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61D890E5</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61D92C6A</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61D938E9</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61D94456</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61D8C89F</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>DNI</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61DAAD7A</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>DNI</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61DABA52</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>DNI</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61DAC77E</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>DNI</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61DAD480</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61DBC04A</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61DBC050</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61DBC056</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61DBC05C</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x05_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x05_Male" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61E28696</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x01_Male</value>
+      <footprint>Connector_Pin:Pin_D1.3mm_L11.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x01_Male" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61E581D4</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x01_Male</value>
+      <footprint>Connector_Pin:Pin_D1.3mm_L11.0mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x01_Male" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61E58E5F</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>DNI</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61E9E753</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>DNI</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61EC7671</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>DNI</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61ED09E3</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>DNI</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61EDBB1D</tstamp>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61F03C2E</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61F04D81</tstamp>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61F05247</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61F0B0F4</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x01_Male">
+      <description>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x05_Male">
+      <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+      </fields>
+    </libpart>
+    <libpart lib="srw_custom" part="PS2501-4">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PS2501-4</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Anode_1" type="input"/>
+        <pin num="2" name="Cathode_1" type="input"/>
+        <pin num="3" name="Anode_2" type="input"/>
+        <pin num="4" name="Cathode_2" type="input"/>
+        <pin num="5" name="Anode_3" type="input"/>
+        <pin num="6" name="Cathode_3" type="input"/>
+        <pin num="7" name="Anode_4" type="input"/>
+        <pin num="8" name="Cathode_4" type="input"/>
+        <pin num="9" name="Emitter_4" type="input"/>
+        <pin num="10" name="Collector_4" type="input"/>
+        <pin num="11" name="Emitter_3" type="input"/>
+        <pin num="12" name="Collector_3" type="input"/>
+        <pin num="13" name="Emitter_2" type="input"/>
+        <pin num="14" name="Collector_2" type="input"/>
+        <pin num="15" name="Emitter_1" type="input"/>
+        <pin num="16" name="Collector_1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="srw_custom" part="receiver_433MHz">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">receiver_433MHz</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN-" type="input"/>
+        <pin num="2" name="IN+" type="input"/>
+        <pin num="3" name="OUT+" type="input"/>
+        <pin num="4" name="OUT-" type="input"/>
+        <pin num="5" name="KEY" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/Library/Application Support/kicad/library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Library/Application Support/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/Library/Application Support/kicad/library/Mechanical.lib</uri>
+    </library>
+    <library logical="srw_custom">
+      <uri>/Users/spud/Documents/Hardware/Design/libraries/srw_custom.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="VCC">
+      <node ref="R15" pin="1"/>
+      <node ref="R13" pin="1"/>
+      <node ref="R16" pin="1"/>
+      <node ref="U1" pin="2"/>
+      <node ref="J1" pin="1"/>
+      <node ref="R14" pin="1"/>
+      <node ref="U4" pin="2"/>
+      <node ref="U3" pin="2"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="2" name="Net-(R1-Pad1)">
+      <node ref="U1" pin="5"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="R2" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="U5" pin="11"/>
+      <node ref="U3" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="R6" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="R11" pin="2"/>
+      <node ref="U4" pin="1"/>
+      <node ref="R12" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="J3" pin="1"/>
+      <node ref="U5" pin="13"/>
+      <node ref="U5" pin="15"/>
+      <node ref="J2" pin="5"/>
+      <node ref="U5" pin="9"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="4" name="Net-(R2-Pad1)">
+      <node ref="R2" pin="1"/>
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="5" name="Net-(R3-Pad1)">
+      <node ref="R3" pin="1"/>
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="6" name="Net-(R4-Pad1)">
+      <node ref="R4" pin="1"/>
+      <node ref="U4" pin="5"/>
+    </net>
+    <net code="7" name="/OUT_1_P">
+      <node ref="U1" pin="3"/>
+      <node ref="R7" pin="1"/>
+      <node ref="R17" pin="1"/>
+    </net>
+    <net code="8" name="Net-(R8-Pad2)">
+      <node ref="U5" pin="3"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="9" name="/OUT_3_P">
+      <node ref="R18" pin="1"/>
+      <node ref="R9" pin="1"/>
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="10" name="Net-(R9-Pad2)">
+      <node ref="U5" pin="5"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="11" name="/OUT_4_P">
+      <node ref="R10" pin="1"/>
+      <node ref="U4" pin="3"/>
+      <node ref="R19" pin="1"/>
+    </net>
+    <net code="12" name="Net-(R10-Pad2)">
+      <node ref="U5" pin="7"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="13" name="Net-(R7-Pad2)">
+      <node ref="U5" pin="1"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="14" name="/OUT_4_N">
+      <node ref="R19" pin="2"/>
+      <node ref="U5" pin="8"/>
+      <node ref="U4" pin="4"/>
+      <node ref="R12" pin="1"/>
+    </net>
+    <net code="15" name="/OUT_3_N">
+      <node ref="U3" pin="4"/>
+      <node ref="U5" pin="6"/>
+      <node ref="R18" pin="2"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="16" name="/OUT_1_N">
+      <node ref="R5" pin="1"/>
+      <node ref="U5" pin="2"/>
+      <node ref="U1" pin="4"/>
+      <node ref="R17" pin="2"/>
+    </net>
+    <net code="17" name="/INT_0">
+      <node ref="U5" pin="16"/>
+      <node ref="J2" pin="1"/>
+      <node ref="R13" pin="2"/>
+    </net>
+    <net code="18" name="/INT_1">
+      <node ref="R14" pin="2"/>
+      <node ref="U5" pin="14"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="19" name="/INT_2">
+      <node ref="J2" pin="3"/>
+      <node ref="R15" pin="2"/>
+      <node ref="U5" pin="12"/>
+    </net>
+    <net code="20" name="/INT_3">
+      <node ref="R16" pin="2"/>
+      <node ref="U5" pin="10"/>
+      <node ref="J2" pin="4"/>
+    </net>
+    <net code="21" name="/OUT_2_P">
+      <node ref="U2" pin="3"/>
+      <node ref="R8" pin="1"/>
+      <node ref="R20" pin="1"/>
+    </net>
+    <net code="22" name="/OUT_2_N">
+      <node ref="U2" pin="4"/>
+      <node ref="U5" pin="4"/>
+      <node ref="R6" pin="1"/>
+      <node ref="R20" pin="2"/>
+    </net>
+  </nets>
+</export>

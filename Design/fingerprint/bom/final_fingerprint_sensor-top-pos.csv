@@ -1,0 +1,21 @@
+Ref,Val,Package,PosX,PosY,Rot,Side
+C2,10u,C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,112.075,-68.95,180,top
+C11,10u,C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,123.8,-61.1,180,top
+C12,10u,C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,124.75,-58.225,90,top
+C14,1u,C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,123.825,-64.45,0,top
+C15,CP1_Small,C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,144.8,-72.55,90,top
+C17,CP1_Small,C_0603_1608Metric_Pad1.05x0.95mm_HandSolder,146.525,-72.575,90,top
+Q1,BSS138,SOT-23,127.325,-66,180,top
+Q2,BSS138,SOT-23,130.95,-66.025,90,top
+R7,1M,R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,112.85,-72.55,270,top
+R8,1M,R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,111.15,-71.575,270,top
+R11,0,R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,136.425,-72.2,180,top
+R13,0,R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,131.075,-68.7,180,top
+R16,1M,R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,123.875,-68.325,270,top
+R26,0,R_0603_1608Metric_Pad1.05x0.95mm_HandSolder,134.575,-70.4,180,top
+U1,TLV1117-33,SOT-223,117.425,-72.55,270,top
+U2,TPS22918,SOT-23-6_Handsoldering,119.5,-62.275,0,top
+U3,STM32L433CCTx,LQFP-48_7x7mm_P0.5mm,128.775,-74.925,180,top
+U5,TPS22918,SOT-23-6_Handsoldering,119.5,-58.4,0,top
+U8,CAT24C256,SOIC-8_3.9x4.9mm_P1.27mm,129.11,-60.35,90,top
+Y1,32.768k Crystal,Crystal_SMD_3215-2Pin_3.2x1.5mm,138.55,-77.55,0,top

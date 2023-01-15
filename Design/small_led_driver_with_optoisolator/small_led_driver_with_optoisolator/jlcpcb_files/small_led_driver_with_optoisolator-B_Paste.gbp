@@ -1,0 +1,15 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,(5.1.6-0-10_14)*%
+%TF.CreationDate,2022-07-25T21:05:29-05:00*%
+%TF.ProjectId,small_led_driver_with_optoisolator,736d616c-6c5f-46c6-9564-5f6472697665,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Paste,Bot*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (5.1.6-0-10_14)) date 2022-07-25 21:05:29*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+G04 APERTURE END LIST*
+M02*

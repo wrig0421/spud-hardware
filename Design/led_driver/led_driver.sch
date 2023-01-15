@@ -1,0 +1,2013 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	9750 6100 9500 6100
+Connection ~ 9750 6100
+Wire Wire Line
+	9750 6200 9750 6100
+$Comp
+L power:GND #PWR0101
+U 1 1 5F5D23E5
+P 9750 6200
+F 0 "#PWR0101" H 9750 5950 50  0001 C CNN
+F 1 "GND" H 9755 6027 50  0000 C CNN
+F 2 "" H 9750 6200 50  0001 C CNN
+F 3 "" H 9750 6200 50  0001 C CNN
+	1    9750 6200
+	1    0    0    -1  
+$EndComp
+NoConn ~ 10350 5800
+Wire Wire Line
+	10400 5700 10350 5700
+Text Label 10400 5700 0    50   ~ 0
+I2C1_SCL
+Wire Wire Line
+	10400 5600 10350 5600
+Text Label 10400 5600 0    50   ~ 0
+I2C1_SDA
+Connection ~ 9500 5800
+Wire Wire Line
+	9500 5700 9500 5800
+Wire Wire Line
+	9550 5700 9500 5700
+Connection ~ 9650 5350
+Wire Wire Line
+	9450 5350 9650 5350
+Wire Wire Line
+	9450 5600 9450 5350
+Wire Wire Line
+	9550 5600 9450 5600
+Wire Wire Line
+	9500 5800 9550 5800
+Wire Wire Line
+	9500 6100 9500 5800
+Wire Wire Line
+	9950 6100 9750 6100
+Wire Wire Line
+	9950 6000 9950 6100
+Wire Wire Line
+	9950 5350 9650 5350
+Wire Wire Line
+	9950 5400 9950 5350
+$Comp
+L Memory_EEPROM:CAT24C256 U4
+U 1 1 5F5D23FD
+P 9950 5700
+F 0 "U4" H 9950 6181 50  0000 C CNN
+F 1 "CAT24C256" H 9950 6090 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 9950 5700 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/on-semiconductor/CAT24C256WI-GT3/CAT24C256WI-GT3OSCT-ND/2704982" H 9950 5700 50  0001 C CNN
+	1    9950 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5F5D2403
+P 7200 1300
+F 0 "R1" H 7270 1346 50  0000 L CNN
+F 1 "10k" H 7270 1255 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 7130 1300 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYJ103V/P10KGCT-ND/134717" H 7200 1300 50  0001 C CNN
+	1    7200 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 1150 7200 1050
+$Comp
+L power:GND #PWR0102
+U 1 1 5F5D240A
+P 7200 2000
+F 0 "#PWR0102" H 7200 1750 50  0001 C CNN
+F 1 "GND" H 7205 1827 50  0000 C CNN
+F 2 "" H 7200 2000 50  0001 C CNN
+F 3 "" H 7200 2000 50  0001 C CNN
+	1    7200 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 1450 7200 1650
+Text Label 7100 1650 2    50   ~ 0
+RST
+Wire Wire Line
+	7100 1650 7200 1650
+Connection ~ 7200 1650
+Wire Wire Line
+	7200 1650 7200 1800
+$Comp
+L Device:CP1_Small C2
+U 1 1 5F5D2415
+P 5350 5800
+F 0 "C2" V 5486 5800 50  0000 C CNN
+F 1 "CP1_Small" H 5441 5755 50  0001 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5350 5800 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/avx-corporation/06032U4R3BAT2A/478-10269-1-ND/6797265" H 5350 5800 50  0001 C CNN
+	1    5350 5800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5250 5800 5200 5800
+Wire Wire Line
+	5200 5800 5200 5750
+Wire Wire Line
+	5250 5400 5200 5400
+Wire Wire Line
+	5200 5400 5200 5450
+$Comp
+L power:GND #PWR0103
+U 1 1 5F5D241F
+P 5650 5850
+F 0 "#PWR0103" H 5650 5600 50  0001 C CNN
+F 1 "GND" H 5655 5677 50  0000 C CNN
+F 2 "" H 5650 5850 50  0001 C CNN
+F 3 "" H 5650 5850 50  0001 C CNN
+	1    5650 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 5400 5650 5400
+Wire Wire Line
+	5650 5400 5650 5800
+Wire Wire Line
+	5650 5800 5450 5800
+Wire Wire Line
+	5650 5850 5650 5800
+Connection ~ 5650 5800
+Text Label 5150 5400 2    50   ~ 0
+XTAL1
+Text Label 5150 5800 2    50   ~ 0
+XTAL2
+Wire Wire Line
+	5150 5800 5200 5800
+Connection ~ 5200 5800
+Wire Wire Line
+	5200 5400 5150 5400
+Connection ~ 5200 5400
+Text Label 5800 3350 2    50   ~ 0
+RED_LED
+Text Label 5800 3450 2    50   ~ 0
+GRN_LED
+Wire Wire Line
+	4850 3550 4850 3450
+Wire Wire Line
+	5100 3550 5100 3450
+Wire Wire Line
+	5100 1900 5100 1700
+Wire Wire Line
+	5450 1350 5800 1350
+Connection ~ 5450 1350
+Wire Wire Line
+	5450 1400 5450 1350
+Connection ~ 5800 1350
+Wire Wire Line
+	5100 1350 5450 1350
+Wire Wire Line
+	5100 1400 5100 1350
+$Comp
+L Device:C C7
+U 1 1 5F5D243B
+P 5100 1550
+F 0 "C7" H 5215 1596 50  0000 L CNN
+F 1 "1u" H 5215 1505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5138 1400 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/kemet/C0603C105K8PACTU/399-3118-1-ND/551623" H 5100 1550 50  0001 C CNN
+	1    5100 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 1950 5800 1900
+$Comp
+L power:GND #PWR0104
+U 1 1 5F5D2442
+P 5800 1950
+F 0 "#PWR0104" H 5800 1700 50  0001 C CNN
+F 1 "GND" H 5805 1777 50  0000 C CNN
+F 2 "" H 5800 1950 50  0001 C CNN
+F 3 "" H 5800 1950 50  0001 C CNN
+	1    5800 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 1350 6050 1350
+Wire Wire Line
+	5800 1400 5800 1350
+Wire Wire Line
+	6050 1350 6050 1300
+$Comp
+L power:+3.3V #PWR0106
+U 1 1 5F5D245C
+P 6050 1300
+F 0 "#PWR0106" H 6050 1150 50  0001 C CNN
+F 1 "+3.3V" H 6065 1473 50  0000 C CNN
+F 2 "" H 6050 1300 50  0001 C CNN
+F 3 "" H 6050 1300 50  0001 C CNN
+	1    6050 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0107
+U 1 1 5F5D2462
+P 7200 1050
+F 0 "#PWR0107" H 7200 900 50  0001 C CNN
+F 1 "+3.3V" H 7215 1223 50  0000 C CNN
+F 2 "" H 7200 1050 50  0001 C CNN
+F 3 "" H 7200 1050 50  0001 C CNN
+	1    7200 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9650 5350 9650 5250
+$Comp
+L power:+3.3V #PWR0108
+U 1 1 5F5D2469
+P 9650 5250
+F 0 "#PWR0108" H 9650 5100 50  0001 C CNN
+F 1 "+3.3V" H 9665 5423 50  0000 C CNN
+F 2 "" H 9650 5250 50  0001 C CNN
+F 3 "" H 9650 5250 50  0001 C CNN
+	1    9650 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 3450 5000 3450
+$Comp
+L power:+3.3V #PWR0109
+U 1 1 5F5D2470
+P 5000 3400
+F 0 "#PWR0109" H 5000 3250 50  0001 C CNN
+F 1 "+3.3V" H 5015 3573 50  0000 C CNN
+F 2 "" H 5000 3400 50  0001 C CNN
+F 3 "" H 5000 3400 50  0001 C CNN
+	1    5000 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 3450 5000 3400
+Connection ~ 5000 3450
+Wire Wire Line
+	5000 3450 5100 3450
+Wire Wire Line
+	5800 1900 5800 1700
+$Comp
+L Device:C C10
+U 1 1 5F5D2586
+P 9200 5350
+F 0 "C10" H 9315 5396 50  0000 L CNN
+F 1 "1u" H 9315 5305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 9238 5200 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/kemet/C0603C105K8PACTU/399-3118-1-ND/551623" H 9200 5350 50  0001 C CNN
+	1    9200 5350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0110
+U 1 1 5F5D258C
+P 8950 5350
+F 0 "#PWR0110" H 8950 5100 50  0001 C CNN
+F 1 "GND" H 8955 5177 50  0000 C CNN
+F 2 "" H 8950 5350 50  0001 C CNN
+F 3 "" H 8950 5350 50  0001 C CNN
+	1    8950 5350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9050 5350 8950 5350
+Wire Wire Line
+	9350 5350 9450 5350
+Connection ~ 9450 5350
+$Comp
+L Device:R R13
+U 1 1 5F5D25A6
+P 4850 3700
+F 0 "R13" H 4920 3746 50  0000 L CNN
+F 1 "10k" H 4920 3655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4780 3700 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYJ103V/P10KGCT-ND/134717" H 4850 3700 50  0001 C CNN
+	1    4850 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R15
+U 1 1 5F5D25AC
+P 5100 3700
+F 0 "R15" H 5170 3746 50  0000 L CNN
+F 1 "10k" H 5170 3655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5030 3700 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYJ103V/P10KGCT-ND/134717" H 5100 3700 50  0001 C CNN
+	1    5100 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 5F5D25B2
+P 4700 6550
+F 0 "R8" H 4770 6596 50  0000 L CNN
+F 1 "100" H 4770 6505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4630 6550 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/rohm-semiconductor/ESR03EZPJ101/RHM100DCT-ND/1983776" H 4700 6550 50  0001 C CNN
+	1    4700 6550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 6400 4700 6250
+Wire Wire Line
+	6000 6300 6000 6400
+Wire Wire Line
+	6000 6700 6000 6750
+Wire Wire Line
+	4700 6700 4700 6750
+$Comp
+L Device:R R16
+U 1 1 5F5D25C2
+P 6000 6550
+F 0 "R16" H 6070 6596 50  0000 L CNN
+F 1 "100" H 6070 6505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5930 6550 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/rohm-semiconductor/ESR03EZPJ101/RHM100DCT-ND/1983776" H 6000 6550 50  0001 C CNN
+	1    6000 6550
+	1    0    0    -1  
+$EndComp
+Connection ~ 5550 6950
+Wire Wire Line
+	5550 6950 5700 6950
+Wire Wire Line
+	5550 7000 5550 6950
+Wire Wire Line
+	6000 7350 6000 7400
+Connection ~ 6000 7350
+Wire Wire Line
+	5550 7350 6000 7350
+Wire Wire Line
+	6000 7150 6000 7350
+$Comp
+L Device:R R14
+U 1 1 5F5D25CF
+P 5550 7150
+F 0 "R14" H 5620 7196 50  0000 L CNN
+F 1 "1M" H 5620 7105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 5480 7150 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/CRGCQ0603J1M0/A130109CT-ND/8577941" H 5550 7150 50  0001 C CNN
+	1    5550 7150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 7350 5550 7300
+$Comp
+L power:GND #PWR0112
+U 1 1 5F5D25D6
+P 6000 7400
+F 0 "#PWR0112" H 6000 7150 50  0001 C CNN
+F 1 "GND" H 6005 7227 50  0000 C CNN
+F 2 "" H 6000 7400 50  0001 C CNN
+F 3 "" H 6000 7400 50  0001 C CNN
+	1    6000 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:BSS138 Q2
+U 1 1 5F5D25DC
+P 5900 6950
+F 0 "Q2" H 6106 6996 50  0000 L CNN
+F 1 "BSS138" H 6106 6905 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6100 6875 50  0001 L CIN
+F 3 "https://www.digikey.com/product-detail/en/nexperia-usa-inc/BSS138P-215/1727-1142-2-ND/2779827" H 5900 6950 50  0001 L CNN
+	1    5900 6950
+	1    0    0    -1  
+$EndComp
+Text Label 5450 6950 2    50   ~ 0
+RED_LED
+Wire Wire Line
+	5450 6950 5550 6950
+Connection ~ 4250 6950
+Wire Wire Line
+	4250 6950 4400 6950
+Wire Wire Line
+	4250 7000 4250 6950
+Wire Wire Line
+	4700 7350 4700 7400
+Connection ~ 4700 7350
+Wire Wire Line
+	4250 7350 4700 7350
+Wire Wire Line
+	4700 7150 4700 7350
+$Comp
+L Device:R R5
+U 1 1 5F5D25EB
+P 4250 7150
+F 0 "R5" H 4320 7196 50  0000 L CNN
+F 1 "1M" H 4320 7105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4180 7150 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/CRGCQ0603J1M0/A130109CT-ND/8577941" H 4250 7150 50  0001 C CNN
+	1    4250 7150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 7350 4250 7300
+$Comp
+L power:GND #PWR0113
+U 1 1 5F5D25F2
+P 4700 7400
+F 0 "#PWR0113" H 4700 7150 50  0001 C CNN
+F 1 "GND" H 4705 7227 50  0000 C CNN
+F 2 "" H 4700 7400 50  0001 C CNN
+F 3 "" H 4700 7400 50  0001 C CNN
+	1    4700 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:BSS138 Q1
+U 1 1 5F5D25F8
+P 4600 6950
+F 0 "Q1" H 4806 6996 50  0000 L CNN
+F 1 "BSS138" H 4806 6905 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4800 6875 50  0001 L CIN
+F 3 "https://www.digikey.com/product-detail/en/nexperia-usa-inc/BSS138P-215/1727-1142-2-ND/2779827" H 4600 6950 50  0001 L CNN
+	1    4600 6950
+	1    0    0    -1  
+$EndComp
+Text Label 4150 6950 2    50   ~ 0
+GRN_LED
+Wire Wire Line
+	4150 6950 4250 6950
+$Comp
+L Connector:Conn_01x02_Male J5
+U 1 1 5F5D2600
+P 4900 6250
+F 0 "J5" V 5008 6062 50  0000 R CNN
+F 1 "Conn_01x02_Male" V 4963 6062 50  0001 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4900 6250 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/wurth-electronics-inc/61300211121/732-5315-ND/4846823" H 4900 6250 50  0001 C CNN
+	1    4900 6250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J6
+U 1 1 5F5D2606
+P 6200 6300
+F 0 "J6" V 6308 6112 50  0000 R CNN
+F 1 "Conn_01x02_Male" V 6263 6112 50  0001 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6200 6300 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/wurth-electronics-inc/61300211121/732-5315-ND/4846823" H 6200 6300 50  0001 C CNN
+	1    6200 6300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:CP1_Small C1
+U 1 1 5F5D260C
+P 5350 5400
+F 0 "C1" V 5486 5400 50  0000 C CNN
+F 1 "CP1_Small" H 5441 5355 50  0001 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5350 5400 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/avx-corporation/06032U4R3BAT2A/478-10269-1-ND/6797265" H 5350 5400 50  0001 C CNN
+	1    5350 5400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0115
+U 1 1 5F5D261F
+P 2400 1400
+F 0 "#PWR0115" H 2400 1150 50  0001 C CNN
+F 1 "GND" H 2405 1227 50  0000 C CNN
+F 2 "" H 2400 1400 50  0001 C CNN
+F 3 "" H 2400 1400 50  0001 C CNN
+	1    2400 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0117
+U 1 1 5F5D2633
+P 1450 1050
+F 0 "#PWR0117" H 1450 800 50  0001 C CNN
+F 1 "GND" H 1455 877 50  0000 C CNN
+F 2 "" H 1450 1050 50  0001 C CNN
+F 3 "" H 1450 1050 50  0001 C CNN
+	1    1450 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 1050 1450 1000
+Text Label 4750 4050 2    50   ~ 0
+I2C1_SDA
+Text Label 4750 3950 2    50   ~ 0
+I2C1_SCL
+Text Label 7350 4650 0    50   ~ 0
+SWDIO
+Wire Wire Line
+	7150 4650 7350 4650
+Text Label 7350 4750 0    50   ~ 0
+SWCLK
+Wire Wire Line
+	7150 4750 7350 4750
+Text Label 7350 4850 0    50   ~ 0
+TDI
+Wire Wire Line
+	7150 4850 7350 4850
+Text Label 5800 3650 2    50   ~ 0
+SWO
+Wire Wire Line
+	5950 3650 5800 3650
+Text Label 5800 3750 2    50   ~ 0
+NJTRST
+Wire Wire Line
+	5950 3750 5800 3750
+$Comp
+L power:GND #PWR0118
+U 1 1 5F5D266C
+P 6200 5400
+F 0 "#PWR0118" H 6200 5150 50  0001 C CNN
+F 1 "GND" H 6205 5227 50  0000 C CNN
+F 2 "" H 6200 5400 50  0001 C CNN
+F 3 "" H 6200 5400 50  0001 C CNN
+	1    6200 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 5400 6200 5150
+Wire Wire Line
+	6200 5150 6350 5150
+Wire Wire Line
+	6350 5150 6350 5050
+Wire Wire Line
+	6350 5150 6450 5150
+Wire Wire Line
+	6450 5150 6450 5050
+Connection ~ 6350 5150
+Wire Wire Line
+	6450 5150 6550 5150
+Wire Wire Line
+	6550 5150 6550 5050
+Connection ~ 6450 5150
+Text Label 5800 3050 2    50   ~ 0
+XTAL1
+Text Label 5800 3150 2    50   ~ 0
+XTAL2
+Wire Wire Line
+	5800 3150 5950 3150
+Wire Wire Line
+	5950 3050 5800 3050
+Text Label 5750 2550 2    50   ~ 0
+XTAL1_HI
+Text Label 5800 2650 2    50   ~ 0
+XTAL2_HI
+Wire Wire Line
+	5800 2650 5950 2650
+Connection ~ 5800 1900
+Wire Wire Line
+	6450 1900 6450 2150
+Wire Wire Line
+	6550 2150 6550 1900
+Wire Wire Line
+	6550 1900 6450 1900
+Connection ~ 6450 1900
+Wire Wire Line
+	6650 2150 6650 1900
+Wire Wire Line
+	6650 1900 6550 1900
+Connection ~ 6550 1900
+Wire Wire Line
+	6750 2150 6750 1900
+Wire Wire Line
+	6750 1900 6650 1900
+Connection ~ 6650 1900
+Wire Wire Line
+	6350 2150 6350 1900
+Wire Wire Line
+	6350 1900 6450 1900
+Text Label 5800 2350 2    50   ~ 0
+RST
+Wire Wire Line
+	5800 2350 5950 2350
+Wire Wire Line
+	5800 3350 5950 3350
+Wire Wire Line
+	5950 3450 5800 3450
+Wire Wire Line
+	4750 3950 4850 3950
+Wire Wire Line
+	4750 4050 5100 4050
+Wire Wire Line
+	4850 3950 4850 3850
+Connection ~ 4850 3950
+Wire Wire Line
+	4850 3950 5950 3950
+Wire Wire Line
+	5100 3850 5100 4050
+Connection ~ 5100 4050
+Wire Wire Line
+	5100 4050 5950 4050
+Wire Wire Line
+	6350 1900 6350 1350
+Wire Wire Line
+	6350 1350 6050 1350
+Connection ~ 6350 1900
+Connection ~ 6050 1350
+$Comp
+L Connector:Conn_01x08_Male J4
+U 1 1 5F5D26D2
+P 1100 6800
+F 0 "J4" H 1208 7281 50  0000 C CNN
+F 1 "Conn_01x08_Male" H 1208 7190 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 1100 6800 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/sullins-connector-solutions/GRPB042VWVN-RC/S9015E-04-ND/1786454" H 1100 6800 50  0001 C CNN
+	1    1100 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0119
+U 1 1 5F5D26D8
+P 1750 6350
+F 0 "#PWR0119" H 1750 6200 50  0001 C CNN
+F 1 "+3.3V" H 1765 6523 50  0000 C CNN
+F 2 "" H 1750 6350 50  0001 C CNN
+F 3 "" H 1750 6350 50  0001 C CNN
+	1    1750 6350
+	1    0    0    -1  
+$EndComp
+Text Label 1550 6600 0    50   ~ 0
+SWDIO
+Wire Wire Line
+	1300 6600 1550 6600
+Wire Wire Line
+	1300 6500 1750 6500
+Wire Wire Line
+	1750 6500 1750 6350
+Text Label 1550 6700 0    50   ~ 0
+SWCLK
+Wire Wire Line
+	1550 6700 1300 6700
+Text Label 1550 6800 0    50   ~ 0
+SWO
+Wire Wire Line
+	1300 6800 1550 6800
+Text Label 1550 6900 0    50   ~ 0
+NJTRST
+Wire Wire Line
+	1300 6900 1550 6900
+$Comp
+L power:GND #PWR0120
+U 1 1 5F5D26E8
+P 1500 7350
+F 0 "#PWR0120" H 1500 7100 50  0001 C CNN
+F 1 "GND" H 1505 7177 50  0000 C CNN
+F 2 "" H 1500 7350 50  0001 C CNN
+F 3 "" H 1500 7350 50  0001 C CNN
+	1    1500 7350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 7350 1500 7200
+Wire Wire Line
+	1500 7200 1300 7200
+Text Label 1550 7000 0    50   ~ 0
+TDI
+Wire Wire Line
+	1550 7000 1300 7000
+$Comp
+L Connector:Conn_01x02_Male J3
+U 1 1 5F5D26F4
+P 7400 1900
+F 0 "J3" V 7508 1712 50  0000 R CNN
+F 1 "Conn_01x02_Male" V 7463 1712 50  0001 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7400 1900 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/wurth-electronics-inc/61300211121/732-5315-ND/4846823" H 7400 1900 50  0001 C CNN
+	1    7400 1900
+	-1   0    0    1   
+$EndComp
+NoConn ~ 5950 3550
+$Comp
+L Regulator_Linear:TLV1117-33 U1
+U 1 1 5F5D26FB
+P 2400 1000
+F 0 "U1" H 2400 1242 50  0000 C CNN
+F 1 "TLV1117-33" H 2400 1151 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223" H 2400 1000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tlv1117.pdf" H 2400 1000 50  0001 C CNN
+	1    2400 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 1400 2400 1300
+$Comp
+L power:+3.3V #PWR0121
+U 1 1 5F5D2702
+P 2800 900
+F 0 "#PWR0121" H 2800 750 50  0001 C CNN
+F 1 "+3.3V" H 2815 1073 50  0000 C CNN
+F 2 "" H 2800 900 50  0001 C CNN
+F 3 "" H 2800 900 50  0001 C CNN
+	1    2800 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 1000 2800 1000
+Wire Wire Line
+	2800 1000 2800 900 
+$Comp
+L Device:R R4
+U 1 1 5F5D270A
+P 3150 1200
+F 0 "R4" H 3220 1246 50  0000 L CNN
+F 1 "1M" H 3220 1155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3080 1200 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/te-connectivity-passive-product/CRGCQ0603J1M0/A130109CT-ND/8577941" H 3150 1200 50  0001 C CNN
+	1    3150 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 1400 1950 1400
+Wire Wire Line
+	1950 1400 1950 1350
+Connection ~ 2400 1400
+Wire Wire Line
+	3150 1350 3150 1400
+Wire Wire Line
+	3150 1050 3150 1000
+Wire Wire Line
+	3150 1000 2800 1000
+Connection ~ 2800 1000
+Wire Wire Line
+	2100 1000 1950 1000
+Wire Wire Line
+	1950 1000 1950 1050
+$Comp
+L MCU_ST_STM32L4:STM32L433CCTx U2
+U 1 1 5F5D271C
+P 6550 3550
+F 0 "U2" H 6550 1961 50  0000 C CNN
+F 1 "STM32L433CCTx" H 6550 1870 50  0000 C CNN
+F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 6050 2150 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257192.pdf" H 6550 3550 50  0001 C CNN
+	1    6550 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 2550 5750 2550
+$Comp
+L power:GND #PWR0122
+U 1 1 5F5D2723
+P 6950 5100
+F 0 "#PWR0122" H 6950 4850 50  0001 C CNN
+F 1 "GND" H 6955 4927 50  0000 C CNN
+F 2 "" H 6950 5100 50  0001 C CNN
+F 3 "" H 6950 5100 50  0001 C CNN
+	1    6950 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6950 5100 6950 5050
+Wire Wire Line
+	6950 5050 6650 5050
+$Comp
+L Device:CP1_Small C4
+U 1 1 5F5D273A
+P 5450 5000
+F 0 "C4" V 5586 5000 50  0000 C CNN
+F 1 "CP1_Small" H 5541 4955 50  0001 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5450 5000 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/murata-electronics/GRM1885C1H200JA01D/490-1410-1-ND/587632" H 5450 5000 50  0001 C CNN
+	1    5450 5000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5350 5000 5300 5000
+Wire Wire Line
+	5300 5000 5300 4950
+Wire Wire Line
+	5350 4600 5300 4600
+Wire Wire Line
+	5300 4600 5300 4650
+$Comp
+L power:GND #PWR0123
+U 1 1 5F5D2744
+P 5750 5050
+F 0 "#PWR0123" H 5750 4800 50  0001 C CNN
+F 1 "GND" H 5755 4877 50  0000 C CNN
+F 2 "" H 5750 5050 50  0001 C CNN
+F 3 "" H 5750 5050 50  0001 C CNN
+	1    5750 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 4600 5750 4600
+Wire Wire Line
+	5750 4600 5750 5000
+Wire Wire Line
+	5750 5000 5550 5000
+Wire Wire Line
+	5750 5050 5750 5000
+Connection ~ 5750 5000
+Text Label 5250 4600 2    50   ~ 0
+XTAL1_HI
+Text Label 5250 5000 2    50   ~ 0
+XTAL2_HI
+Wire Wire Line
+	5250 5000 5300 5000
+Connection ~ 5300 5000
+Wire Wire Line
+	5300 4600 5250 4600
+Connection ~ 5300 4600
+$Comp
+L Device:Crystal Y2
+U 1 1 5F5D2755
+P 5300 4800
+F 0 "Y2" V 5300 4931 50  0000 L CNN
+F 1 "8M" V 5345 4931 50  0001 L CNN
+F 2 "Crystal:Crystal_HC49-U_Vertical" H 5300 4800 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/txc-corporation/9B-16-000MEEJ-B/887-1244-ND/2207664" H 5300 4800 50  0001 C CNN
+	1    5300 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:CP1_Small C3
+U 1 1 5F5D275B
+P 5450 4600
+F 0 "C3" V 5586 4600 50  0000 C CNN
+F 1 "CP1_Small" H 5541 4555 50  0001 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5450 4600 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/murata-electronics/GRM1885C1H200JA01D/490-1410-1-ND/587632" H 5450 4600 50  0001 C CNN
+	1    5450 4600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7200 1900 7200 2000
+Wire Wire Line
+	2400 1400 2800 1400
+$Comp
+L Device:C C6
+U 1 1 5F5D2774
+P 2800 1200
+F 0 "C6" H 2915 1246 50  0000 L CNN
+F 1 "10u" H 2915 1155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2838 1050 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/murata-electronics/GRM188R61A106KE69J/490-14372-1-ND/6606833" H 2800 1200 50  0001 C CNN
+	1    2800 1200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C5
+U 1 1 5F5D277A
+P 1950 1200
+F 0 "C5" H 2065 1246 50  0000 L CNN
+F 1 "10u" H 2065 1155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1988 1050 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/murata-electronics/GRM188R61A106KE69J/490-14372-1-ND/6606833" H 1950 1200 50  0001 C CNN
+	1    1950 1200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Crystal Y1
+U 1 1 5F5D2780
+P 5200 5600
+F 0 "Y1" V 5246 5469 50  0000 R CNN
+F 1 "32.768k Crystal" V 5155 5469 50  0000 R CNN
+F 2 "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm" H 5200 5600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1901081604_Seiko-Epson-Q13FC1350000400_C32346.pdf" H 5200 5600 50  0001 C CNN
+	1    5200 5600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R12
+U 1 1 5F5D2786
+P 4650 2850
+F 0 "R12" H 4720 2896 50  0000 L CNN
+F 1 "10k" H 4720 2805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4580 2850 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYJ103V/P10KGCT-ND/134717" H 4650 2850 50  0001 C CNN
+	1    4650 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0124
+U 1 1 5F5D278C
+P 4650 3050
+F 0 "#PWR0124" H 4650 2800 50  0001 C CNN
+F 1 "GND" H 4655 2877 50  0000 C CNN
+F 2 "" H 4650 3050 50  0001 C CNN
+F 3 "" H 4650 3050 50  0001 C CNN
+	1    4650 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 3050 4650 3000
+$Comp
+L Device:R R11
+U 1 1 5F5D2793
+P 4650 2450
+F 0 "R11" H 4720 2496 50  0000 L CNN
+F 1 "DNI" H 4720 2405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4580 2450 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYJ103V/P10KGCT-ND/134717" H 4650 2450 50  0001 C CNN
+	1    4650 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 2700 4650 2650
+$Comp
+L power:+3.3V #PWR0125
+U 1 1 5F5D279A
+P 4650 2250
+F 0 "#PWR0125" H 4650 2100 50  0001 C CNN
+F 1 "+3.3V" H 4665 2423 50  0000 C CNN
+F 2 "" H 4650 2250 50  0001 C CNN
+F 3 "" H 4650 2250 50  0001 C CNN
+	1    4650 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 2300 4650 2250
+Wire Wire Line
+	5950 2750 4750 2750
+Wire Wire Line
+	4750 2750 4750 2650
+Wire Wire Line
+	4750 2650 4650 2650
+Connection ~ 4650 2650
+Wire Wire Line
+	4650 2650 4650 2600
+Wire Wire Line
+	2800 1050 2800 1000
+Wire Wire Line
+	2800 1350 2800 1400
+Connection ~ 2800 1400
+Wire Wire Line
+	2800 1400 3150 1400
+$Comp
+L Logic_LevelTranslator:TXS0102DCT U3
+U 1 1 5F9686F0
+P 9400 2650
+F 0 "U3" H 9400 2061 50  0000 C CNN
+F 1 "TXS0102DCT" H 9400 1970 50  0000 C CNN
+F 2 "Package_SO:SSOP-8_2.95x2.8mm_P0.65mm" H 9400 2100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/txs0102" H 9400 2630 50  0001 C CNN
+	1    9400 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0126
+U 1 1 5FAD0C74
+P 9300 2050
+F 0 "#PWR0126" H 9300 1900 50  0001 C CNN
+F 1 "+3.3V" H 9315 2223 50  0000 C CNN
+F 2 "" H 9300 2050 50  0001 C CNN
+F 3 "" H 9300 2050 50  0001 C CNN
+	1    9300 2050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 2150 9300 2050
+Wire Wire Line
+	7150 3850 7350 3850
+Text Label 5750 4350 2    50   ~ 0
+STM32_LED_STRIP_OUT_BACKUP
+Wire Wire Line
+	5950 4350 5750 4350
+Text Label 8750 2150 2    50   ~ 0
+STM32_LED_STRIP_OUT_BACKUP
+Wire Wire Line
+	9000 2550 8850 2550
+$Comp
+L Device:R R19
+U 1 1 5FB5BB06
+P 8850 2350
+F 0 "R19" H 8920 2396 50  0000 L CNN
+F 1 "DNI" H 8920 2305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 8780 2350 50  0001 C CNN
+F 3 "~" H 8850 2350 50  0001 C CNN
+	1    8850 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 2550 8850 2500
+Connection ~ 8850 2550
+Wire Wire Line
+	8850 2550 8700 2550
+Wire Wire Line
+	8850 2200 8850 2150
+Wire Wire Line
+	8850 2150 8750 2150
+Wire Wire Line
+	9800 2550 9900 2550
+Wire Wire Line
+	7150 3750 7350 3750
+Text Label 7350 3750 0    50   ~ 0
+LVL_SHIFTER_EN
+Wire Wire Line
+	9000 2950 8800 2950
+Text Label 8800 2950 2    50   ~ 0
+LVL_SHIFTER_EN
+Wire Wire Line
+	8700 4350 8500 4350
+Text Label 8500 4350 2    50   ~ 0
+LVL_SHIFTER_EN
+Wire Wire Line
+	8700 4350 8700 4300
+Text Label 7350 3850 0    50   ~ 0
+STM32_LED_STRIP_OUT
+Text Label 8700 2550 2    50   ~ 0
+STM32_LED_STRIP_OUT
+Text Label 9900 2550 0    50   ~ 0
+LED_STRIP_OUT
+NoConn ~ 10300 850 
+NoConn ~ 10300 1200
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5F5D23DC
+P 10300 750
+F 0 "H1" H 10400 799 50  0000 L CNN
+F 1 "MountingHole_Pad" H 10400 708 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2mm" H 10300 750 50  0001 C CNN
+F 3 "~" H 10300 750 50  0001 C CNN
+	1    10300 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5F5D23D6
+P 10300 1100
+F 0 "H2" H 10400 1149 50  0000 L CNN
+F 1 "MountingHole_Pad" H 10400 1058 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2mm" H 10300 1100 50  0001 C CNN
+F 3 "~" H 10300 1100 50  0001 C CNN
+	1    10300 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 3350 7350 3350
+Text Label 7350 3350 0    50   ~ 0
+INT2
+Wire Wire Line
+	5950 2950 5800 2950
+Text Label 5800 2950 2    50   ~ 0
+INT1
+$Comp
+L power:+3.3V #PWR0128
+U 1 1 5F5D249D
+P 3400 6250
+F 0 "#PWR0128" H 3400 6100 50  0001 C CNN
+F 1 "+3.3V" H 3415 6423 50  0000 C CNN
+F 2 "" H 3400 6250 50  0001 C CNN
+F 3 "" H 3400 6250 50  0001 C CNN
+	1    3400 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0129
+U 1 1 5F5D2497
+P 3050 6250
+F 0 "#PWR0129" H 3050 6100 50  0001 C CNN
+F 1 "+3.3V" H 3065 6423 50  0000 C CNN
+F 2 "" H 3050 6250 50  0001 C CNN
+F 3 "" H 3050 6250 50  0001 C CNN
+	1    3050 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 6900 3400 6900
+Wire Wire Line
+	3100 6700 3050 6700
+Text Label 3100 6700 0    50   ~ 0
+INT2
+Text Label 3450 6900 0    50   ~ 0
+INT1
+Wire Wire Line
+	3400 6300 3400 6250
+Wire Wire Line
+	3050 6300 3050 6250
+Wire Wire Line
+	3400 6900 3400 6600
+Wire Wire Line
+	3050 6700 3050 6600
+$Comp
+L Device:R R9
+U 1 1 5F5D2487
+P 3400 6450
+F 0 "R9" H 3470 6496 50  0000 L CNN
+F 1 "10k" H 3470 6405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3330 6450 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYJ103V/P10KGCT-ND/134717" H 3400 6450 50  0001 C CNN
+	1    3400 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 5F5D2481
+P 3050 6450
+F 0 "R6" H 3120 6496 50  0000 L CNN
+F 1 "10k" H 3120 6405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2980 6450 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYJ103V/P10KGCT-ND/134717" H 3050 6450 50  0001 C CNN
+	1    3050 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R17
+U 1 1 5FBB0C46
+P 8700 4150
+F 0 "R17" H 8770 4196 50  0000 L CNN
+F 1 "100k" H 8770 4105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 8630 4150 50  0001 C CNN
+F 3 "~" H 8700 4150 50  0001 C CNN
+	1    8700 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0130
+U 1 1 5FD5F5B3
+P 8700 3950
+F 0 "#PWR0130" H 8700 3800 50  0001 C CNN
+F 1 "+3.3V" H 8715 4123 50  0000 C CNN
+F 2 "" H 8700 3950 50  0001 C CNN
+F 3 "" H 8700 3950 50  0001 C CNN
+	1    8700 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 4000 8700 3950
+$Comp
+L Device:R R18
+U 1 1 5FD72D81
+P 8700 4550
+F 0 "R18" H 8770 4596 50  0000 L CNN
+F 1 "DNI" H 8770 4505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 8630 4550 50  0001 C CNN
+F 3 "~" H 8700 4550 50  0001 C CNN
+	1    8700 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 4400 8700 4350
+Connection ~ 8700 4350
+$Comp
+L power:GND #PWR0131
+U 1 1 5FD8FE90
+P 9700 3150
+F 0 "#PWR0131" H 9700 2900 50  0001 C CNN
+F 1 "GND" H 9705 2977 50  0000 C CNN
+F 2 "" H 9700 3150 50  0001 C CNN
+F 3 "" H 9700 3150 50  0001 C CNN
+	1    9700 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9700 3150 9400 3150
+$Comp
+L power:GND #PWR0132
+U 1 1 5FDA3806
+P 8700 4750
+F 0 "#PWR0132" H 8700 4500 50  0001 C CNN
+F 1 "GND" H 8705 4577 50  0000 C CNN
+F 2 "" H 8700 4750 50  0001 C CNN
+F 3 "" H 8700 4750 50  0001 C CNN
+	1    8700 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 4750 8700 4700
+Wire Wire Line
+	7150 3550 7350 3550
+Text Label 7350 3550 0    50   ~ 0
+INT3
+$Comp
+L power:+3.3V #PWR0133
+U 1 1 5FDCC41F
+P 2700 6250
+F 0 "#PWR0133" H 2700 6100 50  0001 C CNN
+F 1 "+3.3V" H 2715 6423 50  0000 C CNN
+F 2 "" H 2700 6250 50  0001 C CNN
+F 3 "" H 2700 6250 50  0001 C CNN
+	1    2700 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 6900 2700 6900
+Text Label 2750 6900 0    50   ~ 0
+INT3
+Wire Wire Line
+	2700 6300 2700 6250
+Wire Wire Line
+	2700 6900 2700 6600
+$Comp
+L Device:R R2
+U 1 1 5FDCC429
+P 2700 6450
+F 0 "R2" H 2770 6496 50  0000 L CNN
+F 1 "10k" H 2770 6405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2630 6450 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYJ103V/P10KGCT-ND/134717" H 2700 6450 50  0001 C CNN
+	1    2700 6450
+	1    0    0    -1  
+$EndComp
+NoConn ~ 7150 3450
+NoConn ~ 7150 3650
+NoConn ~ 7150 3950
+NoConn ~ 7150 4050
+NoConn ~ 7150 4150
+NoConn ~ 7150 4250
+NoConn ~ 7150 4350
+NoConn ~ 7150 4450
+NoConn ~ 7150 4550
+NoConn ~ 5950 4850
+NoConn ~ 5950 4750
+NoConn ~ 5950 4650
+NoConn ~ 5950 4550
+NoConn ~ 5950 4450
+NoConn ~ 5950 4250
+NoConn ~ 5950 4150
+Wire Wire Line
+	2700 6950 2700 6900
+Connection ~ 2700 6900
+Wire Wire Line
+	3050 6900 3050 6700
+Connection ~ 3050 6700
+Wire Wire Line
+	3400 6950 3400 6900
+Connection ~ 3400 6900
+$Comp
+L power:GND #PWR0134
+U 1 1 5FFB6356
+P 3400 7350
+F 0 "#PWR0134" H 3400 7100 50  0001 C CNN
+F 1 "GND" H 3405 7177 50  0000 C CNN
+F 2 "" H 3400 7350 50  0001 C CNN
+F 3 "" H 3400 7350 50  0001 C CNN
+	1    3400 7350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 7350 3400 7300
+Wire Wire Line
+	3400 7300 3050 7300
+Wire Wire Line
+	2700 7300 2700 7250
+Connection ~ 3400 7300
+Wire Wire Line
+	3400 7300 3400 7250
+Wire Wire Line
+	3050 7200 3050 7300
+Connection ~ 3050 7300
+Wire Wire Line
+	3050 7300 2700 7300
+Wire Wire Line
+	10400 4050 10400 4000
+Wire Wire Line
+	10400 4350 10400 4550
+$Comp
+L Device:C C11
+U 1 1 5FFE3AF4
+P 10050 4200
+F 0 "C11" H 10165 4246 50  0000 L CNN
+F 1 "1u" H 10165 4155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 10088 4050 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/murata-electronics/GRM188R61A106KE69J/490-14372-1-ND/6606833" H 10050 4200 50  0001 C CNN
+	1    10050 4200
+	-1   0    0    1   
+$EndComp
+Connection ~ 10050 4550
+Wire Wire Line
+	10400 4550 10050 4550
+Connection ~ 10050 4000
+Connection ~ 9400 4550
+Wire Wire Line
+	10050 4550 9400 4550
+Wire Wire Line
+	10050 4350 10050 4550
+Connection ~ 9750 4000
+Wire Wire Line
+	10050 4000 9750 4000
+Wire Wire Line
+	10050 4050 10050 4000
+NoConn ~ 9350 4500
+NoConn ~ 9350 4400
+Wire Wire Line
+	9400 3900 9350 3900
+Wire Wire Line
+	9400 4550 9400 3900
+$Comp
+L power:GND #PWR0135
+U 1 1 5FE4AAC8
+P 9400 4550
+F 0 "#PWR0135" H 9400 4300 50  0001 C CNN
+F 1 "GND" H 9405 4377 50  0000 C CNN
+F 2 "" H 9400 4550 50  0001 C CNN
+F 3 "" H 9400 4550 50  0001 C CNN
+	1    9400 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9350 4100 9600 4100
+Text Label 9600 4100 0    50   ~ 0
+INT1_5V
+Wire Wire Line
+	9350 4300 9600 4300
+Text Label 9600 4300 0    50   ~ 0
+INT3_5V
+Wire Wire Line
+	9350 4200 9600 4200
+Text Label 9600 4200 0    50   ~ 0
+INT2_5V
+Wire Wire Line
+	9750 3850 9750 4000
+Wire Wire Line
+	9350 4000 9750 4000
+$Comp
+L Connector:Conn_01x07_Male J7
+U 1 1 5FDEC691
+P 9150 4200
+F 0 "J7" H 9258 4681 50  0000 C CNN
+F 1 "Conn_01x07_Male" H 9258 4590 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical" H 9150 4200 50  0001 C CNN
+F 3 "~" H 9150 4200 50  0001 C CNN
+	1    9150 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10750 4050 10750 4000
+Wire Wire Line
+	10050 4000 10400 4000
+Connection ~ 10400 4000
+Wire Wire Line
+	10400 4000 10750 4000
+Wire Wire Line
+	10750 4350 10750 4550
+Wire Wire Line
+	10750 4550 10400 4550
+Connection ~ 10400 4550
+Wire Wire Line
+	1300 7100 1550 7100
+$Comp
+L Device:C C12
+U 1 1 600BA4CD
+P 10400 4200
+F 0 "C12" H 10515 4246 50  0000 L CNN
+F 1 "1u" H 10515 4155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 10438 4050 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/murata-electronics/GRM188R61A106KE69J/490-14372-1-ND/6606833" H 10400 4200 50  0001 C CNN
+	1    10400 4200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C13
+U 1 1 600C7044
+P 10750 4200
+F 0 "C13" H 10865 4246 50  0000 L CNN
+F 1 "1u" H 10865 4155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 10788 4050 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/murata-electronics/GRM188R61A106KE69J/490-14372-1-ND/6606833" H 10750 4200 50  0001 C CNN
+	1    10750 4200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5100 1900 5450 1900
+$Comp
+L Device:C C9
+U 1 1 600ED63A
+P 5800 1550
+F 0 "C9" H 5915 1596 50  0000 L CNN
+F 1 "1u" H 5915 1505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5838 1400 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/kemet/C0603C105K8PACTU/399-3118-1-ND/551623" H 5800 1550 50  0001 C CNN
+	1    5800 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C8
+U 1 1 600F9E37
+P 5450 1550
+F 0 "C8" H 5565 1596 50  0000 L CNN
+F 1 "1u" H 5565 1505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5488 1400 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/kemet/C0603C105K8PACTU/399-3118-1-ND/551623" H 5450 1550 50  0001 C CNN
+	1    5450 1550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 1900 5450 1700
+Connection ~ 5450 1900
+Wire Wire Line
+	5450 1900 5800 1900
+$Comp
+L Device:R R7
+U 1 1 6011F9C3
+P 3050 7050
+F 0 "R7" H 3120 7096 50  0000 L CNN
+F 1 "DNI" H 3120 7005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2980 7050 50  0001 C CNN
+F 3 "~" H 3050 7050 50  0001 C CNN
+	1    3050 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R10
+U 1 1 6012C828
+P 3400 7100
+F 0 "R10" H 3470 7146 50  0000 L CNN
+F 1 "DNI" H 3470 7055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3330 7100 50  0001 C CNN
+F 3 "~" H 3400 7100 50  0001 C CNN
+	1    3400 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 60139675
+P 2700 7100
+F 0 "R3" H 2770 7146 50  0000 L CNN
+F 1 "DNI" H 2770 7055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2630 7100 50  0001 C CNN
+F 3 "~" H 2700 7100 50  0001 C CNN
+	1    2700 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J2
+U 1 1 6015A5AC
+P 850 800
+F 0 "J2" H 958 981 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 958 890 50  0000 C CNN
+F 2 "Connector:Banana_Jack_1Pin" H 850 800 50  0001 C CNN
+F 3 "~" H 850 800 50  0001 C CNN
+	1    850  800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J1
+U 1 1 6016870A
+P 800 1050
+F 0 "J1" H 908 1231 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 908 1140 50  0000 C CNN
+F 2 "Connector:Banana_Jack_1Pin" H 800 1050 50  0001 C CNN
+F 3 "~" H 800 1050 50  0001 C CNN
+	1    800  1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 1050 1250 1050
+Wire Wire Line
+	1250 1050 1250 1000
+Wire Wire Line
+	1250 1000 1450 1000
+Wire Wire Line
+	1150 850  1150 800 
+Wire Wire Line
+	1150 800  1050 800 
+Wire Wire Line
+	1150 850  1450 850 
+Text Label 1550 7100 0    50   ~ 0
+STM32_LED_STRIP_OUT
+$Comp
+L Connector:Conn_01x03_Male J8
+U 1 1 601EA58A
+P 10250 1950
+F 0 "J8" H 10358 2231 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 10358 2140 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 10250 1950 50  0001 C CNN
+F 3 "~" H 10250 1950 50  0001 C CNN
+	1    10250 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0137
+U 1 1 601EBEC4
+P 10600 2100
+F 0 "#PWR0137" H 10600 1850 50  0001 C CNN
+F 1 "GND" H 10605 1927 50  0000 C CNN
+F 2 "" H 10600 2100 50  0001 C CNN
+F 3 "" H 10600 2100 50  0001 C CNN
+	1    10600 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10600 2100 10600 2050
+Wire Wire Line
+	10600 2050 10450 2050
+Wire Wire Line
+	10450 1850 10750 1850
+Wire Wire Line
+	10750 1850 10750 1700
+Text Label 10500 1950 0    50   ~ 0
+LED_STRIP_OUT
+Wire Wire Line
+	10500 1950 10450 1950
+NoConn ~ 5950 3850
+$Comp
+L Logic_LevelTranslator:TXS0102DCT U5
+U 1 1 5F691293
+P 7950 5750
+F 0 "U5" H 7950 5161 50  0000 C CNN
+F 1 "TXS0102DCT" H 7950 5070 50  0000 C CNN
+F 2 "Package_SO:SSOP-8_2.95x2.8mm_P0.65mm" H 7950 5200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/txs0102" H 7950 5730 50  0001 C CNN
+	1    7950 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR01
+U 1 1 5F69FB0C
+P 7850 5150
+F 0 "#PWR01" H 7850 5000 50  0001 C CNN
+F 1 "+3.3V" H 7865 5323 50  0000 C CNN
+F 2 "" H 7850 5150 50  0001 C CNN
+F 3 "" H 7850 5150 50  0001 C CNN
+	1    7850 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 5250 7850 5150
+Wire Wire Line
+	7550 6050 7350 6050
+Text Label 7350 6050 2    50   ~ 0
+LVL_SHIFTER_EN
+$Comp
+L power:GND #PWR03
+U 1 1 5F6BCBE0
+P 8300 6300
+F 0 "#PWR03" H 8300 6050 50  0001 C CNN
+F 1 "GND" H 8305 6127 50  0000 C CNN
+F 2 "" H 8300 6300 50  0001 C CNN
+F 3 "" H 8300 6300 50  0001 C CNN
+	1    8300 6300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8300 6300 8300 6250
+Wire Wire Line
+	8300 6250 7950 6250
+Text Label 8600 5650 0    50   ~ 0
+INT2_5V
+Text Label 8600 5850 0    50   ~ 0
+INT3_5V
+Text Label 10150 2750 0    50   ~ 0
+INT1_5V
+Wire Wire Line
+	8350 5650 8600 5650
+Wire Wire Line
+	8350 5850 8600 5850
+Wire Wire Line
+	9800 2750 10150 2750
+Text Label 8900 2750 2    50   ~ 0
+INT1
+Wire Wire Line
+	9000 2750 8900 2750
+Text Label 7350 5650 2    50   ~ 0
+INT2
+Text Label 7350 5850 2    50   ~ 0
+INT3
+Wire Wire Line
+	7350 5650 7550 5650
+Wire Wire Line
+	7350 5850 7550 5850
+Text Label 1450 700  0    50   ~ 0
+VIN
+Wire Wire Line
+	1450 700  1450 850 
+$Comp
+L Texas_Instruments:TL331 U6
+U 1 1 5FB98907
+P 1850 2450
+F 0 "U6" H 1775 3065 50  0000 C CNN
+F 1 "TL331" H 1775 2974 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 1900 2500 50  0001 C CNN
+F 3 "" H 1900 2500 50  0001 C CNN
+	1    1850 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1350 2200 1450 2200
+$Comp
+L power:+3.3V #PWR02
+U 1 1 5FBC7D96
+P 850 2000
+F 0 "#PWR02" H 850 1850 50  0001 C CNN
+F 1 "+3.3V" H 865 2173 50  0000 C CNN
+F 2 "" H 850 2000 50  0001 C CNN
+F 3 "" H 850 2000 50  0001 C CNN
+	1    850  2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 5FBA8E20
+P 1250 2750
+F 0 "#PWR06" H 1250 2500 50  0001 C CNN
+F 1 "GND" H 1255 2577 50  0000 C CNN
+F 2 "" H 1250 2750 50  0001 C CNN
+F 3 "" H 1250 2750 50  0001 C CNN
+	1    1250 2750
+	1    0    0    -1  
+$EndComp
+Text Label 1350 1650 0    50   ~ 0
+VIN
+$Comp
+L Device:R R22
+U 1 1 5FCC79E2
+P 1100 1900
+F 0 "R22" H 1170 1946 50  0000 L CNN
+F 1 "10k" H 1170 1855 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 1030 1900 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYJ103V/P10KGCT-ND/134717" H 1100 1900 50  0001 C CNN
+	1    1100 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 1650 1100 1750
+Wire Wire Line
+	1100 1650 1350 1650
+$Comp
+L Device:R R23
+U 1 1 5FCE8662
+P 1100 2500
+F 0 "R23" H 1170 2546 50  0000 L CNN
+F 1 "10k" H 1170 2455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 1030 2500 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYJ103V/P10KGCT-ND/134717" H 1100 2500 50  0001 C CNN
+	1    1100 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 2750 1100 2750
+Wire Wire Line
+	1100 2750 1100 2650
+Wire Wire Line
+	1250 2750 1350 2750
+Wire Wire Line
+	1350 2200 1350 2750
+Connection ~ 1250 2750
+Wire Wire Line
+	2100 2100 2200 2100
+Wire Wire Line
+	2200 2100 2200 1750
+Wire Wire Line
+	2250 1750 2200 1750
+Wire Wire Line
+	1100 2050 1100 2300
+Wire Wire Line
+	1450 2300 1100 2300
+Connection ~ 1100 2300
+Wire Wire Line
+	1100 2300 1100 2350
+Wire Wire Line
+	1450 2100 850  2100
+Wire Wire Line
+	850  2100 850  2000
+Text Label 2250 1750 0    50   ~ 0
+VIN
+Text Label 2200 2250 0    50   ~ 0
+VIN_SELECTION
+Wire Wire Line
+	2100 2250 2200 2250
+$Comp
+L Texas_Instruments:TPS22918 U8
+U 1 1 5FF4B23C
+P 2100 3700
+F 0 "U8" H 2100 4225 50  0000 C CNN
+F 1 "TPS22918" H 2100 4134 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 2100 3700 50  0001 C CNN
+F 3 "" H 2100 3700 50  0001 C CNN
+	1    2100 3700
+	1    0    0    -1  
+$EndComp
+Text Label 1100 3250 2    50   ~ 0
+VIN_SELECTION
+$Comp
+L power:GND #PWR09
+U 1 1 5FF82950
+P 1650 3700
+F 0 "#PWR09" H 1650 3450 50  0001 C CNN
+F 1 "GND" H 1655 3527 50  0000 C CNN
+F 2 "" H 1650 3700 50  0001 C CNN
+F 3 "" H 1650 3700 50  0001 C CNN
+	1    1650 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 3700 1650 3500
+Wire Wire Line
+	1650 3500 1750 3500
+Text Label 1500 3350 2    50   ~ 0
+VIN
+Wire Wire Line
+	1500 3400 1750 3400
+Wire Wire Line
+	1500 3350 1500 3400
+Text Label 2550 3250 0    50   ~ 0
+VIN_12V
+Wire Wire Line
+	2550 3250 2550 3400
+Wire Wire Line
+	2550 3400 2450 3400
+$Comp
+L Regulator_Linear:TLV1117-33 U10
+U 1 1 60131B88
+P 3150 3400
+F 0 "U10" H 3150 3642 50  0000 C CNN
+F 1 "TLV1117-33" H 3150 3551 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223" H 3150 3400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tlv1117.pdf" H 3150 3400 50  0001 C CNN
+	1    3150 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 3400 2550 3400
+Connection ~ 2550 3400
+$Comp
+L power:GND #PWR012
+U 1 1 60157FE2
+P 3150 3850
+F 0 "#PWR012" H 3150 3600 50  0001 C CNN
+F 1 "GND" H 3155 3677 50  0000 C CNN
+F 2 "" H 3150 3850 50  0001 C CNN
+F 3 "" H 3150 3850 50  0001 C CNN
+	1    3150 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 3700 3150 3850
+Text Label 3550 3300 0    50   ~ 0
+SYS_5V
+Wire Wire Line
+	3450 3400 3550 3400
+Wire Wire Line
+	3550 3400 3550 3300
+$Comp
+L Device:C C14
+U 1 1 601F4448
+P 2600 3750
+F 0 "C14" H 2715 3796 50  0000 L CNN
+F 1 "1u" H 2715 3705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2638 3600 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/kemet/C0603C105K8PACTU/399-3118-1-ND/551623" H 2600 3750 50  0001 C CNN
+	1    2600 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR011
+U 1 1 6023051B
+P 2600 3950
+F 0 "#PWR011" H 2600 3700 50  0001 C CNN
+F 1 "GND" H 2605 3777 50  0000 C CNN
+F 2 "" H 2600 3950 50  0001 C CNN
+F 3 "" H 2600 3950 50  0001 C CNN
+	1    2600 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2600 3950 2600 3900
+$Comp
+L Device:R R24
+U 1 1 6026D3CD
+P 1100 3500
+F 0 "R24" H 1170 3546 50  0000 L CNN
+F 1 "75k" H 1170 3455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 1030 3500 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYJ103V/P10KGCT-ND/134717" H 1100 3500 50  0001 C CNN
+	1    1100 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R25
+U 1 1 602821AE
+P 1100 3850
+F 0 "R25" H 1170 3896 50  0000 L CNN
+F 1 "24k" H 1170 3805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 1030 3850 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYJ103V/P10KGCT-ND/134717" H 1100 3850 50  0001 C CNN
+	1    1100 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 3700 1100 3650
+Wire Wire Line
+	1100 3250 1100 3350
+Wire Wire Line
+	1100 3650 1400 3650
+Wire Wire Line
+	1400 3650 1400 3600
+Wire Wire Line
+	1400 3600 1750 3600
+Connection ~ 1100 3650
+$Comp
+L power:GND #PWR05
+U 1 1 602E89B2
+P 1100 4050
+F 0 "#PWR05" H 1100 3800 50  0001 C CNN
+F 1 "GND" H 1105 3877 50  0000 C CNN
+F 2 "" H 1100 4050 50  0001 C CNN
+F 3 "" H 1100 4050 50  0001 C CNN
+	1    1100 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 4050 1100 4000
+$Comp
+L Texas_Instruments:TL331 U7
+U 1 1 60362932
+P 1900 5400
+F 0 "U7" H 1825 6015 50  0000 C CNN
+F 1 "TL331" H 1825 5924 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 1950 5450 50  0001 C CNN
+F 3 "" H 1950 5450 50  0001 C CNN
+	1    1900 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 5150 1500 5150
+$Comp
+L power:+3.3V #PWR07
+U 1 1 60362939
+P 1250 4800
+F 0 "#PWR07" H 1250 4650 50  0001 C CNN
+F 1 "+3.3V" H 1265 4973 50  0000 C CNN
+F 2 "" H 1250 4800 50  0001 C CNN
+F 3 "" H 1250 4800 50  0001 C CNN
+	1    1250 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 6036293F
+P 1400 5400
+F 0 "#PWR08" H 1400 5150 50  0001 C CNN
+F 1 "GND" H 1405 5227 50  0000 C CNN
+F 2 "" H 1400 5400 50  0001 C CNN
+F 3 "" H 1400 5400 50  0001 C CNN
+	1    1400 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 5050 2250 5050
+Wire Wire Line
+	2250 5050 2250 4700
+Wire Wire Line
+	2300 4700 2250 4700
+Text Label 2300 4700 0    50   ~ 0
+VIN
+Wire Wire Line
+	1400 5400 1400 5150
+$Comp
+L Device:R R20
+U 1 1 6058EF34
+P 950 4850
+F 0 "R20" H 1020 4896 50  0000 L CNN
+F 1 "10k" H 1020 4805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 880 4850 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYJ103V/P10KGCT-ND/134717" H 950 4850 50  0001 C CNN
+	1    950  4850
+	1    0    0    -1  
+$EndComp
+Text Label 950  4500 0    50   ~ 0
+VIN_12V
+Wire Wire Line
+	950  4700 950  4500
+$Comp
+L Device:R R21
+U 1 1 60603CA8
+P 950 5250
+F 0 "R21" H 1020 5296 50  0000 L CNN
+F 1 "10k" H 1020 5205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 880 5250 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3GEYJ103V/P10KGCT-ND/134717" H 950 5250 50  0001 C CNN
+	1    950  5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 60633CB9
+P 950 5450
+F 0 "#PWR04" H 950 5200 50  0001 C CNN
+F 1 "GND" H 955 5277 50  0000 C CNN
+F 2 "" H 950 5450 50  0001 C CNN
+F 3 "" H 950 5450 50  0001 C CNN
+	1    950  5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  5450 950  5400
+Wire Wire Line
+	950  5000 950  5050
+Connection ~ 950  5050
+Wire Wire Line
+	950  5050 950  5100
+Wire Wire Line
+	1250 4800 1250 5250
+Wire Wire Line
+	950  5050 1500 5050
+Wire Wire Line
+	1250 5250 1500 5250
+$Comp
+L Texas_Instruments:TPS22918 U9
+U 1 1 607B981A
+P 2800 5300
+F 0 "U9" H 2800 5825 50  0000 C CNN
+F 1 "TPS22918" H 2800 5734 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 2800 5300 50  0001 C CNN
+F 3 "" H 2800 5300 50  0001 C CNN
+	1    2800 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2150 5200 2450 5200
+$Comp
+L power:GND #PWR010
+U 1 1 60817D19
+P 2350 5400
+F 0 "#PWR010" H 2350 5150 50  0001 C CNN
+F 1 "GND" H 2355 5227 50  0000 C CNN
+F 2 "" H 2350 5400 50  0001 C CNN
+F 3 "" H 2350 5400 50  0001 C CNN
+	1    2350 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 5400 2350 5100
+Wire Wire Line
+	2350 5100 2450 5100
+Wire Wire Line
+	2250 5050 2300 5050
+Wire Wire Line
+	2300 5050 2300 5000
+Wire Wire Line
+	2300 5000 2450 5000
+Connection ~ 2250 5050
+Text Label 3200 5000 0    50   ~ 0
+SYS_5V
+Wire Wire Line
+	3200 5000 3150 5000
+$Comp
+L Device:C C15
+U 1 1 60892C9A
+P 3300 5350
+F 0 "C15" H 3415 5396 50  0000 L CNN
+F 1 "1u" H 3415 5305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 3338 5200 50  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/kemet/C0603C105K8PACTU/399-3118-1-ND/551623" H 3300 5350 50  0001 C CNN
+	1    3300 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR013
+U 1 1 60892CA0
+P 3300 5550
+F 0 "#PWR013" H 3300 5300 50  0001 C CNN
+F 1 "GND" H 3305 5377 50  0000 C CNN
+F 2 "" H 3300 5550 50  0001 C CNN
+F 3 "" H 3300 5550 50  0001 C CNN
+	1    3300 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3300 5550 3300 5500
+Wire Wire Line
+	3300 5200 3150 5200
+NoConn ~ 3150 5100
+Wire Wire Line
+	2450 3600 2600 3600
+Text Label 9500 1950 0    50   ~ 0
+SYS_5V
+Wire Wire Line
+	9500 1950 9500 2150
+Text Label 10750 1700 0    50   ~ 0
+VIN
+Text Label 9750 3850 0    50   ~ 0
+SYS_5V
+Text Label 8050 5100 0    50   ~ 0
+SYS_5V
+Wire Wire Line
+	8050 5100 8050 5250
+Text Label 6000 5900 0    50   ~ 0
+SYS_5V
+Wire Wire Line
+	6000 5900 6000 6200
+Text Label 4700 5650 0    50   ~ 0
+SYS_5V
+Wire Wire Line
+	4700 5650 4700 6150
+Text Label 1900 1000 2    50   ~ 0
+VIN
+Wire Wire Line
+	1950 1000 1900 1000
+Connection ~ 1950 1000
+Text Notes 1900 600  0    50   ~ 0
+TLV1117 input can be 5 or 12 V
+Text Notes 1550 2600 0    50   ~ 0
+If VIN=5V then VIN_SELECTION=0, if VIN=12V then VIN_SELECTION=VIN
+Text Notes 1450 3050 0    50   ~ 0
+If VIN=12V then VIN_SELECTION=12V.  If VIN=5V then VIN_SELECTION=0.  \nIf VIN=5V then VIN_12V will be pulled to GND and U10 doesn’t regulate.
+Wire Wire Line
+	2450 3500 2550 3500
+Wire Wire Line
+	2550 3500 2550 3400
+Text Notes 1600 4450 0    50   ~ 0
+If VIN=5V then VIN_12V will be pulled to GND.  Load switch will be used to 
+$EndSCHEMATC
