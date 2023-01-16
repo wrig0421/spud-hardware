@@ -395,7 +395,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "spudglo_driver_v4p1_micro.net",
+      "netlist": "spudglo_driver_v4p1.net",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
@@ -423,7 +423,7 @@
     "meta": {
       "version": 1
     },
-    "net_format_name": "Pcbnew",
+    "net_format_name": "KiCad",
     "ngspice": {
       "fix_include_paths": true,
       "fix_passive_vals": false,
@@ -446,8 +446,8 @@
       ""
     ],
     [
-      "00000000-0000-0000-0000-000062e58cb5",
-      "Sheet62E58CB4"
+      "150fd261-9131-4164-b83a-f40e12b9ee0c",
+      "spudglo_driver_v4p1_micro"
     ]
   ],
   "text_variables": {}
