@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 31,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_nets": [],
@@ -43,6 +43,7 @@
       15,
       16,
       17,
+      18,
       19,
       20,
       21,
@@ -61,11 +62,11 @@
       35,
       36
     ],
-    "visible_layers": "ffffff7_fffffff9",
+    "visible_layers": "ffffff5_7ffffff9",
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "spudglo_driver_v4p1.kicad_prl",
+    "filename": "spudglo_driver_v4p2.kicad_prl",
     "version": 3
   },
   "project": {
