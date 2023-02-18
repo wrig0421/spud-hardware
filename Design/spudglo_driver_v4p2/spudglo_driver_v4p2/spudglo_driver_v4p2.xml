@@ -1,0 +1,1820 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/spud/Documents/GitHub/spud-hardware/Design/spudglo_driver_v4p2/spudglo_driver_v4p2/spudglo_driver_v4p2.kicad_sch</source>
+    <date>Tuesday, February 14, 2023 at 10:35:31 PM</date>
+    <tool>Eeschema (6.0.10-0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>spudglo_driver_v4p2.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/spudglo_v4p2_micro/" tstamps="/5af74bf5-987c-4d46-98f6-b35b1497740a/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>spudglo_v4p2_micro.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_driver_v4p2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ec045bb5-2992-4e0e-a47c-04f15cc01f06</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_driver_v4p2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c638b18f-5d57-40af-a9d7-c5f362e7b1ec</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_driver_v4p2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bc7bb465-968b-4df0-91f2-2cdf51749f16</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_driver_v4p2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>13ed3bee-1e49-48d3-acd0-0698e49b9597</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_driver_v4p2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fcbe7559-7a38-4153-a7dd-55bddcfdc360</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_driver_v4p2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>66b44255-fb08-44da-8d1a-d6a0770abd38</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_driver_v4p2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>be428281-fa90-4bdc-90cf-4ac3fd9b499d</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_driver_v4p2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5f7bd250-1c96-4d18-bfc8-c6fd99b9a3f0</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_driver_v4p2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>14c988d5-6485-4ae6-8ee7-5fcb77f6d9dd</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_driver_v4p2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8beb39b1-316c-4322-aa8c-58e29af38009</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_driver_v4p2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4c5c4148-31e0-482f-9863-7dda9468c371</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_driver_v4p2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b1cbf595-114d-4126-94b4-748b0df54936</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_driver_v4p2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4fef1a6d-d63c-4b88-a075-27a4efae6d04</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_driver_v4p2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>844aade5-8e2d-489d-b067-a55a03b1b855</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_driver_v4p2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b82c6b81-604f-458d-9275-e84a1f49bef8</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>DNI</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_driver_v4p2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>12d9ea63-96c2-4a04-a1d8-7d523f39e562</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>receiver_433MHz</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <libsource lib="spudglo_driver_v3p1-rescue" part="receiver_433MHz-srw_custom" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_driver_v4p2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5bf8fc2e-3ae8-4511-b54a-3d4fe6a8393b</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>TXS0104EDR</value>
+      <footprint>Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</footprint>
+      <libsource lib="srw_custom" part="TXS0104EDR" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_driver_v4p2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>51fdd241-10bc-4105-9985-24a5cb5c1474</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>receiver_433MHz</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <libsource lib="spudglo_driver_v3p1-rescue" part="receiver_433MHz-srw_custom" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_driver_v4p2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ec8cf914-959e-4646-9919-0f0a99a4d264</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>receiver_433MHz</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <libsource lib="spudglo_driver_v3p1-rescue" part="receiver_433MHz-srw_custom" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_driver_v4p2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1da3c4de-9b95-4b1b-846b-6c1f547cd902</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>receiver_433MHz</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <libsource lib="spudglo_driver_v3p1-rescue" part="receiver_433MHz-srw_custom" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_driver_v4p2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5fe0b954-f3d4-4330-8569-ce46b8315a17</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>PS2501-4</value>
+      <footprint>Package_DIP:DIP-16_W7.62mm_LongPads</footprint>
+      <libsource lib="spudglo_driver_v3p1-rescue" part="PS2501-4-srw_custom" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_driver_v4p2.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>314b6d97-8942-4f04-b778-5e452d16f1c6</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>6p</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="spudglo_driver_v3p1-rescue" part="CP_Small-Device" description=""/>
+      <property name="Sheetname" value="spudglo_v4p2_micro"/>
+      <property name="Sheetfile" value="spudglo_v4p2_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_v4p2_micro/" tstamps="/5af74bf5-987c-4d46-98f6-b35b1497740a/"/>
+      <tstamps>bca77117-82e1-48ff-b204-ccf1e781ba8e</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>8p</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="spudglo_driver_v3p1-rescue" part="CP_Small-Device" description=""/>
+      <property name="Sheetname" value="spudglo_v4p2_micro"/>
+      <property name="Sheetfile" value="spudglo_v4p2_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_v4p2_micro/" tstamps="/5af74bf5-987c-4d46-98f6-b35b1497740a/"/>
+      <tstamps>3cb013b1-2864-4ae1-bfde-768075f2c102</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>8p</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="spudglo_driver_v3p1-rescue" part="CP_Small-Device" description=""/>
+      <property name="Sheetname" value="spudglo_v4p2_micro"/>
+      <property name="Sheetfile" value="spudglo_v4p2_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_v4p2_micro/" tstamps="/5af74bf5-987c-4d46-98f6-b35b1497740a/"/>
+      <tstamps>d5f7056c-eb39-479a-8d14-4087fa82c1b1</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="spudglo_driver_v3p1-rescue" part="CP_Small-Device" description=""/>
+      <property name="Sheetname" value="spudglo_v4p2_micro"/>
+      <property name="Sheetfile" value="spudglo_v4p2_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_v4p2_micro/" tstamps="/5af74bf5-987c-4d46-98f6-b35b1497740a/"/>
+      <tstamps>b2f70294-3174-4e93-a81a-eed6c05f326d</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>6p</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="spudglo_driver_v3p1-rescue" part="CP_Small-Device" description=""/>
+      <property name="Sheetname" value="spudglo_v4p2_micro"/>
+      <property name="Sheetfile" value="spudglo_v4p2_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_v4p2_micro/" tstamps="/5af74bf5-987c-4d46-98f6-b35b1497740a/"/>
+      <tstamps>eedf9537-3db6-4375-a5af-26d423cb893b</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="spudglo_driver_v3p1-rescue" part="CP_Small-Device" description=""/>
+      <property name="Sheetname" value="spudglo_v4p2_micro"/>
+      <property name="Sheetfile" value="spudglo_v4p2_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_v4p2_micro/" tstamps="/5af74bf5-987c-4d46-98f6-b35b1497740a/"/>
+      <tstamps>981f9c77-0e4e-49bf-b816-1971da429da3</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="spudglo_driver_v3p1-rescue" part="CP_Small-Device" description=""/>
+      <property name="Sheetname" value="spudglo_v4p2_micro"/>
+      <property name="Sheetfile" value="spudglo_v4p2_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_v4p2_micro/" tstamps="/5af74bf5-987c-4d46-98f6-b35b1497740a/"/>
+      <tstamps>1213cc54-0090-4721-a1af-f70530a8a130</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="spudglo_driver_v3p1-rescue" part="CP_Small-Device" description=""/>
+      <property name="Sheetname" value="spudglo_v4p2_micro"/>
+      <property name="Sheetfile" value="spudglo_v4p2_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_v4p2_micro/" tstamps="/5af74bf5-987c-4d46-98f6-b35b1497740a/"/>
+      <tstamps>7a5b0c01-54b8-4d00-884f-9ac7ed7caf6d</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="spudglo_driver_v3p1-rescue" part="CP_Small-Device" description=""/>
+      <property name="Sheetname" value="spudglo_v4p2_micro"/>
+      <property name="Sheetfile" value="spudglo_v4p2_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_v4p2_micro/" tstamps="/5af74bf5-987c-4d46-98f6-b35b1497740a/"/>
+      <tstamps>65fdd2c5-6952-4cd8-9433-4fa945d96ccd</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="spudglo_driver_v3p1-rescue" part="CP_Small-Device" description=""/>
+      <property name="Sheetname" value="spudglo_v4p2_micro"/>
+      <property name="Sheetfile" value="spudglo_v4p2_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_v4p2_micro/" tstamps="/5af74bf5-987c-4d46-98f6-b35b1497740a/"/>
+      <tstamps>7f23f22c-ec12-43ef-b77f-86367252cf4e</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="spudglo_driver_v3p1-rescue" part="CP_Small-Device" description=""/>
+      <property name="Sheetname" value="spudglo_v4p2_micro"/>
+      <property name="Sheetfile" value="spudglo_v4p2_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_v4p2_micro/" tstamps="/5af74bf5-987c-4d46-98f6-b35b1497740a/"/>
+      <tstamps>3a9689b6-058c-4ad0-a524-63652113c0a9</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="spudglo_driver_v3p1-rescue" part="CP_Small-Device" description=""/>
+      <property name="Sheetname" value="spudglo_v4p2_micro"/>
+      <property name="Sheetfile" value="spudglo_v4p2_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_v4p2_micro/" tstamps="/5af74bf5-987c-4d46-98f6-b35b1497740a/"/>
+      <tstamps>1dc019da-f89f-4d20-9131-d2e6d67dc9e4</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="spudglo_driver_v3p1-rescue" part="CP_Small-Device" description=""/>
+      <property name="Sheetname" value="spudglo_v4p2_micro"/>
+      <property name="Sheetfile" value="spudglo_v4p2_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_v4p2_micro/" tstamps="/5af74bf5-987c-4d46-98f6-b35b1497740a/"/>
+      <tstamps>e93415d2-21f9-45f7-beca-da4ee615b443</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>0.01u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="spudglo_driver_v3p1-rescue" part="CP_Small-Device" description=""/>
+      <property name="Sheetname" value="spudglo_v4p2_micro"/>
+      <property name="Sheetfile" value="spudglo_v4p2_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_v4p2_micro/" tstamps="/5af74bf5-987c-4d46-98f6-b35b1497740a/"/>
+      <tstamps>bfc98557-012c-40ec-b385-ac75f25419e9</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="spudglo_driver_v3p1-rescue" part="CP_Small-Device" description=""/>
+      <property name="Sheetname" value="spudglo_v4p2_micro"/>
+      <property name="Sheetfile" value="spudglo_v4p2_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_v4p2_micro/" tstamps="/5af74bf5-987c-4d46-98f6-b35b1497740a/"/>
+      <tstamps>b1f447ea-a27b-4d06-b118-51200123fd16</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="spudglo_driver_v3p1-rescue" part="CP_Small-Device" description=""/>
+      <property name="Sheetname" value="spudglo_v4p2_micro"/>
+      <property name="Sheetfile" value="spudglo_v4p2_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_v4p2_micro/" tstamps="/5af74bf5-987c-4d46-98f6-b35b1497740a/"/>
+      <tstamps>56b58d9c-ec42-4b14-a090-a4d7b4dc7d98</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>10u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="spudglo_driver_v3p1-rescue" part="CP_Small-Device" description=""/>
+      <property name="Sheetname" value="spudglo_v4p2_micro"/>
+      <property name="Sheetfile" value="spudglo_v4p2_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_v4p2_micro/" tstamps="/5af74bf5-987c-4d46-98f6-b35b1497740a/"/>
+      <tstamps>cc64a3c6-1f9b-489a-906e-da5151324bac</tstamps>
+    </comp>
+    <comp ref="C25">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="spudglo_driver_v3p1-rescue" part="CP_Small-Device" description=""/>
+      <property name="Sheetname" value="spudglo_v4p2_micro"/>
+      <property name="Sheetfile" value="spudglo_v4p2_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_v4p2_micro/" tstamps="/5af74bf5-987c-4d46-98f6-b35b1497740a/"/>
+      <tstamps>423e437a-2827-4335-9d64-918bc5953a8f</tstamps>
+    </comp>
+    <comp ref="C26">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="spudglo_driver_v3p1-rescue" part="CP_Small-Device" description=""/>
+      <property name="Sheetname" value="spudglo_v4p2_micro"/>
+      <property name="Sheetfile" value="spudglo_v4p2_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_v4p2_micro/" tstamps="/5af74bf5-987c-4d46-98f6-b35b1497740a/"/>
+      <tstamps>fae1b03e-869d-4e6a-89b7-e329fec28d93</tstamps>
+    </comp>
+    <comp ref="C27">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="spudglo_driver_v3p1-rescue" part="CP_Small-Device" description=""/>
+      <property name="Sheetname" value="spudglo_v4p2_micro"/>
+      <property name="Sheetfile" value="spudglo_v4p2_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_v4p2_micro/" tstamps="/5af74bf5-987c-4d46-98f6-b35b1497740a/"/>
+      <tstamps>292c3cf8-fb00-48cc-b7e0-62d986841c2a</tstamps>
+    </comp>
+    <comp ref="C28">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="spudglo_driver_v3p1-rescue" part="CP_Small-Device" description=""/>
+      <property name="Sheetname" value="spudglo_v4p2_micro"/>
+      <property name="Sheetfile" value="spudglo_v4p2_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_v4p2_micro/" tstamps="/5af74bf5-987c-4d46-98f6-b35b1497740a/"/>
+      <tstamps>a090ca81-85b5-442b-a785-b415217384d6</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>Fuse-2410FA</value>
+      <footprint>srw_custom:2410FA</footprint>
+      <libsource lib="srw_custom" part="Fuse-2410FA" description=""/>
+      <property name="Sheetname" value="spudglo_v4p2_micro"/>
+      <property name="Sheetfile" value="spudglo_v4p2_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_v4p2_micro/" tstamps="/5af74bf5-987c-4d46-98f6-b35b1497740a/"/>
+      <tstamps>bdadaee5-3920-43a5-842c-d26ea34fa5d3</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x08_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x08_Male" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="spudglo_v4p2_micro"/>
+      <property name="Sheetfile" value="spudglo_v4p2_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_v4p2_micro/" tstamps="/5af74bf5-987c-4d46-98f6-b35b1497740a/"/>
+      <tstamps>82bd0dea-c0e4-46da-805c-6ab410a9379c</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Barrel_Jack_Switch</value>
+      <footprint>Connector_BarrelJack:BarrelJack_Wuerth_6941xx301002</footprint>
+      <libsource lib="Connector" part="Barrel_Jack_Switch" description="DC Barrel Jack with an internal switch"/>
+      <property name="Sheetname" value="spudglo_v4p2_micro"/>
+      <property name="Sheetfile" value="spudglo_v4p2_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_v4p2_micro/" tstamps="/5af74bf5-987c-4d46-98f6-b35b1497740a/"/>
+      <tstamps>3117a55b-cc7b-4871-ad4d-56f0b00d1cfb</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>terminal_custom_12pin</value>
+      <footprint>srw_custom:1984714</footprint>
+      <libsource lib="srw_custom" part="terminal_custom_12pin" description=""/>
+      <property name="Sheetname" value="spudglo_v4p2_micro"/>
+      <property name="Sheetfile" value="spudglo_v4p2_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_v4p2_micro/" tstamps="/5af74bf5-987c-4d46-98f6-b35b1497740a/"/>
+      <tstamps>7c43f2d0-5d75-47b1-a0b5-290e97bf421d</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x08_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x08_Male" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="spudglo_v4p2_micro"/>
+      <property name="Sheetfile" value="spudglo_v4p2_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_v4p2_micro/" tstamps="/5af74bf5-987c-4d46-98f6-b35b1497740a/"/>
+      <tstamps>38b59b59-78d2-4e5b-8cb9-762749e5cf3b</tstamps>
+    </comp>
+    <comp ref="MH1">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3mm</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value="spudglo_v4p2_micro"/>
+      <property name="Sheetfile" value="spudglo_v4p2_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_v4p2_micro/" tstamps="/5af74bf5-987c-4d46-98f6-b35b1497740a/"/>
+      <tstamps>295cc4b7-6c68-450f-8cf9-bf7a423e9350</tstamps>
+    </comp>
+    <comp ref="MH2">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3mm</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value="spudglo_v4p2_micro"/>
+      <property name="Sheetfile" value="spudglo_v4p2_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_v4p2_micro/" tstamps="/5af74bf5-987c-4d46-98f6-b35b1497740a/"/>
+      <tstamps>81bc7e4f-b0bf-408e-8520-5d779f0fc55e</tstamps>
+    </comp>
+    <comp ref="MH3">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3mm</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value="spudglo_v4p2_micro"/>
+      <property name="Sheetfile" value="spudglo_v4p2_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_v4p2_micro/" tstamps="/5af74bf5-987c-4d46-98f6-b35b1497740a/"/>
+      <tstamps>e8594e03-7d6e-4a74-8a55-664d2faab756</tstamps>
+    </comp>
+    <comp ref="MH4">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_3mm</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value="spudglo_v4p2_micro"/>
+      <property name="Sheetfile" value="spudglo_v4p2_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_v4p2_micro/" tstamps="/5af74bf5-987c-4d46-98f6-b35b1497740a/"/>
+      <tstamps>1a8efcec-8d90-47a7-9f35-3a7ff2204492</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="spudglo_v4p2_micro"/>
+      <property name="Sheetfile" value="spudglo_v4p2_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_v4p2_micro/" tstamps="/5af74bf5-987c-4d46-98f6-b35b1497740a/"/>
+      <tstamps>0cce1965-8ade-489b-88f8-dee6849ec0f6</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="spudglo_v4p2_micro"/>
+      <property name="Sheetfile" value="spudglo_v4p2_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_v4p2_micro/" tstamps="/5af74bf5-987c-4d46-98f6-b35b1497740a/"/>
+      <tstamps>b0a3c64f-e6b0-4835-8409-3734ef736560</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="spudglo_v4p2_micro"/>
+      <property name="Sheetfile" value="spudglo_v4p2_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_v4p2_micro/" tstamps="/5af74bf5-987c-4d46-98f6-b35b1497740a/"/>
+      <tstamps>39209d0f-6752-47ba-95f8-fd575777750a</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="spudglo_v4p2_micro"/>
+      <property name="Sheetfile" value="spudglo_v4p2_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_v4p2_micro/" tstamps="/5af74bf5-987c-4d46-98f6-b35b1497740a/"/>
+      <tstamps>95f1d329-2c49-483f-abda-37e157421e5e</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="spudglo_v4p2_micro"/>
+      <property name="Sheetfile" value="spudglo_v4p2_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_v4p2_micro/" tstamps="/5af74bf5-987c-4d46-98f6-b35b1497740a/"/>
+      <tstamps>65149389-bdb4-42a6-ba0b-70800b510bcd</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="spudglo_v4p2_micro"/>
+      <property name="Sheetfile" value="spudglo_v4p2_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_v4p2_micro/" tstamps="/5af74bf5-987c-4d46-98f6-b35b1497740a/"/>
+      <tstamps>b382faa4-599d-42b8-8500-0152b486ede5</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="spudglo_v4p2_micro"/>
+      <property name="Sheetfile" value="spudglo_v4p2_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_v4p2_micro/" tstamps="/5af74bf5-987c-4d46-98f6-b35b1497740a/"/>
+      <tstamps>0f962bf6-e5aa-4082-90fa-f4bbecf847c2</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="spudglo_v4p2_micro"/>
+      <property name="Sheetfile" value="spudglo_v4p2_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_v4p2_micro/" tstamps="/5af74bf5-987c-4d46-98f6-b35b1497740a/"/>
+      <tstamps>876a7a6a-5940-4cd4-bc5e-ce6e202ae07b</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="spudglo_v4p2_micro"/>
+      <property name="Sheetfile" value="spudglo_v4p2_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_v4p2_micro/" tstamps="/5af74bf5-987c-4d46-98f6-b35b1497740a/"/>
+      <tstamps>2b0dd6b3-51c6-4919-8458-75d601e6b1bb</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>DNI</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="spudglo_v4p2_micro"/>
+      <property name="Sheetfile" value="spudglo_v4p2_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_v4p2_micro/" tstamps="/5af74bf5-987c-4d46-98f6-b35b1497740a/"/>
+      <tstamps>3c3803e5-1450-46ea-b5b2-09fb0da413ac</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="spudglo_v4p2_micro"/>
+      <property name="Sheetfile" value="spudglo_v4p2_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_v4p2_micro/" tstamps="/5af74bf5-987c-4d46-98f6-b35b1497740a/"/>
+      <tstamps>33b11920-1827-4f27-8ad7-f545bc230340</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="spudglo_v4p2_micro"/>
+      <property name="Sheetfile" value="spudglo_v4p2_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_v4p2_micro/" tstamps="/5af74bf5-987c-4d46-98f6-b35b1497740a/"/>
+      <tstamps>911ae1ff-0f2c-4067-b43a-2d59a9436e24</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="spudglo_v4p2_micro"/>
+      <property name="Sheetfile" value="spudglo_v4p2_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_v4p2_micro/" tstamps="/5af74bf5-987c-4d46-98f6-b35b1497740a/"/>
+      <tstamps>4d8b3b0b-f457-446d-bc07-ed05693459e7</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="spudglo_v4p2_micro"/>
+      <property name="Sheetfile" value="spudglo_v4p2_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_v4p2_micro/" tstamps="/5af74bf5-987c-4d46-98f6-b35b1497740a/"/>
+      <tstamps>443bef7b-dd8f-4350-bb63-6fbdeeff8d63</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="spudglo_v4p2_micro"/>
+      <property name="Sheetfile" value="spudglo_v4p2_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_v4p2_micro/" tstamps="/5af74bf5-987c-4d46-98f6-b35b1497740a/"/>
+      <tstamps>22a579c2-39d9-4e0a-9847-a7c49960efb9</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="spudglo_v4p2_micro"/>
+      <property name="Sheetfile" value="spudglo_v4p2_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_v4p2_micro/" tstamps="/5af74bf5-987c-4d46-98f6-b35b1497740a/"/>
+      <tstamps>4bafd44d-7307-4eac-90c2-c540f34db896</tstamps>
+    </comp>
+    <comp ref="R31">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="spudglo_v4p2_micro"/>
+      <property name="Sheetfile" value="spudglo_v4p2_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_v4p2_micro/" tstamps="/5af74bf5-987c-4d46-98f6-b35b1497740a/"/>
+      <tstamps>9e0c73d9-5af0-4b0e-93b0-d52065bcdc60</tstamps>
+    </comp>
+    <comp ref="R32">
+      <value>DNI</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="spudglo_v4p2_micro"/>
+      <property name="Sheetfile" value="spudglo_v4p2_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_v4p2_micro/" tstamps="/5af74bf5-987c-4d46-98f6-b35b1497740a/"/>
+      <tstamps>df1079c8-ba2f-44f8-8847-e47fd1d7de4e</tstamps>
+    </comp>
+    <comp ref="R33">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="spudglo_v4p2_micro"/>
+      <property name="Sheetfile" value="spudglo_v4p2_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_v4p2_micro/" tstamps="/5af74bf5-987c-4d46-98f6-b35b1497740a/"/>
+      <tstamps>46b56d9b-09be-42c2-9135-8d329a056975</tstamps>
+    </comp>
+    <comp ref="R34">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="spudglo_v4p2_micro"/>
+      <property name="Sheetfile" value="spudglo_v4p2_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_v4p2_micro/" tstamps="/5af74bf5-987c-4d46-98f6-b35b1497740a/"/>
+      <tstamps>1471745f-b248-4231-9451-fec44e90dc32</tstamps>
+    </comp>
+    <comp ref="R35">
+      <value>28k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="spudglo_v4p2_micro"/>
+      <property name="Sheetfile" value="spudglo_v4p2_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_v4p2_micro/" tstamps="/5af74bf5-987c-4d46-98f6-b35b1497740a/"/>
+      <tstamps>d12752f3-6bae-4dc3-9e34-39657783f743</tstamps>
+    </comp>
+    <comp ref="R36">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="spudglo_v4p2_micro"/>
+      <property name="Sheetfile" value="spudglo_v4p2_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_v4p2_micro/" tstamps="/5af74bf5-987c-4d46-98f6-b35b1497740a/"/>
+      <tstamps>8cf3e4d9-6495-4f40-ab16-72b7f96463f6</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>ECS-.327-9-1210-TR</value>
+      <footprint>ECS-:XTAL_ECS-.327-9-1210-TR</footprint>
+      <libsource lib="Device" part="Crystal" description="Two pin crystal"/>
+      <property name="Sheetname" value="spudglo_v4p2_micro"/>
+      <property name="Sheetfile" value="spudglo_v4p2_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_v4p2_micro/" tstamps="/5af74bf5-987c-4d46-98f6-b35b1497740a/"/>
+      <tstamps>75f32061-e5ce-46df-82c2-a58776da8ca7</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>ECS-480-8-36-RWN-TR</value>
+      <footprint>XTAL_ECS-480-8-36-RWN-TR</footprint>
+      <fields>
+        <field name="AVAILABILITY">Good</field>
+        <field name="DESCRIPTION">The minature ECX-2236 is a compact SMD Crystal. The industry standard 2.5 x 2.0 x 0.55 mm ceramic package is ideal for today’s SMD manufacturing environment.</field>
+        <field name="MF">ECS INC</field>
+        <field name="MP">ECX-2236</field>
+        <field name="PACKAGE">SMD-4 ECX</field>
+        <field name="PARTREV">2017</field>
+        <field name="STANDARD">Manufacturer Recommendation</field>
+      </fields>
+      <libsource lib="spudglo_driver_v3p1-rescue" part="ECS-480-8-36-RWN-TR-ECS-480-8-36-RWN-TR" description=""/>
+      <property name="MF" value="ECS INC"/>
+      <property name="DESCRIPTION" value="The minature ECX-2236 is a compact SMD Crystal. The industry standard 2.5 x 2.0 x 0.55 mm ceramic package is ideal for today’s SMD manufacturing environment."/>
+      <property name="STANDARD" value="Manufacturer Recommendation"/>
+      <property name="MP" value="ECX-2236"/>
+      <property name="PRICE" value=""/>
+      <property name="PACKAGE" value="SMD-4 ECX"/>
+      <property name="AVAILABILITY" value="Good"/>
+      <property name="PARTREV" value="2017"/>
+      <property name="Sheetname" value="spudglo_v4p2_micro"/>
+      <property name="Sheetfile" value="spudglo_v4p2_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_v4p2_micro/" tstamps="/5af74bf5-987c-4d46-98f6-b35b1497740a/"/>
+      <tstamps>7c5ff89b-a9c8-43ea-8589-5e7778043647</tstamps>
+    </comp>
+    <comp ref="U9">
+      <value>SN74HCT245PW</value>
+      <footprint>Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm</footprint>
+      <libsource lib="spudglo_driver_v3p1-rescue" part="SN74HCT245PW-srw_custom" description=""/>
+      <property name="Sheetname" value="spudglo_v4p2_micro"/>
+      <property name="Sheetfile" value="spudglo_v4p2_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_v4p2_micro/" tstamps="/5af74bf5-987c-4d46-98f6-b35b1497740a/"/>
+      <tstamps>e2993d56-2b9f-4208-90b4-8ce01b8f8fa6</tstamps>
+    </comp>
+    <comp ref="U10">
+      <value>STM32L431RCTx</value>
+      <footprint>Package_QFP:LQFP-64_10x10mm_P0.5mm</footprint>
+      <datasheet>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257211.pdf</datasheet>
+      <libsource lib="spudglo_driver_v3p1-rescue" part="STM32L431RCTx-MCU_ST_STM32L4" description=""/>
+      <property name="Sheetname" value="spudglo_v4p2_micro"/>
+      <property name="Sheetfile" value="spudglo_v4p2_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_v4p2_micro/" tstamps="/5af74bf5-987c-4d46-98f6-b35b1497740a/"/>
+      <tstamps>08ed9724-7971-45e0-b963-41c041525a51</tstamps>
+    </comp>
+    <comp ref="U11">
+      <value>LP5907MFX-3.3</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lp5907.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="LP5907MFX-3.3" description="250-mA Ultra-Low-Noise Low-IQ LDO, 3.3V, SOT-23"/>
+      <property name="Sheetname" value="spudglo_v4p2_micro"/>
+      <property name="Sheetfile" value="spudglo_v4p2_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_v4p2_micro/" tstamps="/5af74bf5-987c-4d46-98f6-b35b1497740a/"/>
+      <tstamps>4f7602cc-0954-4ba3-ab40-0b2c92d6c215</tstamps>
+    </comp>
+    <comp ref="U12">
+      <value>USB-C-31-M-12</value>
+      <footprint>Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12</footprint>
+      <libsource lib="srw_custom" part="USB-C-31-M-12" description=""/>
+      <property name="Sheetname" value="spudglo_v4p2_micro"/>
+      <property name="Sheetfile" value="spudglo_v4p2_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_v4p2_micro/" tstamps="/5af74bf5-987c-4d46-98f6-b35b1497740a/"/>
+      <tstamps>1933bcf4-4643-4e67-931f-4a39d4b905f7</tstamps>
+    </comp>
+    <comp ref="U13">
+      <value>XR21B1411</value>
+      <footprint>srw_custom:XR21B1411</footprint>
+      <libsource lib="" part="XR21B1411_1" description=""/>
+      <property name="Sheetname" value="spudglo_v4p2_micro"/>
+      <property name="Sheetfile" value="spudglo_v4p2_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_v4p2_micro/" tstamps="/5af74bf5-987c-4d46-98f6-b35b1497740a/"/>
+      <tstamps>a1512785-a886-45bc-b48f-4c444acbe3e8</tstamps>
+    </comp>
+    <comp ref="U14">
+      <value>NCP361</value>
+      <footprint>srw_custom:NCP361</footprint>
+      <libsource lib="" part="NCP361_1" description=""/>
+      <property name="Sheetname" value="spudglo_v4p2_micro"/>
+      <property name="Sheetfile" value="spudglo_v4p2_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_v4p2_micro/" tstamps="/5af74bf5-987c-4d46-98f6-b35b1497740a/"/>
+      <tstamps>8aa80f7f-144b-4502-b918-20b52da0a4f1</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="NCP361_1">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NCP361_1</field>
+        <field name="Footprint">srw_custom:NCP361</field>
+      </fields>
+      <pins>
+        <pin num="1" name="EN_N" type="input"/>
+        <pin num="2" name="GND1" type="input"/>
+        <pin num="3" name="IN" type="input"/>
+        <pin num="4" name="OUT1" type="input"/>
+        <pin num="5" name="OUT2" type="input"/>
+        <pin num="6" name="FLAG_N" type="input"/>
+        <pin num="EPAD" name="GND2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="XR21B1411_1">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">XR21B1411_1</field>
+        <field name="Footprint">srw_custom:XR21B1411</field>
+      </fields>
+      <pins>
+        <pin num="1" name="LOWPOWER" type="input"/>
+        <pin num="2" name="NC" type="input"/>
+        <pin num="3" name="GPIO5" type="input"/>
+        <pin num="4" name="GPIO4" type="input"/>
+        <pin num="5" name="GPIO3" type="input"/>
+        <pin num="6" name="GPIO2" type="input"/>
+        <pin num="7" name="GPIO1" type="input"/>
+        <pin num="8" name="GPIO0" type="input"/>
+        <pin num="9" name="TX" type="input"/>
+        <pin num="10" name="RX" type="input"/>
+        <pin num="11" name="VBUS_SENSE" type="input"/>
+        <pin num="12" name="VIO_REF" type="input"/>
+        <pin num="13" name="GND1" type="input"/>
+        <pin num="14" name="USBD-" type="input"/>
+        <pin num="15" name="USBD+" type="input"/>
+        <pin num="16" name="VCC" type="input"/>
+        <pin num="EPAD" name="GND2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Barrel_Jack_Switch">
+      <description>DC Barrel Jack with an internal switch</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>BarrelJack*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Barrel_Jack_Switch</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x08_Male">
+      <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal">
+      <description>Two pin crystal</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="LP5907MFX-3.3">
+      <description>250-mA Ultra-Low-Noise Low-IQ LDO, 3.3V, SOT-23</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lp5907.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LP5907MFX-3.3</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lp5907.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="NC" type="no_connect"/>
+        <pin num="5" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="spudglo_driver_v3p1-rescue" part="CP_Small-Device">
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP_Small-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="spudglo_driver_v3p1-rescue" part="ECS-480-8-36-RWN-TR-ECS-480-8-36-RWN-TR">
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">ECS-480-8-36-RWN-TR-ECS-480-8-36-RWN-TR</field>
+        <field name="Footprint">XTAL_ECS-480-8-36-RWN-TR</field>
+        <field name="MF">ECS INC</field>
+        <field name="DESCRIPTION">The minature ECX-2236 is a compact SMD Crystal. The industry standard 2.5 x 2.0 x 0.55 mm ceramic package is ideal for today’s SMD manufacturing environment.</field>
+        <field name="STANDARD">Manufacturer Recommendation</field>
+        <field name="MP">ECX-2236</field>
+        <field name="PACKAGE">SMD-4 ECX</field>
+        <field name="AVAILABILITY">Good</field>
+        <field name="PARTREV">2017</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN/OUT" type="bidirectional"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT/IN" type="bidirectional"/>
+        <pin num="4" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="spudglo_driver_v3p1-rescue" part="PS2501-4-srw_custom">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PS2501-4-srw_custom</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Anode_1" type="input"/>
+        <pin num="2" name="Cathode_1" type="input"/>
+        <pin num="3" name="Anode_2" type="input"/>
+        <pin num="4" name="Cathode_2" type="input"/>
+        <pin num="5" name="Anode_3" type="input"/>
+        <pin num="6" name="Cathode_3" type="input"/>
+        <pin num="7" name="Anode_4" type="input"/>
+        <pin num="8" name="Cathode_4" type="input"/>
+        <pin num="9" name="Emitter_4" type="input"/>
+        <pin num="10" name="Collector_4" type="input"/>
+        <pin num="11" name="Emitter_3" type="input"/>
+        <pin num="12" name="Collector_3" type="input"/>
+        <pin num="13" name="Emitter_2" type="input"/>
+        <pin num="14" name="Collector_2" type="input"/>
+        <pin num="15" name="Emitter_1" type="input"/>
+        <pin num="16" name="Collector_1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="spudglo_driver_v3p1-rescue" part="SN74HCT245PW-srw_custom">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN74HCT245PW-srw_custom</field>
+        <field name="Footprint">Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DIR" type="input"/>
+        <pin num="2" name="A1" type="input"/>
+        <pin num="3" name="A2" type="input"/>
+        <pin num="4" name="A3" type="input"/>
+        <pin num="5" name="A4" type="input"/>
+        <pin num="6" name="A5" type="input"/>
+        <pin num="7" name="A6" type="input"/>
+        <pin num="8" name="A7" type="input"/>
+        <pin num="9" name="A8" type="input"/>
+        <pin num="10" name="GND" type="input"/>
+        <pin num="11" name="B8" type="input"/>
+        <pin num="12" name="B7" type="input"/>
+        <pin num="13" name="B6" type="input"/>
+        <pin num="14" name="B5" type="input"/>
+        <pin num="15" name="B4" type="input"/>
+        <pin num="16" name="B3" type="input"/>
+        <pin num="17" name="B2" type="input"/>
+        <pin num="18" name="B1" type="input"/>
+        <pin num="19" name="OE_N" type="input"/>
+        <pin num="20" name="VCC" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="spudglo_driver_v3p1-rescue" part="STM32L431RCTx-MCU_ST_STM32L4">
+      <footprints>
+        <fp>LQFP*10x10mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">STM32L431RCTx-MCU_ST_STM32L4</field>
+        <field name="Footprint">Package_QFP:LQFP-64_10x10mm_P0.5mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBAT" type="power_in"/>
+        <pin num="2" name="PC13/WKUP2" type="bidirectional"/>
+        <pin num="3" name="PC14_OSC32_IN" type="bidirectional"/>
+        <pin num="4" name="PC15_OSC32_OUT" type="bidirectional"/>
+        <pin num="5" name="PH0/OSCIN" type="input"/>
+        <pin num="6" name="PH1/OSCOUT" type="input"/>
+        <pin num="7" name="NRST" type="input"/>
+        <pin num="8" name="PC0/LPUART1_RX" type="bidirectional"/>
+        <pin num="9" name="PC1/LPUART1_TX" type="bidirectional"/>
+        <pin num="10" name="PC2/SPI2_MISO" type="bidirectional"/>
+        <pin num="11" name="PC3/SPI2_MOSI" type="bidirectional"/>
+        <pin num="12" name="VSSA" type="power_in"/>
+        <pin num="13" name="VDDA" type="power_in"/>
+        <pin num="14" name="PA0_WKUP1" type="bidirectional"/>
+        <pin num="15" name="PA1_SPI1_SCK" type="bidirectional"/>
+        <pin num="16" name="PA2/LPUART1_TX/TIM2_CH3/WKUP4" type="bidirectional"/>
+        <pin num="17" name="PA3/LPUART1_RX/TIM2_CH4" type="bidirectional"/>
+        <pin num="18" name="VSS" type="power_in"/>
+        <pin num="19" name="VDD" type="power_in"/>
+        <pin num="20" name="PA4/SPI1_NSS/LPTIM2_OUT" type="bidirectional"/>
+        <pin num="21" name="PA5/SPI1_SCK/TIM2_CH1" type="bidirectional"/>
+        <pin num="22" name="PA6/TIM16_CH1" type="bidirectional"/>
+        <pin num="23" name="PA7/SPI1_MOSI" type="bidirectional"/>
+        <pin num="24" name="PC4/USART3_TX" type="bidirectional"/>
+        <pin num="25" name="PC5/USART3_RX/WKUP5" type="bidirectional"/>
+        <pin num="26" name="PB0" type="bidirectional"/>
+        <pin num="27" name="PB1" type="bidirectional"/>
+        <pin num="28" name="PB2" type="bidirectional"/>
+        <pin num="29" name="PB10/LPUART1_RX/SPI2_SCK/TIM2_CH3/I2C2_SCL" type="bidirectional"/>
+        <pin num="30" name="PB11/USART3_RX/LPUART1_TX/TIM2_CH4/I2C2_SDA" type="bidirectional"/>
+        <pin num="31" name="VSS" type="power_in"/>
+        <pin num="32" name="VDD" type="power_in"/>
+        <pin num="33" name="PB12" type="bidirectional"/>
+        <pin num="34" name="PB13" type="bidirectional"/>
+        <pin num="35" name="PB14/SPI2_MISO/TIM15_CH1" type="bidirectional"/>
+        <pin num="36" name="PB15/SPI2_MOSI/TIM15_CH2" type="bidirectional"/>
+        <pin num="37" name="PC6" type="bidirectional"/>
+        <pin num="38" name="PC7" type="bidirectional"/>
+        <pin num="39" name="PC8" type="bidirectional"/>
+        <pin num="40" name="PC9" type="bidirectional"/>
+        <pin num="41" name="PA8/TIM1_CH1" type="bidirectional"/>
+        <pin num="42" name="PA9/TIM1_CH2/USART1_TX" type="bidirectional"/>
+        <pin num="43" name="PA10/TIM1_CH3/USART1_RX" type="bidirectional"/>
+        <pin num="44" name="PA11/TIM1_CH4/SPI1_MISO" type="bidirectional"/>
+        <pin num="45" name="PA12/SPI_MOSI" type="bidirectional"/>
+        <pin num="46" name="PA13/SWDIO" type="bidirectional"/>
+        <pin num="47" name="VSS" type="power_in"/>
+        <pin num="48" name="VDDUSB" type="power_in"/>
+        <pin num="49" name="PA14/SWCLK" type="bidirectional"/>
+        <pin num="50" name="PA15/JTDI" type="bidirectional"/>
+        <pin num="51" name="PC10" type="bidirectional"/>
+        <pin num="52" name="PC11/SPI3_MISO/USART3_RX" type="bidirectional"/>
+        <pin num="53" name="PC12/SPI3_MOSI" type="bidirectional"/>
+        <pin num="54" name="PD2" type="bidirectional"/>
+        <pin num="55" name="PB3/JTDO-TRACE-SWO" type="bidirectional"/>
+        <pin num="56" name="PB4/NJTRST" type="bidirectional"/>
+        <pin num="57" name="PB5/SPI1_MOSI/SPI3_MOSI" type="bidirectional"/>
+        <pin num="58" name="PB6/USART1_TX" type="bidirectional"/>
+        <pin num="59" name="PB7/USART1_RX" type="bidirectional"/>
+        <pin num="60" name="PH3/BOOT0" type="bidirectional"/>
+        <pin num="61" name="PB8/I2C1_SCL/TIM16_CH1" type="bidirectional"/>
+        <pin num="62" name="PB9/I2C1_SDA/SPI2_NSS" type="bidirectional"/>
+        <pin num="63" name="VSS" type="power_in"/>
+        <pin num="64" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="spudglo_driver_v3p1-rescue" part="receiver_433MHz-srw_custom">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">receiver_433MHz-srw_custom</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN-" type="input"/>
+        <pin num="2" name="IN+" type="input"/>
+        <pin num="3" name="OUT+" type="input"/>
+        <pin num="4" name="OUT-" type="input"/>
+        <pin num="5" name="KEY" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="srw_custom" part="Fuse-2410FA">
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse-2410FA</field>
+        <field name="Footprint">srw_custom:2410FA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="srw_custom" part="TXS0104EDR">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TXS0104EDR</field>
+        <field name="Footprint">Package_SO:SOIC-14_3.9x8.7mm_P1.27mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCCA" type="input"/>
+        <pin num="1-UB" name="A1" type="input"/>
+        <pin num="1-UC" name="A1" type="input"/>
+        <pin num="1-UD" name="A1" type="input"/>
+        <pin num="1-UE" name="A1" type="input"/>
+        <pin num="1-UF" name="A1" type="input"/>
+        <pin num="1-UG" name="A1" type="input"/>
+        <pin num="1-UH" name="A1" type="input"/>
+        <pin num="1-UI" name="A1" type="input"/>
+        <pin num="1-UJ" name="A1" type="input"/>
+        <pin num="1-UK" name="A1" type="input"/>
+        <pin num="1-UL" name="A1" type="input"/>
+        <pin num="1-UM" name="A1" type="input"/>
+        <pin num="1-UN" name="A1" type="input"/>
+        <pin num="2" name="A1" type="input"/>
+        <pin num="3" name="A2" type="input"/>
+        <pin num="4" name="A3" type="input"/>
+        <pin num="5" name="A4" type="input"/>
+        <pin num="6" name="NC1" type="input"/>
+        <pin num="7" name="GND" type="input"/>
+        <pin num="8" name="OE" type="input"/>
+        <pin num="9" name="NC2" type="input"/>
+        <pin num="10" name="B4" type="input"/>
+        <pin num="11" name="B3" type="input"/>
+        <pin num="12" name="B2" type="input"/>
+        <pin num="13" name="B1" type="input"/>
+        <pin num="14" name="VCCB" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="srw_custom" part="USB-C-31-M-12">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">USB-C-31-M-12</field>
+        <field name="Footprint">Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12</field>
+      </fields>
+      <pins>
+        <pin num="A1" name="GND2" type="input"/>
+        <pin num="A4" name="VBUS4" type="input"/>
+        <pin num="A5" name="CC1" type="input"/>
+        <pin num="A6" name="DP1" type="input"/>
+        <pin num="A7" name="DN1" type="input"/>
+        <pin num="A8" name="SBU1" type="input"/>
+        <pin num="A9" name="VBUS1" type="input"/>
+        <pin num="A12" name="GND4" type="input"/>
+        <pin num="B1" name="GND1" type="input"/>
+        <pin num="B4" name="VBUS3" type="input"/>
+        <pin num="B5" name="CC2" type="input"/>
+        <pin num="B6" name="DP2" type="input"/>
+        <pin num="B7" name="DN2" type="input"/>
+        <pin num="B8" name="SBU2" type="input"/>
+        <pin num="B9" name="VBUS2" type="input"/>
+        <pin num="B12" name="GND3" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="srw_custom" part="terminal_custom_12pin">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">terminal_custom_12pin</field>
+        <field name="Footprint">srw_custom:1984714</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+        <pin num="3" name="3" type="input"/>
+        <pin num="4" name="4" type="input"/>
+        <pin num="5" name="5" type="input"/>
+        <pin num="6" name="6" type="input"/>
+        <pin num="7" name="7" type="input"/>
+        <pin num="8" name="8" type="input"/>
+        <pin num="9" name="9" type="input"/>
+        <pin num="10" name="10" type="input"/>
+        <pin num="11" name="11" type="input"/>
+        <pin num="12" name="12" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="srw_custom">
+      <uri>/Users/spud/Documents/KiCad/6.0/symbols/srw_custom.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="C25" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="J1" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+      <node ref="R36" pin="1" pintype="passive"/>
+      <node ref="U10" pin="1" pinfunction="VBAT" pintype="power_in"/>
+      <node ref="U10" pin="13" pinfunction="VDDA" pintype="power_in"/>
+      <node ref="U10" pin="19" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U10" pin="32" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U10" pin="48" pinfunction="VDDUSB" pintype="power_in"/>
+      <node ref="U10" pin="64" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U11" pin="5" pinfunction="OUT" pintype="power_out"/>
+      <node ref="U13" pin="12" pinfunction="VIO_REF" pintype="input"/>
+      <node ref="U2" pin="1" pinfunction="VCCA" pintype="input"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="F1" pin="2" pinfunction="2" pintype="input"/>
+      <node ref="J3" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="J3" pin="10" pinfunction="10" pintype="input"/>
+      <node ref="J3" pin="4" pinfunction="4" pintype="input"/>
+      <node ref="J3" pin="7" pinfunction="7" pintype="input"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="IN+" pintype="input"/>
+      <node ref="U11" pin="1" pinfunction="IN" pintype="power_in"/>
+      <node ref="U11" pin="3" pinfunction="EN" pintype="input"/>
+      <node ref="U2" pin="14" pinfunction="VCCB" pintype="input"/>
+      <node ref="U3" pin="2" pinfunction="IN+" pintype="input"/>
+      <node ref="U4" pin="2" pinfunction="IN+" pintype="input"/>
+      <node ref="U5" pin="2" pinfunction="IN+" pintype="input"/>
+      <node ref="U9" pin="20" pinfunction="VCC" pintype="input"/>
+    </net>
+    <net code="3" name="/INT_1">
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="U2" pin="13" pinfunction="B1" pintype="input"/>
+      <node ref="U6" pin="16" pinfunction="Collector_1" pintype="input"/>
+    </net>
+    <net code="4" name="/INT_2">
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="U2" pin="12" pinfunction="B2" pintype="input"/>
+      <node ref="U6" pin="14" pinfunction="Collector_2" pintype="input"/>
+    </net>
+    <net code="5" name="/INT_3">
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="U2" pin="11" pinfunction="B3" pintype="input"/>
+      <node ref="U6" pin="12" pinfunction="Collector_3" pintype="input"/>
+    </net>
+    <net code="6" name="/INT_4">
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="U2" pin="10" pinfunction="B4" pintype="input"/>
+      <node ref="U6" pin="10" pinfunction="Collector_4" pintype="input"/>
+    </net>
+    <net code="7" name="/OUT_1_N">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="OUT-" pintype="input"/>
+      <node ref="U6" pin="2" pinfunction="Cathode_1" pintype="input"/>
+    </net>
+    <net code="8" name="/OUT_1_P">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="OUT+" pintype="input"/>
+    </net>
+    <net code="9" name="/OUT_2_N">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U4" pin="4" pinfunction="OUT-" pintype="input"/>
+      <node ref="U6" pin="4" pinfunction="Cathode_2" pintype="input"/>
+    </net>
+    <net code="10" name="/OUT_2_P">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="OUT+" pintype="input"/>
+    </net>
+    <net code="11" name="/OUT_3_N">
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U5" pin="4" pinfunction="OUT-" pintype="input"/>
+      <node ref="U6" pin="6" pinfunction="Cathode_3" pintype="input"/>
+    </net>
+    <net code="12" name="/OUT_3_P">
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U5" pin="3" pinfunction="OUT+" pintype="input"/>
+    </net>
+    <net code="13" name="/OUT_4_N">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="OUT-" pintype="input"/>
+      <node ref="U6" pin="8" pinfunction="Cathode_4" pintype="input"/>
+    </net>
+    <net code="14" name="/OUT_4_P">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="OUT+" pintype="input"/>
+    </net>
+    <net code="15" name="/spudglo_v4p2_micro/BOOT0">
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="U10" pin="60" pinfunction="PH3/BOOT0" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="/spudglo_v4p2_micro/DISP_BACKLIGHT">
+      <node ref="J4" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="U10" pin="21" pinfunction="PA5/SPI1_SCK/TIM2_CH1" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="/spudglo_v4p2_micro/DISP_DC">
+      <node ref="J4" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U10" pin="22" pinfunction="PA6/TIM16_CH1" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="/spudglo_v4p2_micro/DISP_RST">
+      <node ref="J4" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="U10" pin="23" pinfunction="PA7/SPI1_MOSI" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="/spudglo_v4p2_micro/JTDI">
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="U10" pin="50" pinfunction="PA15/JTDI" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="/spudglo_v4p2_micro/JTDO">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="U10" pin="55" pinfunction="PB3/JTDO-TRACE-SWO" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="/spudglo_v4p2_micro/LVL_DIR">
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="U10" pin="39" pinfunction="PC8" pintype="bidirectional"/>
+      <node ref="U9" pin="1" pinfunction="DIR" pintype="input"/>
+    </net>
+    <net code="22" name="/spudglo_v4p2_micro/LVL_EN">
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="U10" pin="38" pinfunction="PC7" pintype="bidirectional"/>
+      <node ref="U9" pin="19" pinfunction="OE_N" pintype="input"/>
+    </net>
+    <net code="23" name="/spudglo_v4p2_micro/NJTRST">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="U10" pin="56" pinfunction="PB4/NJTRST" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="/spudglo_v4p2_micro/OSC48_HI">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="U10" pin="5" pinfunction="PH0/OSCIN" pintype="input"/>
+      <node ref="U8" pin="3" pinfunction="OUT/IN" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="/spudglo_v4p2_micro/OSC48_LO">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="U10" pin="6" pinfunction="PH1/OSCOUT" pintype="input"/>
+      <node ref="U8" pin="1" pinfunction="IN/OUT" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="/spudglo_v4p2_micro/SPI1_CIPO">
+      <node ref="R32" pin="1" pintype="passive"/>
+      <node ref="U10" pin="44" pinfunction="PA11/TIM1_CH4/SPI1_MISO" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="/spudglo_v4p2_micro/SPI1_COPI">
+      <node ref="R31" pin="1" pintype="passive"/>
+      <node ref="U10" pin="45" pinfunction="PA12/SPI_MOSI" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="/spudglo_v4p2_micro/SPI1_NSS">
+      <node ref="J4" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="R36" pin="2" pintype="passive"/>
+      <node ref="U10" pin="20" pinfunction="PA4/SPI1_NSS/LPTIM2_OUT" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="/spudglo_v4p2_micro/SPI1_SCK">
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U10" pin="15" pinfunction="PA1_SPI1_SCK" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="/spudglo_v4p2_micro/SWCLK">
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="U10" pin="49" pinfunction="PA14/SWCLK" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="/spudglo_v4p2_micro/SWDIO">
+      <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="U10" pin="46" pinfunction="PA13/SWDIO" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="/spudglo_v4p2_micro/TIM1_CH1">
+      <node ref="U10" pin="41" pinfunction="PA8/TIM1_CH1" pintype="bidirectional"/>
+      <node ref="U9" pin="7" pinfunction="A6" pintype="input"/>
+    </net>
+    <net code="33" name="/spudglo_v4p2_micro/TIM1_CH1_SHIFT">
+      <node ref="J3" pin="2" pinfunction="2" pintype="input"/>
+      <node ref="U9" pin="13" pinfunction="B6" pintype="input"/>
+    </net>
+    <net code="34" name="/spudglo_v4p2_micro/TIM1_CH2">
+      <node ref="U10" pin="42" pinfunction="PA9/TIM1_CH2/USART1_TX" pintype="bidirectional"/>
+      <node ref="U9" pin="5" pinfunction="A4" pintype="input"/>
+    </net>
+    <net code="35" name="/spudglo_v4p2_micro/TIM1_CH2_SHIFT">
+      <node ref="J3" pin="5" pinfunction="5" pintype="input"/>
+      <node ref="U9" pin="15" pinfunction="B4" pintype="input"/>
+    </net>
+    <net code="36" name="/spudglo_v4p2_micro/TIM1_CH3">
+      <node ref="U10" pin="43" pinfunction="PA10/TIM1_CH3/USART1_RX" pintype="bidirectional"/>
+      <node ref="U9" pin="3" pinfunction="A2" pintype="input"/>
+    </net>
+    <net code="37" name="/spudglo_v4p2_micro/TIM1_CH3_SHIFT">
+      <node ref="J3" pin="8" pinfunction="8" pintype="input"/>
+      <node ref="U9" pin="17" pinfunction="B2" pintype="input"/>
+    </net>
+    <net code="38" name="GND1">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C25" pin="2" pintype="passive"/>
+      <node ref="C26" pin="2" pintype="passive"/>
+      <node ref="C27" pin="2" pintype="passive"/>
+      <node ref="C28" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J2" pin="2" pintype="passive"/>
+      <node ref="J2" pin="3" pintype="passive"/>
+      <node ref="J3" pin="11" pinfunction="11" pintype="input"/>
+      <node ref="J3" pin="12" pinfunction="12" pintype="input"/>
+      <node ref="J3" pin="3" pinfunction="3" pintype="input"/>
+      <node ref="J3" pin="6" pinfunction="6" pintype="input"/>
+      <node ref="J3" pin="9" pinfunction="9" pintype="input"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="MH1" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="MH2" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="MH3" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="MH4" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="R26" pin="2" pintype="passive"/>
+      <node ref="R33" pin="2" pintype="passive"/>
+      <node ref="R35" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="IN-" pintype="input"/>
+      <node ref="U10" pin="12" pinfunction="VSSA" pintype="power_in"/>
+      <node ref="U10" pin="18" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U10" pin="31" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U10" pin="47" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U10" pin="63" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U11" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U12" pin="A1" pinfunction="GND2" pintype="input"/>
+      <node ref="U12" pin="A12" pinfunction="GND4" pintype="input"/>
+      <node ref="U12" pin="B1" pinfunction="GND1" pintype="input"/>
+      <node ref="U12" pin="B12" pinfunction="GND3" pintype="input"/>
+      <node ref="U13" pin="13" pinfunction="GND1" pintype="input"/>
+      <node ref="U13" pin="EPAD" pinfunction="GND2" pintype="input"/>
+      <node ref="U14" pin="1" pinfunction="EN_N" pintype="input"/>
+      <node ref="U14" pin="2" pinfunction="GND1" pintype="input"/>
+      <node ref="U14" pin="EPAD" pinfunction="GND2" pintype="input"/>
+      <node ref="U2" pin="7" pinfunction="GND" pintype="input"/>
+      <node ref="U3" pin="1" pinfunction="IN-" pintype="input"/>
+      <node ref="U4" pin="1" pinfunction="IN-" pintype="input"/>
+      <node ref="U5" pin="1" pinfunction="IN-" pintype="input"/>
+      <node ref="U6" pin="11" pinfunction="Emitter_3" pintype="input"/>
+      <node ref="U6" pin="13" pinfunction="Emitter_2" pintype="input"/>
+      <node ref="U6" pin="15" pinfunction="Emitter_1" pintype="input"/>
+      <node ref="U6" pin="9" pinfunction="Emitter_4" pintype="input"/>
+      <node ref="U8" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U8" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U9" pin="10" pinfunction="GND" pintype="input"/>
+    </net>
+    <net code="39" name="INT_LVL_EN">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="R30" pin="1" pintype="passive"/>
+      <node ref="U10" pin="26" pinfunction="PB0" pintype="bidirectional"/>
+      <node ref="U2" pin="8" pinfunction="OE" pintype="input"/>
+    </net>
+    <net code="40" name="NRST">
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="R27" pin="1" pintype="passive"/>
+      <node ref="U10" pin="7" pinfunction="NRST" pintype="input"/>
+    </net>
+    <net code="41" name="Net-(C4-Pad1)">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="U10" pin="3" pinfunction="PC14_OSC32_IN" pintype="bidirectional"/>
+      <node ref="U7" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="42" name="Net-(C5-Pad1)">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="U10" pin="4" pinfunction="PC15_OSC32_OUT" pintype="bidirectional"/>
+      <node ref="U7" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="43" name="Net-(C27-Pad1)">
+      <node ref="C27" pin="1" pintype="passive"/>
+      <node ref="U12" pin="A4" pinfunction="VBUS4" pintype="input"/>
+      <node ref="U12" pin="A9" pinfunction="VBUS1" pintype="input"/>
+      <node ref="U12" pin="B4" pinfunction="VBUS3" pintype="input"/>
+      <node ref="U12" pin="B9" pinfunction="VBUS2" pintype="input"/>
+      <node ref="U14" pin="3" pinfunction="IN" pintype="input"/>
+    </net>
+    <net code="44" name="Net-(F1-Pad1)">
+      <node ref="F1" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="J2" pin="1" pintype="passive"/>
+    </net>
+    <net code="45" name="Net-(J4-Pad4)">
+      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R31" pin="2" pintype="passive"/>
+      <node ref="R32" pin="2" pintype="passive"/>
+    </net>
+    <net code="46" name="Net-(R6-Pad1)">
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U6" pin="1" pinfunction="Anode_1" pintype="input"/>
+    </net>
+    <net code="47" name="Net-(R7-Pad1)">
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U6" pin="3" pinfunction="Anode_2" pintype="input"/>
+    </net>
+    <net code="48" name="Net-(R8-Pad1)">
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U6" pin="5" pinfunction="Anode_3" pintype="input"/>
+    </net>
+    <net code="49" name="Net-(R9-Pad1)">
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U6" pin="7" pinfunction="Anode_4" pintype="input"/>
+    </net>
+    <net code="50" name="Net-(R25-Pad1)">
+      <node ref="R25" pin="1" pintype="passive"/>
+      <node ref="U12" pin="B5" pinfunction="CC2" pintype="input"/>
+    </net>
+    <net code="51" name="Net-(R26-Pad1)">
+      <node ref="R26" pin="1" pintype="passive"/>
+      <node ref="U12" pin="A5" pinfunction="CC1" pintype="input"/>
+    </net>
+    <net code="52" name="Net-(R27-Pad2)">
+      <node ref="R27" pin="2" pintype="passive"/>
+      <node ref="U13" pin="8" pinfunction="GPIO0" pintype="input"/>
+    </net>
+    <net code="53" name="Net-(R28-Pad2)">
+      <node ref="R28" pin="2" pintype="passive"/>
+      <node ref="U13" pin="7" pinfunction="GPIO1" pintype="input"/>
+    </net>
+    <net code="54" name="Net-(R29-Pad2)">
+      <node ref="R29" pin="2" pintype="passive"/>
+      <node ref="U13" pin="6" pinfunction="GPIO2" pintype="input"/>
+    </net>
+    <net code="55" name="Net-(R30-Pad2)">
+      <node ref="R30" pin="2" pintype="passive"/>
+      <node ref="U13" pin="5" pinfunction="GPIO3" pintype="input"/>
+    </net>
+    <net code="56" name="Net-(R33-Pad1)">
+      <node ref="R33" pin="1" pintype="passive"/>
+      <node ref="U13" pin="1" pinfunction="LOWPOWER" pintype="input"/>
+    </net>
+    <net code="57" name="USBD+">
+      <node ref="U12" pin="A6" pinfunction="DP1" pintype="input"/>
+      <node ref="U12" pin="B6" pinfunction="DP2" pintype="input"/>
+      <node ref="U13" pin="15" pinfunction="USBD+" pintype="input"/>
+    </net>
+    <net code="58" name="USBD-">
+      <node ref="U12" pin="A7" pinfunction="DN1" pintype="input"/>
+      <node ref="U12" pin="B7" pinfunction="DN2" pintype="input"/>
+      <node ref="U13" pin="14" pinfunction="USBD-" pintype="input"/>
+    </net>
+    <net code="59" name="VBUS">
+      <node ref="C26" pin="1" pintype="passive"/>
+      <node ref="C28" pin="1" pintype="passive"/>
+      <node ref="R34" pin="1" pintype="passive"/>
+      <node ref="U13" pin="16" pinfunction="VCC" pintype="input"/>
+      <node ref="U14" pin="4" pinfunction="OUT1" pintype="input"/>
+      <node ref="U14" pin="5" pinfunction="OUT2" pintype="input"/>
+    </net>
+    <net code="60" name="VBUS_PRESENT">
+      <node ref="R34" pin="2" pintype="passive"/>
+      <node ref="R35" pin="1" pintype="passive"/>
+      <node ref="U10" pin="34" pinfunction="PB13" pintype="bidirectional"/>
+    </net>
+    <net code="61" name="WKUP1">
+      <node ref="R28" pin="1" pintype="passive"/>
+      <node ref="U10" pin="14" pinfunction="PA0_WKUP1" pintype="bidirectional"/>
+      <node ref="U2" pin="2" pinfunction="A1" pintype="input"/>
+    </net>
+    <net code="62" name="WKUP2">
+      <node ref="U10" pin="2" pinfunction="PC13/WKUP2" pintype="bidirectional"/>
+      <node ref="U2" pin="3" pinfunction="A2" pintype="input"/>
+    </net>
+    <net code="63" name="WKUP3">
+      <node ref="U10" pin="25" pinfunction="PC5/USART3_RX/WKUP5" pintype="bidirectional"/>
+      <node ref="U2" pin="4" pinfunction="A3" pintype="input"/>
+    </net>
+    <net code="64" name="WKUP4">
+      <node ref="U10" pin="16" pinfunction="PA2/LPUART1_TX/TIM2_CH3/WKUP4" pintype="bidirectional"/>
+      <node ref="U2" pin="5" pinfunction="A4" pintype="input"/>
+    </net>
+    <net code="65" name="XR_GPIO">
+      <node ref="R29" pin="1" pintype="passive"/>
+      <node ref="U10" pin="33" pinfunction="PB12" pintype="bidirectional"/>
+    </net>
+    <net code="66" name="XR_RX">
+      <node ref="U10" pin="58" pinfunction="PB6/USART1_TX" pintype="bidirectional"/>
+      <node ref="U13" pin="10" pinfunction="RX" pintype="input"/>
+    </net>
+    <net code="67" name="XR_TX">
+      <node ref="U10" pin="59" pinfunction="PB7/USART1_RX" pintype="bidirectional"/>
+      <node ref="U13" pin="9" pinfunction="TX" pintype="input"/>
+    </net>
+    <net code="68" name="unconnected-(U1-Pad5)">
+      <node ref="U1" pin="5" pinfunction="KEY" pintype="input+no_connect"/>
+    </net>
+    <net code="69" name="unconnected-(U2-Pad6)">
+      <node ref="U2" pin="6" pinfunction="NC1" pintype="input+no_connect"/>
+    </net>
+    <net code="70" name="unconnected-(U2-Pad9)">
+      <node ref="U2" pin="9" pinfunction="NC2" pintype="input+no_connect"/>
+    </net>
+    <net code="71" name="unconnected-(U3-Pad5)">
+      <node ref="U3" pin="5" pinfunction="KEY" pintype="input+no_connect"/>
+    </net>
+    <net code="72" name="unconnected-(U4-Pad5)">
+      <node ref="U4" pin="5" pinfunction="KEY" pintype="input+no_connect"/>
+    </net>
+    <net code="73" name="unconnected-(U5-Pad5)">
+      <node ref="U5" pin="5" pinfunction="KEY" pintype="input+no_connect"/>
+    </net>
+    <net code="74" name="unconnected-(U9-Pad2)">
+      <node ref="U9" pin="2" pinfunction="A1" pintype="input+no_connect"/>
+    </net>
+    <net code="75" name="unconnected-(U9-Pad4)">
+      <node ref="U9" pin="4" pinfunction="A3" pintype="input+no_connect"/>
+    </net>
+    <net code="76" name="unconnected-(U9-Pad6)">
+      <node ref="U9" pin="6" pinfunction="A5" pintype="input+no_connect"/>
+    </net>
+    <net code="77" name="unconnected-(U9-Pad8)">
+      <node ref="U9" pin="8" pinfunction="A7" pintype="input+no_connect"/>
+    </net>
+    <net code="78" name="unconnected-(U9-Pad9)">
+      <node ref="U9" pin="9" pinfunction="A8" pintype="input+no_connect"/>
+    </net>
+    <net code="79" name="unconnected-(U9-Pad11)">
+      <node ref="U9" pin="11" pinfunction="B8" pintype="input+no_connect"/>
+    </net>
+    <net code="80" name="unconnected-(U9-Pad12)">
+      <node ref="U9" pin="12" pinfunction="B7" pintype="input+no_connect"/>
+    </net>
+    <net code="81" name="unconnected-(U9-Pad14)">
+      <node ref="U9" pin="14" pinfunction="B5" pintype="input+no_connect"/>
+    </net>
+    <net code="82" name="unconnected-(U9-Pad16)">
+      <node ref="U9" pin="16" pinfunction="B3" pintype="input+no_connect"/>
+    </net>
+    <net code="83" name="unconnected-(U9-Pad18)">
+      <node ref="U9" pin="18" pinfunction="B1" pintype="input+no_connect"/>
+    </net>
+    <net code="84" name="unconnected-(U10-Pad8)">
+      <node ref="U10" pin="8" pinfunction="PC0/LPUART1_RX" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="85" name="unconnected-(U10-Pad9)">
+      <node ref="U10" pin="9" pinfunction="PC1/LPUART1_TX" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="86" name="unconnected-(U10-Pad10)">
+      <node ref="U10" pin="10" pinfunction="PC2/SPI2_MISO" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="87" name="unconnected-(U10-Pad11)">
+      <node ref="U10" pin="11" pinfunction="PC3/SPI2_MOSI" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="88" name="unconnected-(U10-Pad17)">
+      <node ref="U10" pin="17" pinfunction="PA3/LPUART1_RX/TIM2_CH4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="89" name="unconnected-(U10-Pad24)">
+      <node ref="U10" pin="24" pinfunction="PC4/USART3_TX" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="90" name="unconnected-(U10-Pad27)">
+      <node ref="U10" pin="27" pinfunction="PB1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="91" name="unconnected-(U10-Pad28)">
+      <node ref="U10" pin="28" pinfunction="PB2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="92" name="unconnected-(U10-Pad29)">
+      <node ref="U10" pin="29" pinfunction="PB10/LPUART1_RX/SPI2_SCK/TIM2_CH3/I2C2_SCL" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="93" name="unconnected-(U10-Pad30)">
+      <node ref="U10" pin="30" pinfunction="PB11/USART3_RX/LPUART1_TX/TIM2_CH4/I2C2_SDA" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="94" name="unconnected-(U10-Pad35)">
+      <node ref="U10" pin="35" pinfunction="PB14/SPI2_MISO/TIM15_CH1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="95" name="unconnected-(U10-Pad36)">
+      <node ref="U10" pin="36" pinfunction="PB15/SPI2_MOSI/TIM15_CH2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="96" name="unconnected-(U10-Pad37)">
+      <node ref="U10" pin="37" pinfunction="PC6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="97" name="unconnected-(U10-Pad40)">
+      <node ref="U10" pin="40" pinfunction="PC9" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="98" name="unconnected-(U10-Pad51)">
+      <node ref="U10" pin="51" pinfunction="PC10" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="99" name="unconnected-(U10-Pad52)">
+      <node ref="U10" pin="52" pinfunction="PC11/SPI3_MISO/USART3_RX" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="100" name="unconnected-(U10-Pad53)">
+      <node ref="U10" pin="53" pinfunction="PC12/SPI3_MOSI" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="101" name="unconnected-(U10-Pad54)">
+      <node ref="U10" pin="54" pinfunction="PD2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="102" name="unconnected-(U10-Pad57)">
+      <node ref="U10" pin="57" pinfunction="PB5/SPI1_MOSI/SPI3_MOSI" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="103" name="unconnected-(U10-Pad61)">
+      <node ref="U10" pin="61" pinfunction="PB8/I2C1_SCL/TIM16_CH1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="104" name="unconnected-(U10-Pad62)">
+      <node ref="U10" pin="62" pinfunction="PB9/I2C1_SDA/SPI2_NSS" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="105" name="unconnected-(U11-Pad4)">
+      <node ref="U11" pin="4" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="106" name="unconnected-(U12-PadA8)">
+      <node ref="U12" pin="A8" pinfunction="SBU1" pintype="input+no_connect"/>
+    </net>
+    <net code="107" name="unconnected-(U12-PadB8)">
+      <node ref="U12" pin="B8" pinfunction="SBU2" pintype="input+no_connect"/>
+    </net>
+    <net code="108" name="unconnected-(U13-Pad2)">
+      <node ref="U13" pin="2" pinfunction="NC" pintype="input+no_connect"/>
+    </net>
+    <net code="109" name="unconnected-(U13-Pad3)">
+      <node ref="U13" pin="3" pinfunction="GPIO5" pintype="input+no_connect"/>
+    </net>
+    <net code="110" name="unconnected-(U13-Pad4)">
+      <node ref="U13" pin="4" pinfunction="GPIO4" pintype="input+no_connect"/>
+    </net>
+    <net code="111" name="unconnected-(U13-Pad11)">
+      <node ref="U13" pin="11" pinfunction="VBUS_SENSE" pintype="input+no_connect"/>
+    </net>
+    <net code="112" name="unconnected-(U14-Pad6)">
+      <node ref="U14" pin="6" pinfunction="FLAG_N" pintype="input+no_connect"/>
+    </net>
+  </nets>
+</export>
