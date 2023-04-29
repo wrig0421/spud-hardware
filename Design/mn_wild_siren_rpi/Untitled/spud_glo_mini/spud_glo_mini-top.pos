@@ -1,0 +1,54 @@
+### Footprint positions - created on 2023 April 23, Sunday 22:41:45 ###
+### Printed by KiCad version 7.0.2-0
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                  Package                                           PosX       PosY       Rot  Side
+C1        1u                   C_0201_0603Metric_Pad0.64x0.40mm_HandSolder   160.7900  -111.0200  -90.0000  top
+C2        1u                   C_0402_1005Metric_Pad0.74x0.62mm_HandSolder   152.6900  -115.0600  -90.0000  top
+C3        6p                   C_0201_0603Metric_Pad0.64x0.40mm_HandSolder   178.0900  -106.5925  -90.0000  top
+C4        8p                   C_0201_0603Metric_Pad0.64x0.40mm_HandSolder   176.1100  -112.5800    0.0000  top
+C5        8p                   C_0201_0603Metric_Pad0.64x0.40mm_HandSolder   176.8800  -110.8200  -90.0000  top
+C6        0.1u                 C_0402_1005Metric_Pad0.74x0.62mm_HandSolder   157.8975  -118.3300  180.0000  top
+C7        0.1u                 C_0201_0603Metric_Pad0.64x0.40mm_HandSolder   173.2400  -102.1125   90.0000  top
+C8        0.1u                 C_0201_0603Metric_Pad0.64x0.40mm_HandSolder   172.4900  -102.1025   90.0000  top
+C9        6p                   C_0201_0603Metric_Pad0.64x0.40mm_HandSolder   176.7425  -109.5100    0.0000  top
+C10       0.1u                 C_0201_0603Metric_Pad0.64x0.40mm_HandSolder   174.2488  -112.9800    0.0000  top
+C11       0.1u                 C_0201_0603Metric_Pad0.64x0.40mm_HandSolder   173.0275  -114.0000    0.0000  top
+C12       0.1u                 C_0201_0603Metric_Pad0.64x0.40mm_HandSolder   169.2225  -100.9100    0.0000  top
+C13       0.1u                 C_0201_0603Metric_Pad0.64x0.40mm_HandSolder   164.6400  -101.1500    0.0000  top
+C14       4.7u                 C_0201_0603Metric_Pad0.64x0.40mm_HandSolder   174.8900  -113.9900    0.0000  top
+C15       0.01u                C_0201_0603Metric_Pad0.64x0.40mm_HandSolder   161.4700  -113.4625  -90.0000  top
+C16       1u                   C_0201_0603Metric_Pad0.64x0.40mm_HandSolder   162.2400  -113.4625  -90.0000  top
+C17       1u                   C_0402_1005Metric_Pad0.74x0.62mm_HandSolder   161.5781  -114.8842    0.0000  top
+C18       1u                   C_0402_1005Metric_Pad0.74x0.62mm_HandSolder   158.4175  -119.3500  180.0000  top
+C19       1u                   C_0402_1005Metric_Pad0.74x0.62mm_HandSolder   177.2800  -114.0975   90.0000  top
+C20       1u                   C_0402_1005Metric_Pad0.74x0.62mm_HandSolder   169.2200  -117.9000   90.0000  top
+C21       1u                   C_0402_1005Metric_Pad0.74x0.62mm_HandSolder   175.0075  -118.9900    0.0000  top
+C22       1u                   C_0402_1005Metric_Pad0.74x0.62mm_HandSolder   176.2900  -114.0875   90.0000  top
+C23       10u                  C_0402_1005Metric_Pad0.74x0.62mm_HandSolder   144.5675  -113.2400  180.0000  top
+F1        Fuse-2410FA          2410FA                                        150.4900  -120.0700  180.0000  top
+J1        Barrel_Jack_Switch   BarrelJack_Wuerth_6941xx301002                153.7500  -123.2700  -90.0000  top
+J2        Conn_01x03_Male      1984620                                       155.5000  -121.6800    0.0000  top
+R1        10k                  R_0201_0603Metric_Pad0.64x0.40mm_HandSolder   171.0525  -100.9000  180.0000  top
+R2        1k                   R_0402_1005Metric                             148.6800  -101.1100  180.0000  top
+R3        10k                  R_0402_1005Metric                             148.6100  -113.2400    0.0000  top
+R4        1k                   R_0402_1005Metric                             146.6400  -113.2500    0.0000  top
+R5        10k                  R_0201_0603Metric_Pad0.64x0.40mm_HandSolder   163.1100  -114.5000   90.0000  top
+R6        10k                  R_0201_0603Metric_Pad0.64x0.40mm_HandSolder   166.4575  -101.0200    0.0000  top
+R7        10k                  R_0201_0603Metric_Pad0.64x0.40mm_HandSolder   177.1904  -123.7245  -90.0000  top
+R8        10k                  R_0201_0603Metric_Pad0.64x0.40mm_HandSolder   177.1904  -125.6291   90.0000  top
+R9        10k                  R_0201_0603Metric_Pad0.64x0.40mm_HandSolder   174.3300  -117.6000   90.0000  top
+R10       10k                  R_0201_0603Metric_Pad0.64x0.40mm_HandSolder   162.7800  -100.8900    0.0000  top
+R11       28k                  R_0201_0603Metric_Pad0.64x0.40mm_HandSolder   162.7800  -101.6600  180.0000  top
+U1        TXS0104EDR           SOIC-14_3.9x8.7mm_P1.27mm                     157.2000  -105.4600  180.0000  top
+U2        PS2501L-1            PS2501L-1                                     151.1900  -101.8100  -90.0000  top
+U3        receiver_433MHz      433MHz_receiver                               149.6800  -113.8600   90.0000  top
+U4        ECS-.327-9-1210-TR   XTAL_ECS-.327-9-1210-TR                       175.5800  -111.1900   90.0000  top
+U5        ECS-480-8-36-RWN-TR  XTAL_ECS-480-8-36-RWN-TR                      176.2600  -107.3725  -90.0000  top
+U6        SN74HCT245PW         TSSOP-20_4.4x6.5mm_P0.65mm                    156.8600  -113.9800  -90.0000  top
+U7        STM32L431RCTx        LQFP-64_10x10mm_P0.5mm                        167.9200  -108.3000  180.0000  top
+U8        LP5907MFX-3.3        SOT-23-5                                      166.3500  -117.3300    0.0000  top
+U9        USB-C-31-M-12        USB_C_Receptacle_HRO_TYPE-C-31-M-12           171.4500  -124.7750    0.0000  top
+U10       XR21B1411            XR21B1411                                     173.3025  -118.2150  180.0000  top
+U11       NCP361               NCP361                                        175.4500  -115.7950    0.0000  top
+## End

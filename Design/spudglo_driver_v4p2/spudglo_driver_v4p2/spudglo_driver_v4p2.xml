@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/Users/spud/Documents/GitHub/spud-hardware/Design/spudglo_driver_v4p2/spudglo_driver_v4p2/spudglo_driver_v4p2.kicad_sch</source>
-    <date>Tuesday, February 14, 2023 at 10:35:31 PM</date>
+    <date>Monday, April 03, 2023 at 08:30:24 PM</date>
     <tool>Eeschema (6.0.10-0)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -233,7 +233,7 @@
     </comp>
     <comp ref="U6">
       <value>PS2501-4</value>
-      <footprint>Package_DIP:DIP-16_W7.62mm_LongPads</footprint>
+      <footprint>srw_custom:PS2501-4XSM</footprint>
       <libsource lib="spudglo_driver_v3p1-rescue" part="PS2501-4-srw_custom" description=""/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="spudglo_driver_v4p2.kicad_sch"/>
@@ -474,6 +474,15 @@
       <sheetpath names="/spudglo_v4p2_micro/" tstamps="/5af74bf5-987c-4d46-98f6-b35b1497740a/"/>
       <tstamps>38b59b59-78d2-4e5b-8cb9-762749e5cf3b</tstamps>
     </comp>
+    <comp ref="J5">
+      <value>Conn_01x02_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="spudglo_v4p2_micro"/>
+      <property name="Sheetfile" value="spudglo_v4p2_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_v4p2_micro/" tstamps="/5af74bf5-987c-4d46-98f6-b35b1497740a/"/>
+      <tstamps>7438c70b-8a8f-4566-b08c-1dd2215ef48a</tstamps>
+    </comp>
     <comp ref="MH1">
       <value>MountingHole_Pad</value>
       <footprint>MountingHole:MountingHole_3mm</footprint>
@@ -491,24 +500,6 @@
       <property name="Sheetfile" value="spudglo_v4p2_micro.kicad_sch"/>
       <sheetpath names="/spudglo_v4p2_micro/" tstamps="/5af74bf5-987c-4d46-98f6-b35b1497740a/"/>
       <tstamps>81bc7e4f-b0bf-408e-8520-5d779f0fc55e</tstamps>
-    </comp>
-    <comp ref="MH3">
-      <value>MountingHole_Pad</value>
-      <footprint>MountingHole:MountingHole_3mm</footprint>
-      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
-      <property name="Sheetname" value="spudglo_v4p2_micro"/>
-      <property name="Sheetfile" value="spudglo_v4p2_micro.kicad_sch"/>
-      <sheetpath names="/spudglo_v4p2_micro/" tstamps="/5af74bf5-987c-4d46-98f6-b35b1497740a/"/>
-      <tstamps>e8594e03-7d6e-4a74-8a55-664d2faab756</tstamps>
-    </comp>
-    <comp ref="MH4">
-      <value>MountingHole_Pad</value>
-      <footprint>MountingHole:MountingHole_3mm</footprint>
-      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
-      <property name="Sheetname" value="spudglo_v4p2_micro"/>
-      <property name="Sheetfile" value="spudglo_v4p2_micro.kicad_sch"/>
-      <sheetpath names="/spudglo_v4p2_micro/" tstamps="/5af74bf5-987c-4d46-98f6-b35b1497740a/"/>
-      <tstamps>1a8efcec-8d90-47a7-9f35-3a7ff2204492</tstamps>
     </comp>
     <comp ref="R14">
       <value>10k</value>
@@ -858,6 +849,22 @@
         <pin num="1" name="" type="passive"/>
         <pin num="2" name="" type="passive"/>
         <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Connector" part="Conn_01x08_Male">
@@ -1310,22 +1317,22 @@
     </net>
     <net code="3" name="/INT_1">
       <node ref="R10" pin="2" pintype="passive"/>
-      <node ref="U2" pin="13" pinfunction="B1" pintype="input"/>
+      <node ref="U2" pin="10" pinfunction="B4" pintype="input"/>
       <node ref="U6" pin="16" pinfunction="Collector_1" pintype="input"/>
     </net>
     <net code="4" name="/INT_2">
       <node ref="R12" pin="2" pintype="passive"/>
-      <node ref="U2" pin="12" pinfunction="B2" pintype="input"/>
+      <node ref="U2" pin="11" pinfunction="B3" pintype="input"/>
       <node ref="U6" pin="14" pinfunction="Collector_2" pintype="input"/>
     </net>
     <net code="5" name="/INT_3">
       <node ref="R13" pin="2" pintype="passive"/>
-      <node ref="U2" pin="11" pinfunction="B3" pintype="input"/>
+      <node ref="U2" pin="12" pinfunction="B2" pintype="input"/>
       <node ref="U6" pin="12" pinfunction="Collector_3" pintype="input"/>
     </net>
     <net code="6" name="/INT_4">
       <node ref="R11" pin="2" pintype="passive"/>
-      <node ref="U2" pin="10" pinfunction="B4" pintype="input"/>
+      <node ref="U2" pin="13" pinfunction="B1" pintype="input"/>
       <node ref="U6" pin="10" pinfunction="Collector_4" pintype="input"/>
     </net>
     <net code="7" name="/OUT_1_N">
@@ -1505,8 +1512,6 @@
       <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="MH1" pin="1" pinfunction="1" pintype="input"/>
       <node ref="MH2" pin="1" pinfunction="1" pintype="input"/>
-      <node ref="MH3" pin="1" pinfunction="1" pintype="input"/>
-      <node ref="MH4" pin="1" pinfunction="1" pintype="input"/>
       <node ref="R15" pin="2" pintype="passive"/>
       <node ref="R17" pin="2" pintype="passive"/>
       <node ref="R2" pin="2" pintype="passive"/>
@@ -1526,6 +1531,7 @@
       <node ref="U12" pin="A12" pinfunction="GND4" pintype="input"/>
       <node ref="U12" pin="B1" pinfunction="GND1" pintype="input"/>
       <node ref="U12" pin="B12" pinfunction="GND3" pintype="input"/>
+      <node ref="U13" pin="11" pinfunction="VBUS_SENSE" pintype="input"/>
       <node ref="U13" pin="13" pinfunction="GND1" pintype="input"/>
       <node ref="U13" pin="EPAD" pinfunction="GND2" pintype="input"/>
       <node ref="U14" pin="1" pinfunction="EN_N" pintype="input"/>
@@ -1674,66 +1680,66 @@
       <node ref="U10" pin="33" pinfunction="PB12" pintype="bidirectional"/>
     </net>
     <net code="66" name="XR_RX">
-      <node ref="U10" pin="58" pinfunction="PB6/USART1_TX" pintype="bidirectional"/>
+      <node ref="U10" pin="9" pinfunction="PC1/LPUART1_TX" pintype="bidirectional"/>
       <node ref="U13" pin="10" pinfunction="RX" pintype="input"/>
     </net>
     <net code="67" name="XR_TX">
-      <node ref="U10" pin="59" pinfunction="PB7/USART1_RX" pintype="bidirectional"/>
+      <node ref="U10" pin="8" pinfunction="PC0/LPUART1_RX" pintype="bidirectional"/>
       <node ref="U13" pin="9" pinfunction="TX" pintype="input"/>
     </net>
-    <net code="68" name="unconnected-(U1-Pad5)">
+    <net code="68" name="unconnected-(J5-Pad1)">
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="69" name="unconnected-(J5-Pad2)">
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="70" name="unconnected-(U1-Pad5)">
       <node ref="U1" pin="5" pinfunction="KEY" pintype="input+no_connect"/>
     </net>
-    <net code="69" name="unconnected-(U2-Pad6)">
+    <net code="71" name="unconnected-(U2-Pad6)">
       <node ref="U2" pin="6" pinfunction="NC1" pintype="input+no_connect"/>
     </net>
-    <net code="70" name="unconnected-(U2-Pad9)">
+    <net code="72" name="unconnected-(U2-Pad9)">
       <node ref="U2" pin="9" pinfunction="NC2" pintype="input+no_connect"/>
     </net>
-    <net code="71" name="unconnected-(U3-Pad5)">
+    <net code="73" name="unconnected-(U3-Pad5)">
       <node ref="U3" pin="5" pinfunction="KEY" pintype="input+no_connect"/>
     </net>
-    <net code="72" name="unconnected-(U4-Pad5)">
+    <net code="74" name="unconnected-(U4-Pad5)">
       <node ref="U4" pin="5" pinfunction="KEY" pintype="input+no_connect"/>
     </net>
-    <net code="73" name="unconnected-(U5-Pad5)">
+    <net code="75" name="unconnected-(U5-Pad5)">
       <node ref="U5" pin="5" pinfunction="KEY" pintype="input+no_connect"/>
     </net>
-    <net code="74" name="unconnected-(U9-Pad2)">
+    <net code="76" name="unconnected-(U9-Pad2)">
       <node ref="U9" pin="2" pinfunction="A1" pintype="input+no_connect"/>
     </net>
-    <net code="75" name="unconnected-(U9-Pad4)">
+    <net code="77" name="unconnected-(U9-Pad4)">
       <node ref="U9" pin="4" pinfunction="A3" pintype="input+no_connect"/>
     </net>
-    <net code="76" name="unconnected-(U9-Pad6)">
+    <net code="78" name="unconnected-(U9-Pad6)">
       <node ref="U9" pin="6" pinfunction="A5" pintype="input+no_connect"/>
     </net>
-    <net code="77" name="unconnected-(U9-Pad8)">
+    <net code="79" name="unconnected-(U9-Pad8)">
       <node ref="U9" pin="8" pinfunction="A7" pintype="input+no_connect"/>
     </net>
-    <net code="78" name="unconnected-(U9-Pad9)">
+    <net code="80" name="unconnected-(U9-Pad9)">
       <node ref="U9" pin="9" pinfunction="A8" pintype="input+no_connect"/>
     </net>
-    <net code="79" name="unconnected-(U9-Pad11)">
+    <net code="81" name="unconnected-(U9-Pad11)">
       <node ref="U9" pin="11" pinfunction="B8" pintype="input+no_connect"/>
     </net>
-    <net code="80" name="unconnected-(U9-Pad12)">
+    <net code="82" name="unconnected-(U9-Pad12)">
       <node ref="U9" pin="12" pinfunction="B7" pintype="input+no_connect"/>
     </net>
-    <net code="81" name="unconnected-(U9-Pad14)">
+    <net code="83" name="unconnected-(U9-Pad14)">
       <node ref="U9" pin="14" pinfunction="B5" pintype="input+no_connect"/>
     </net>
-    <net code="82" name="unconnected-(U9-Pad16)">
+    <net code="84" name="unconnected-(U9-Pad16)">
       <node ref="U9" pin="16" pinfunction="B3" pintype="input+no_connect"/>
     </net>
-    <net code="83" name="unconnected-(U9-Pad18)">
+    <net code="85" name="unconnected-(U9-Pad18)">
       <node ref="U9" pin="18" pinfunction="B1" pintype="input+no_connect"/>
-    </net>
-    <net code="84" name="unconnected-(U10-Pad8)">
-      <node ref="U10" pin="8" pinfunction="PC0/LPUART1_RX" pintype="bidirectional+no_connect"/>
-    </net>
-    <net code="85" name="unconnected-(U10-Pad9)">
-      <node ref="U10" pin="9" pinfunction="PC1/LPUART1_TX" pintype="bidirectional+no_connect"/>
     </net>
     <net code="86" name="unconnected-(U10-Pad10)">
       <node ref="U10" pin="10" pinfunction="PC2/SPI2_MISO" pintype="bidirectional+no_connect"/>
@@ -1786,34 +1792,37 @@
     <net code="102" name="unconnected-(U10-Pad57)">
       <node ref="U10" pin="57" pinfunction="PB5/SPI1_MOSI/SPI3_MOSI" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="103" name="unconnected-(U10-Pad61)">
+    <net code="103" name="unconnected-(U10-Pad58)">
+      <node ref="U10" pin="58" pinfunction="PB6/USART1_TX" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="104" name="unconnected-(U10-Pad59)">
+      <node ref="U10" pin="59" pinfunction="PB7/USART1_RX" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="105" name="unconnected-(U10-Pad61)">
       <node ref="U10" pin="61" pinfunction="PB8/I2C1_SCL/TIM16_CH1" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="104" name="unconnected-(U10-Pad62)">
+    <net code="106" name="unconnected-(U10-Pad62)">
       <node ref="U10" pin="62" pinfunction="PB9/I2C1_SDA/SPI2_NSS" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="105" name="unconnected-(U11-Pad4)">
+    <net code="107" name="unconnected-(U11-Pad4)">
       <node ref="U11" pin="4" pinfunction="NC" pintype="no_connect"/>
     </net>
-    <net code="106" name="unconnected-(U12-PadA8)">
+    <net code="108" name="unconnected-(U12-PadA8)">
       <node ref="U12" pin="A8" pinfunction="SBU1" pintype="input+no_connect"/>
     </net>
-    <net code="107" name="unconnected-(U12-PadB8)">
+    <net code="109" name="unconnected-(U12-PadB8)">
       <node ref="U12" pin="B8" pinfunction="SBU2" pintype="input+no_connect"/>
     </net>
-    <net code="108" name="unconnected-(U13-Pad2)">
+    <net code="110" name="unconnected-(U13-Pad2)">
       <node ref="U13" pin="2" pinfunction="NC" pintype="input+no_connect"/>
     </net>
-    <net code="109" name="unconnected-(U13-Pad3)">
+    <net code="111" name="unconnected-(U13-Pad3)">
       <node ref="U13" pin="3" pinfunction="GPIO5" pintype="input+no_connect"/>
     </net>
-    <net code="110" name="unconnected-(U13-Pad4)">
+    <net code="112" name="unconnected-(U13-Pad4)">
       <node ref="U13" pin="4" pinfunction="GPIO4" pintype="input+no_connect"/>
     </net>
-    <net code="111" name="unconnected-(U13-Pad11)">
-      <node ref="U13" pin="11" pinfunction="VBUS_SENSE" pintype="input+no_connect"/>
-    </net>
-    <net code="112" name="unconnected-(U14-Pad6)">
+    <net code="113" name="unconnected-(U14-Pad6)">
       <node ref="U14" pin="6" pinfunction="FLAG_N" pintype="input+no_connect"/>
     </net>
   </nets>

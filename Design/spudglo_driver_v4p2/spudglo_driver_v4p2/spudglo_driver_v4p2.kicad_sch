@@ -1065,7 +1065,7 @@
     (uuid fed4bde6-80d5-466d-80f9-06cb4a4c34ce)
   )
 
-  (label "INT_2" (at 90.17 123.19 0)
+  (label "INT_3" (at 90.17 123.19 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 16174597-2b5b-447d-b18b-b966cfee4f9f)
   )
@@ -1097,7 +1097,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 3881297f-4fc6-47a8-b37f-7eb8fa93fa12)
   )
-  (label "INT_1" (at 90.17 120.65 0)
+  (label "INT_4" (at 90.17 120.65 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 399b234b-45fd-4904-a468-179859c1b215)
   )
@@ -1105,7 +1105,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 47c1b679-2301-41f3-b394-f939a99fb90e)
   )
-  (label "INT_3" (at 90.17 125.73 0)
+  (label "INT_2" (at 90.17 125.73 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 4903dad6-9815-4d82-bdea-d5de8406f488)
   )
@@ -1121,7 +1121,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 70566cdb-5bdd-40f0-8ced-8e0669ba3a10)
   )
-  (label "INT_4" (at 90.17 128.27 0)
+  (label "INT_1" (at 90.17 128.27 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 7f1934fe-4692-4661-afe8-546fca9093a8)
   )
@@ -1342,7 +1342,7 @@
     (uuid 314b6d97-8942-4f04-b778-5e452d16f1c6)
     (property "Reference" "U6" (id 0) (at 207.645 112.649 0))
     (property "Value" "PS2501-4" (id 1) (at 207.645 114.9604 0))
-    (property "Footprint" "Package_DIP:DIP-16_W7.62mm_LongPads" (id 2) (at 194.31 114.3 0)
+    (property "Footprint" "srw_custom:PS2501-4XSM" (id 2) (at 194.31 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 194.31 114.3 0)
@@ -2194,17 +2194,14 @@
     (path "/5af74bf5-987c-4d46-98f6-b35b1497740a/38b59b59-78d2-4e5b-8cb9-762749e5cf3b"
       (reference "J4") (unit 1) (value "Conn_01x08_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical")
     )
+    (path "/5af74bf5-987c-4d46-98f6-b35b1497740a/7438c70b-8a8f-4566-b08c-1dd2215ef48a"
+      (reference "J5") (unit 1) (value "Conn_01x02_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+    )
     (path "/5af74bf5-987c-4d46-98f6-b35b1497740a/295cc4b7-6c68-450f-8cf9-bf7a423e9350"
       (reference "MH1") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_3mm")
     )
     (path "/5af74bf5-987c-4d46-98f6-b35b1497740a/81bc7e4f-b0bf-408e-8520-5d779f0fc55e"
       (reference "MH2") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_3mm")
-    )
-    (path "/5af74bf5-987c-4d46-98f6-b35b1497740a/e8594e03-7d6e-4a74-8a55-664d2faab756"
-      (reference "MH3") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_3mm")
-    )
-    (path "/5af74bf5-987c-4d46-98f6-b35b1497740a/1a8efcec-8d90-47a7-9f35-3a7ff2204492"
-      (reference "MH4") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_3mm")
     )
     (path "/bc7bb465-968b-4df0-91f2-2cdf51749f16"
       (reference "R1") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
@@ -2330,7 +2327,7 @@
       (reference "U5") (unit 1) (value "receiver_433MHz") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical")
     )
     (path "/314b6d97-8942-4f04-b778-5e452d16f1c6"
-      (reference "U6") (unit 1) (value "PS2501-4") (footprint "Package_DIP:DIP-16_W7.62mm_LongPads")
+      (reference "U6") (unit 1) (value "PS2501-4") (footprint "srw_custom:PS2501-4XSM")
     )
     (path "/5af74bf5-987c-4d46-98f6-b35b1497740a/75f32061-e5ce-46df-82c2-a58776da8ca7"
       (reference "U7") (unit 1) (value "ECS-.327-9-1210-TR") (footprint "ECS-:XTAL_ECS-.327-9-1210-TR")
