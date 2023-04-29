@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name "spudglo_driver_v3p1-rescue")(type "Legacy")(uri "${KIPRJMOD}/spudglo_driver_v3p1-rescue.lib")(options "")(descr ""))
   (lib (name "spudglo_driver_v3p1_micro-rescue")(type "Legacy")(uri "${KIPRJMOD}/spudglo_driver_v3p1_micro-rescue.lib")(options "")(descr ""))
+  (lib (name "spudglo_driver_v4p1_micro-rescue")(type "Legacy")(uri "${KIPRJMOD}/spudglo_driver_v4p1_micro-rescue.lib")(options "")(descr ""))
 )
