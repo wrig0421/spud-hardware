@@ -98,63 +98,6 @@
         )
       )
     )
-    (symbol "Connector:Conn_01x02_Male" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "J" (at 0 2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "Conn_01x02_Male" (at 0 -5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "connector" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "Connector*:*_1x??_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Conn_01x02_Male_1_1"
-        (polyline
-          (pts
-            (xy 1.27 -2.54)
-            (xy 0.8636 -2.54)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 0)
-            (xy 0.8636 0)
-          )
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start 0.8636 -2.413) (end 0 -2.667)
-          (stroke (width 0.1524) (type default))
-          (fill (type outline))
-        )
-        (rectangle (start 0.8636 0.127) (end 0 -0.127)
-          (stroke (width 0.1524) (type default))
-          (fill (type outline))
-        )
-        (pin passive line (at 5.08 0 180) (length 3.81)
-          (name "Pin_1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 5.08 -2.54 180) (length 3.81)
-          (name "Pin_2" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "Connector:Conn_01x08_Male" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 0 10.16 0)
         (effects (font (size 1.27 1.27)))
@@ -375,6 +318,89 @@
         )
         (pin passive line (at 3.81 0 180) (length 1.27)
           (name "2" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "Device:LED" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "D" (at 0 2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "LED" (at 0 -2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "LED diode" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Light emitting diode" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "LED_0_1"
+        (polyline
+          (pts
+            (xy -1.27 -1.27)
+            (xy -1.27 1.27)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.27 0)
+            (xy 1.27 0)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 -1.27)
+            (xy 1.27 1.27)
+            (xy -1.27 0)
+            (xy 1.27 -1.27)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -3.048 -0.762)
+            (xy -4.572 -2.286)
+            (xy -3.81 -2.286)
+            (xy -4.572 -2.286)
+            (xy -4.572 -1.524)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.778 -0.762)
+            (xy -3.302 -2.286)
+            (xy -2.54 -2.286)
+            (xy -3.302 -2.286)
+            (xy -3.302 -1.524)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "LED_1_1"
+        (pin passive line (at -3.81 0 0) (length 2.54)
+          (name "K" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 3.81 0 180) (length 2.54)
+          (name "A" (effects (font (size 1.27 1.27))))
           (number "2" (effects (font (size 1.27 1.27))))
         )
       )
@@ -1567,6 +1593,9 @@
   (junction (at 184.15 134.62) (diameter 0) (color 0 0 0 0)
     (uuid 30a4cf80-39d1-4d50-9695-0a7791d5c6d3)
   )
+  (junction (at 147.32 22.86) (diameter 0) (color 0 0 0 0)
+    (uuid 3658f08f-00d3-45de-b1ac-4ed60691689c)
+  )
   (junction (at 274.32 44.45) (diameter 0) (color 0 0 0 0)
     (uuid 4532087a-243b-4872-9582-6e2c24ccd755)
   )
@@ -1575,9 +1604,6 @@
   )
   (junction (at 205.74 147.32) (diameter 0) (color 0 0 0 0)
     (uuid 4a73f4a4-1b0c-4d21-a0ca-4fdae560549f)
-  )
-  (junction (at 223.52 138.43) (diameter 0) (color 0 0 0 0)
-    (uuid 4d53782f-4b8d-46fa-9111-27abec3180f1)
   )
   (junction (at 274.32 29.21) (diameter 0) (color 0 0 0 0)
     (uuid 4d738ee8-1c6c-4d50-86f2-e66df42578ff)
@@ -1590,6 +1616,9 @@
   )
   (junction (at 101.6 39.37) (diameter 0) (color 0 0 0 0)
     (uuid 4fd8ec03-c677-426b-854a-7f8bb17f6de7)
+  )
+  (junction (at 171.45 40.64) (diameter 0) (color 0 0 0 0)
+    (uuid 55dd68d4-eb22-41bc-83b6-a88a52932181)
   )
   (junction (at 44.45 143.51) (diameter 0) (color 0 0 0 0)
     (uuid 58c94043-9888-4966-bde7-372538d8e854)
@@ -1681,6 +1710,9 @@
   (junction (at 93.98 21.59) (diameter 0) (color 0 0 0 0)
     (uuid b99fdd66-ccc2-47b6-96e1-65470c0cf4fb)
   )
+  (junction (at 163.83 38.1) (diameter 0) (color 0 0 0 0)
+    (uuid c29aef41-ed0c-438c-9e13-1745d6202a24)
+  )
   (junction (at 194.31 21.59) (diameter 0) (color 0 0 0 0)
     (uuid c2b23b86-6916-4c1e-8ebd-b12398b9b8a5)
   )
@@ -1739,7 +1771,6 @@
     (uuid fd739cc5-554f-4b07-8903-435a1aea9186)
   )
 
-  (no_connect (at 68.58 64.77) (uuid 006465bc-8449-414e-8ce2-19a9748dbd21))
   (no_connect (at 143.51 88.9) (uuid 017185be-0566-4c24-b16d-c605179928f4))
   (no_connect (at 68.58 69.85) (uuid 01db9c98-989f-45ba-909e-b337e8d1676e))
   (no_connect (at 60.96 176.53) (uuid 05d8d26c-a6b0-4a3e-a4d8-a1c1603067be))
@@ -1751,7 +1782,6 @@
   (no_connect (at 143.51 86.36) (uuid 3d314b52-0c44-47ba-a6a8-16b0a04e61e7))
   (no_connect (at 143.51 119.38) (uuid 3f2c1892-30d3-4871-8e12-11b1d31b9969))
   (no_connect (at 41.91 173.99) (uuid 4e4438e3-c77a-482c-9d8a-b5bd8c2f99d0))
-  (no_connect (at 68.58 67.31) (uuid 54c2efcb-6663-48c6-8aab-c460c25b6178))
   (no_connect (at 143.51 57.15) (uuid 650709ff-6a7a-4555-bdf5-94d838200ef9))
   (no_connect (at 143.51 96.52) (uuid 69fbb13f-1fbc-49f3-a793-f3a71622daec))
   (no_connect (at 41.91 168.91) (uuid 6ef0c834-4e13-4ead-afe4-548733cf4926))
@@ -1768,11 +1798,9 @@
   (no_connect (at 143.51 116.84) (uuid abce0d27-1a6e-4c16-9217-9b7c7e13b017))
   (no_connect (at 68.58 85.09) (uuid bcb970f9-fbce-41ab-bc43-5f48a1a60272))
   (no_connect (at 68.58 90.17) (uuid c6e82c32-1335-4958-86cb-787031a46c1c))
-  (no_connect (at 175.26 34.29) (uuid c7691977-fa95-4c08-a2ef-9843e302592b))
   (no_connect (at 143.51 93.98) (uuid ca0cd6c7-9abc-4a68-8612-4f81a810ccf0))
   (no_connect (at 208.28 95.25) (uuid cfee535b-25ec-49de-ad61-6db7a0437b7b))
   (no_connect (at 60.96 168.91) (uuid d1e34a24-27c4-4c8c-a6b6-f18e129fe6aa))
-  (no_connect (at 175.26 31.75) (uuid e9981bc4-67b8-4f56-a2a8-e49b65fbc925))
   (no_connect (at 143.51 104.14) (uuid ecc05bb3-7b6c-4317-8743-a9fce36e7644))
   (no_connect (at 60.96 173.99) (uuid ee728930-268b-47f6-9fa2-826cbcd23e77))
   (no_connect (at 60.96 163.83) (uuid f9816db3-0ef2-4df9-b778-2cf646b9fe83))
@@ -1792,6 +1820,10 @@
   (wire (pts (xy 165.1 120.65) (xy 165.1 127))
     (stroke (width 0) (type default))
     (uuid 01d72359-9424-4a07-a2e2-14cd769179b9)
+  )
+  (wire (pts (xy 231.14 154.94) (xy 232.41 154.94))
+    (stroke (width 0) (type default))
+    (uuid 02cc7a45-8610-46cf-827d-2cb3c5dfe037)
   )
   (wire (pts (xy 26.67 27.94) (xy 26.67 26.67))
     (stroke (width 0) (type default))
@@ -1933,6 +1965,10 @@
     (stroke (width 0) (type default))
     (uuid 1f218b9f-3900-43a3-849e-6dfc7c62f94f)
   )
+  (wire (pts (xy 240.03 143.51) (xy 241.3 143.51))
+    (stroke (width 0) (type default))
+    (uuid 1f6f49a7-7a03-44dc-843b-f9e6a55b919c)
+  )
   (wire (pts (xy 259.08 24.13) (xy 259.08 25.4))
     (stroke (width 0) (type default))
     (uuid 2079806c-1211-45e7-ba0d-9187eb991f6d)
@@ -1941,13 +1977,17 @@
     (stroke (width 0) (type default))
     (uuid 21dd1565-33cb-4d9b-90e5-05e4b58240e2)
   )
-  (wire (pts (xy 234.95 95.25) (xy 234.95 93.98))
+  (wire (pts (xy 237.49 95.25) (xy 237.49 93.98))
     (stroke (width 0) (type default))
     (uuid 225b32e9-43a0-43ad-ad0d-7f340cbbc2eb)
   )
   (wire (pts (xy 151.13 151.13) (xy 156.21 151.13))
     (stroke (width 0) (type default))
     (uuid 23187511-e1cf-4f02-8855-88df30cd94d2)
+  )
+  (wire (pts (xy 241.3 143.51) (xy 241.3 144.78))
+    (stroke (width 0) (type default))
+    (uuid 235490de-2029-4a62-82af-f38ff9bafac6)
   )
   (wire (pts (xy 275.59 34.29) (xy 275.59 41.91))
     (stroke (width 0) (type default))
@@ -2001,6 +2041,10 @@
     (stroke (width 0) (type default))
     (uuid 2b400a37-462a-437f-8bda-f577de58b364)
   )
+  (wire (pts (xy 231.14 143.51) (xy 232.41 143.51))
+    (stroke (width 0) (type default))
+    (uuid 2bcd7629-206b-476e-b406-de1d85cd7033)
+  )
   (wire (pts (xy 232.41 83.82) (xy 237.49 83.82))
     (stroke (width 0) (type default))
     (uuid 2be3538b-eed7-4b56-9c5b-f261bbf65789)
@@ -2020,10 +2064,6 @@
   (wire (pts (xy 129.54 162.56) (xy 129.54 163.83))
     (stroke (width 0) (type default))
     (uuid 2cf5b217-d2c8-4baf-bfec-436101ce7d61)
-  )
-  (wire (pts (xy 213.36 139.7) (xy 212.09 139.7))
-    (stroke (width 0) (type default))
-    (uuid 2d51f610-dc06-4a69-8610-4c36be8b0cc4)
   )
   (wire (pts (xy 275.59 49.53) (xy 276.86 49.53))
     (stroke (width 0) (type default))
@@ -2080,6 +2120,10 @@
   (wire (pts (xy 218.44 55.88) (xy 218.44 67.31))
     (stroke (width 0) (type default))
     (uuid 36536caf-2e62-4655-b040-139985e68ee0)
+  )
+  (wire (pts (xy 241.3 154.94) (xy 241.3 156.21))
+    (stroke (width 0) (type default))
+    (uuid 36f4ac57-da6a-46bd-b600-710b88db8741)
   )
   (wire (pts (xy 111.76 21.59) (xy 111.76 24.13))
     (stroke (width 0) (type default))
@@ -2177,6 +2221,10 @@
     (stroke (width 0) (type default))
     (uuid 4abae68e-665b-4543-b750-52eaa01bc6f6)
   )
+  (wire (pts (xy 135.89 22.86) (xy 147.32 22.86))
+    (stroke (width 0) (type default))
+    (uuid 4aece2f4-f07b-4b89-b321-8e1e1839f07e)
+  )
   (wire (pts (xy 182.88 154.94) (xy 182.88 156.21))
     (stroke (width 0) (type default))
     (uuid 4bc7ae3c-f6de-4d97-84af-d4565c7d1132)
@@ -2189,9 +2237,17 @@
     (stroke (width 0) (type default))
     (uuid 4c76d25b-f1cc-43a8-88e2-454e4d13d9ac)
   )
+  (wire (pts (xy 240.03 154.94) (xy 241.3 154.94))
+    (stroke (width 0) (type default))
+    (uuid 4c878def-b241-4baa-b1e2-088a8adc4ef8)
+  )
   (wire (pts (xy 232.41 38.1) (xy 231.14 38.1))
     (stroke (width 0) (type default))
     (uuid 4d19c89a-3576-4d4e-9916-0152e02298bd)
+  )
+  (wire (pts (xy 222.25 143.51) (xy 223.52 143.51))
+    (stroke (width 0) (type default))
+    (uuid 4d49526a-49e4-471c-a721-b5b4017ce51a)
   )
   (wire (pts (xy 143.51 124.46) (xy 158.75 124.46))
     (stroke (width 0) (type default))
@@ -2204,6 +2260,10 @@
   (wire (pts (xy 135.89 172.72) (xy 135.89 171.45))
     (stroke (width 0) (type default))
     (uuid 4eab389b-68c0-4306-9111-ba67d6674a70)
+  )
+  (wire (pts (xy 173.99 31.75) (xy 173.99 30.48))
+    (stroke (width 0) (type default))
+    (uuid 4f3a0fbb-7ddd-47d8-93ff-4e81e1113bc8)
   )
   (wire (pts (xy 58.42 124.46) (xy 54.61 124.46))
     (stroke (width 0) (type default))
@@ -2265,6 +2325,14 @@
     (stroke (width 0) (type default))
     (uuid 58ac906c-25b8-4d5d-adb6-11d07ce28adf)
   )
+  (wire (pts (xy 57.15 67.31) (xy 68.58 67.31))
+    (stroke (width 0) (type default))
+    (uuid 597ef7ad-8242-479f-94cb-9d3ffb1c1d68)
+  )
+  (wire (pts (xy 135.89 21.59) (xy 135.89 22.86))
+    (stroke (width 0) (type default))
+    (uuid 5ac6908f-2988-476f-bb83-0bb357db8a63)
+  )
   (wire (pts (xy 96.52 144.78) (xy 96.52 143.51))
     (stroke (width 0) (type default))
     (uuid 5b5e06b4-72d1-410a-aae4-2487102d0ef9)
@@ -2277,6 +2345,10 @@
     (stroke (width 0) (type default))
     (uuid 5c10dc77-f1a4-4ec8-b287-e154d8fe6028)
   )
+  (wire (pts (xy 158.75 22.86) (xy 147.32 22.86))
+    (stroke (width 0) (type default))
+    (uuid 5c1a1589-a180-4de8-9c92-2777269678b0)
+  )
   (wire (pts (xy 50.8 151.13) (xy 50.8 149.86))
     (stroke (width 0) (type default))
     (uuid 5e0ba71d-c9cf-4e9e-b9f9-259f8fbecb4f)
@@ -2284,6 +2356,14 @@
   (wire (pts (xy 15.24 124.46) (xy 15.24 127))
     (stroke (width 0) (type default))
     (uuid 5e814ce4-b215-4a7c-a042-d2ab0006fbfc)
+  )
+  (wire (pts (xy 222.25 154.94) (xy 223.52 154.94))
+    (stroke (width 0) (type default))
+    (uuid 5ecb7494-793c-48a5-94be-a62141515c07)
+  )
+  (wire (pts (xy 57.15 64.77) (xy 68.58 64.77))
+    (stroke (width 0) (type default))
+    (uuid 600c012d-91b8-4b9b-8fa9-2a67ebbc06fb)
   )
   (wire (pts (xy 63.5 21.59) (xy 63.5 17.78))
     (stroke (width 0) (type default))
@@ -2300,10 +2380,6 @@
   (wire (pts (xy 259.08 17.78) (xy 255.27 17.78))
     (stroke (width 0) (type default))
     (uuid 635de585-c721-482d-9cad-645db5d3b543)
-  )
-  (wire (pts (xy 213.36 138.43) (xy 213.36 139.7))
-    (stroke (width 0) (type default))
-    (uuid 6392aeab-3905-428f-a4f7-54c5f956788e)
   )
   (wire (pts (xy 143.51 62.23) (xy 146.05 62.23))
     (stroke (width 0) (type default))
@@ -2328,6 +2404,10 @@
   (wire (pts (xy 99.06 144.78) (xy 101.6 144.78))
     (stroke (width 0) (type default))
     (uuid 669d641e-6cb4-44ff-8120-2eeebfeefba2)
+  )
+  (wire (pts (xy 158.75 21.59) (xy 158.75 22.86))
+    (stroke (width 0) (type default))
+    (uuid 67072432-a891-4ae2-9c41-8c4269c452b2)
   )
   (wire (pts (xy 171.45 110.49) (xy 171.45 113.03))
     (stroke (width 0) (type default))
@@ -2461,7 +2541,7 @@
     (stroke (width 0) (type default))
     (uuid 7dccce21-bf64-4e67-b626-54ae130ce418)
   )
-  (wire (pts (xy 234.95 102.87) (xy 234.95 104.14))
+  (wire (pts (xy 237.49 102.87) (xy 237.49 104.14))
     (stroke (width 0) (type default))
     (uuid 7f431114-b79f-4457-b3be-fb4836998ea3)
   )
@@ -2561,10 +2641,6 @@
     (stroke (width 0) (type default))
     (uuid 8e4aeaf8-4544-43a2-a749-9ff90a072e44)
   )
-  (wire (pts (xy 223.52 138.43) (xy 223.52 139.7))
-    (stroke (width 0) (type default))
-    (uuid 8e7774ca-e9ee-44c5-99fe-a1e1e9d46da3)
-  )
   (wire (pts (xy 224.79 38.1) (xy 228.6 38.1))
     (stroke (width 0) (type default))
     (uuid 8ea5b3de-0f95-4627-9a3c-7e7cc68ffb03)
@@ -2624,10 +2700,6 @@
   (wire (pts (xy 35.56 95.25) (xy 35.56 93.98))
     (stroke (width 0) (type default))
     (uuid 9719d2cc-815e-46a4-afdb-965a690fb0d2)
-  )
-  (wire (pts (xy 223.52 138.43) (xy 213.36 138.43))
-    (stroke (width 0) (type default))
-    (uuid 97ff46ca-e8b6-43c9-aa1d-ba29d17455ff)
   )
   (wire (pts (xy 182.88 149.86) (xy 181.61 149.86))
     (stroke (width 0) (type default))
@@ -2717,9 +2789,9 @@
     (stroke (width 0) (type default))
     (uuid ac3fde8f-8278-482f-b2dd-652c0f88d407)
   )
-  (wire (pts (xy 234.95 138.43) (xy 223.52 138.43))
+  (wire (pts (xy 175.26 31.75) (xy 173.99 31.75))
     (stroke (width 0) (type default))
-    (uuid ad89648e-4074-4098-8df2-9f0ec782dadc)
+    (uuid ae3d164d-47df-42ad-8ced-8805597f6d7f)
   )
   (wire (pts (xy 106.68 41.91) (xy 106.68 39.37))
     (stroke (width 0) (type default))
@@ -2885,10 +2957,6 @@
     (stroke (width 0) (type default))
     (uuid c3b7b705-def8-4496-b5a5-b22964aae2eb)
   )
-  (wire (pts (xy 234.95 137.16) (xy 234.95 138.43))
-    (stroke (width 0) (type default))
-    (uuid c492bcf2-4a92-4d94-8a3f-9f423c74955f)
-  )
   (wire (pts (xy 58.42 133.35) (xy 58.42 132.08))
     (stroke (width 0) (type default))
     (uuid c4fbe65b-309e-40a4-aa17-05a558b3e6ba)
@@ -2904,6 +2972,10 @@
   (wire (pts (xy 232.41 34.29) (xy 232.41 38.1))
     (stroke (width 0) (type default))
     (uuid c5f1b660-d100-4340-9470-50deb3ff1e69)
+  )
+  (wire (pts (xy 147.32 22.86) (xy 147.32 24.13))
+    (stroke (width 0) (type default))
+    (uuid c640aa7c-8f35-4b6e-98bf-5fae078c597e)
   )
   (wire (pts (xy 270.51 39.37) (xy 276.86 39.37))
     (stroke (width 0) (type default))
@@ -2936,6 +3008,10 @@
   (wire (pts (xy 171.45 40.64) (xy 175.26 40.64))
     (stroke (width 0) (type default))
     (uuid d034eaa6-1b7d-432e-ad0a-b2aff5167001)
+  )
+  (wire (pts (xy 162.56 38.1) (xy 163.83 38.1))
+    (stroke (width 0) (type default))
+    (uuid d048d5ca-b43d-406d-9f1e-49dedcf044d0)
   )
   (wire (pts (xy 24.13 153.67) (xy 24.13 152.4))
     (stroke (width 0) (type default))
@@ -2996,6 +3072,10 @@
   (wire (pts (xy 110.49 171.45) (xy 104.14 171.45))
     (stroke (width 0) (type default))
     (uuid d9c9affa-02e4-434b-8062-f7f1e926587b)
+  )
+  (wire (pts (xy 171.45 34.29) (xy 175.26 34.29))
+    (stroke (width 0) (type default))
+    (uuid da87c6f7-ce89-43bf-be0d-b092fd081896)
   )
   (wire (pts (xy 55.88 132.08) (xy 58.42 132.08))
     (stroke (width 0) (type default))
@@ -3065,7 +3145,7 @@
     (stroke (width 0) (type default))
     (uuid e242221f-b257-415f-b5f2-1892a076e061)
   )
-  (wire (pts (xy 234.95 93.98) (xy 232.41 93.98))
+  (wire (pts (xy 237.49 93.98) (xy 232.41 93.98))
     (stroke (width 0) (type default))
     (uuid e30f7faa-fcfe-4b5d-8183-34379e0cc41c)
   )
@@ -3108,6 +3188,10 @@
   (wire (pts (xy 151.13 194.31) (xy 156.21 194.31))
     (stroke (width 0) (type default))
     (uuid ecccbee8-0338-4ed4-980d-95fcada9ad13)
+  )
+  (wire (pts (xy 162.56 40.64) (xy 171.45 40.64))
+    (stroke (width 0) (type default))
+    (uuid ef7deed9-5b7b-4efe-b180-7ad977f6f467)
   )
   (wire (pts (xy 193.04 97.79) (xy 195.58 97.79))
     (stroke (width 0) (type default))
@@ -3189,10 +3273,6 @@
     (stroke (width 0) (type default))
     (uuid fd9fb808-25c1-424a-a4fd-9a8a47827d0e)
   )
-  (wire (pts (xy 212.09 138.43) (xy 212.09 139.7))
-    (stroke (width 0) (type default))
-    (uuid fdea519c-1e00-473f-8c46-91168e8cda60)
-  )
   (wire (pts (xy 191.77 50.8) (xy 191.77 52.07))
     (stroke (width 0) (type default))
     (uuid fe31f4fb-1468-457d-955e-f82f75ba2a36)
@@ -3254,6 +3334,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 4cc6d3f7-acd4-40e5-a6b3-8018497cf174)
   )
+  (label "NRST" (at 171.45 34.29 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 51e89d6d-3866-4f99-8112-e82a275382c6)
+  )
   (label "SPI1_NSS" (at 146.05 59.69 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 53c084fa-0261-486e-b795-a862dbb1891f)
@@ -3270,9 +3354,17 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 68e88427-5ab3-4797-bfc3-d4ef235681df)
   )
+  (label "RED_LED" (at 57.15 67.31 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 696d28c9-2f7a-49da-885c-233b0189ca56)
+  )
   (label "NJTRST" (at 190.5 134.62 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 7839ec92-f3a3-4deb-96c1-c6e720d4bdbb)
+  )
+  (label "GREEN_LED" (at 57.15 64.77 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 7bf12f1c-d7cc-4acf-8658-aee0262d3624)
   )
   (label "OSC48_HI" (at 54.61 121.92 90) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -3298,6 +3390,10 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 93af6e38-4666-45d0-b1c5-f92db1116304)
   )
+  (label "GREEN_LED" (at 222.25 143.51 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 93e7158c-9bd3-4e03-b705-34c7d37186e1)
+  )
   (label "OSC48_LO" (at 16.51 121.92 90) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 96d20838-9d80-4332-8940-3f3544c194c4)
@@ -3317,6 +3413,10 @@
   (label "TIM1_CH2" (at 146.05 72.39 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a16b65e9-1103-4c4b-9208-94cb37dcfb63)
+  )
+  (label "SWCLK" (at 162.56 38.1 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid a1898ff6-5e02-457a-bcd8-0c77d33a1c51)
   )
   (label "SWCLK" (at 190.5 127 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -3346,6 +3446,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b0746fc2-43e1-4706-b10b-49026ade88dc)
   )
+  (label "RED_LED" (at 222.25 154.94 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid b8d1c68c-90cc-4c12-b61b-9fe52704eb95)
+  )
   (label "LVL_EN" (at 66.04 77.47 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid bb8f9faa-bb67-480c-bdc4-f3fb658122f3)
@@ -3353,6 +3457,10 @@
   (label "SPI1_NSS" (at 171.45 69.85 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid bf6709e6-a994-46ff-8e2e-116c777d38cf)
+  )
+  (label "SWDIO" (at 162.56 40.64 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid c432a283-4cca-4b40-9ca1-92d792b88a07)
   )
   (label "DISP_RST" (at 151.13 158.75 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
@@ -3582,8 +3690,13 @@
     )
     (pin "1" (uuid 9be0033d-bdaa-44f8-ae48-2798d1d5c8a8))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "#PWR0132") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "#PWR0132") (unit 1)
         )
       )
@@ -3607,8 +3720,13 @@
     )
     (pin "1" (uuid d7c66a60-cc8b-46f0-9358-97e25ee5aadb))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "#PWR0133") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "#PWR0133") (unit 1)
         )
       )
@@ -3632,9 +3750,40 @@
     )
     (pin "1" (uuid 8b6c44f1-6d22-4c59-8ae0-1171abaccb53))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
           (reference "#PWR0117") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
+          (reference "#PWR0117") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:LED") (at 227.33 154.94 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 0535ce8a-73c1-414d-b825-d1a46321319c)
+    (property "Reference" "D3" (at 228.9175 148.59 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "RED_LED" (at 228.9175 151.13 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder" (at 227.33 154.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "16-213/SDRC/S530-A3/TR8 (https://jlcpcb.com/partdetail/EverlightElec-16_213_SDRC_S530_A3TR8/C71911)" (at 227.33 154.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f11663ff-40c0-4e5c-aaa4-6f6c63de4181))
+    (pin "2" (uuid 81305172-9c53-474e-8df4-2ebe03e35364))
+    (instances
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
+          (reference "D3") (unit 1)
         )
       )
     )
@@ -3720,8 +3869,13 @@
     (pin "8" (uuid f7947a50-3dcf-4129-8068-432820d11177))
     (pin "9" (uuid b99349bc-0587-40b1-9f1d-89b85e3586dc))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "U10") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "U10") (unit 1)
         )
       )
@@ -3746,8 +3900,13 @@
     (pin "1" (uuid ac584048-ae5d-4f3b-ad97-342b911992fb))
     (pin "2" (uuid 65fc9ae2-c5b1-42e8-85d5-83d31eeca721))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "R14") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "R14") (unit 1)
         )
       )
@@ -3772,8 +3931,13 @@
     (pin "1" (uuid ff406447-a214-49b4-8510-dce8e8c76a77))
     (pin "2" (uuid e6831d3d-0471-439c-b05c-fedae98e30b6))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "R20") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "R20") (unit 1)
         )
       )
@@ -3798,8 +3962,13 @@
     (pin "1" (uuid 1170d9e7-886a-421e-8a8f-e0768257c923))
     (pin "2" (uuid b8451dfa-882a-4a9a-8c59-20be76083f4e))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "C9") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "C9") (unit 1)
         )
       )
@@ -3824,8 +3993,13 @@
     (pin "1" (uuid 95c1fac0-a55f-4463-88ab-d708f572bb96))
     (pin "2" (uuid 9906954e-08ad-4598-91b2-4442d3305ac6))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "R34") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "R34") (unit 1)
         )
       )
@@ -3864,8 +4038,13 @@
     (pin "B8" (uuid 0a30636c-1577-41ac-aaf7-95dc98004a4b))
     (pin "B9" (uuid 62fd922b-0cd7-46a3-b3a9-4e917b4fc3de))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "U12") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "U12") (unit 1)
         )
       )
@@ -3889,8 +4068,13 @@
     )
     (pin "1" (uuid 1e83c1c5-a3c6-419c-85f9-72cd24b014cc))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "#PWR0145") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "#PWR0145") (unit 1)
         )
       )
@@ -3915,8 +4099,13 @@
     (pin "1" (uuid 9ea89b18-5396-4b7c-8700-5732782fc7c4))
     (pin "2" (uuid a7d8b350-ca9a-4dae-b837-19fed618c86b))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "C14") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "C14") (unit 1)
         )
       )
@@ -3941,8 +4130,13 @@
     (pin "1" (uuid 067311aa-8f05-45f9-ada4-dce8b4431067))
     (pin "2" (uuid 49d456bf-69e1-4ce5-9b98-fa2d363bfc2f))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "R29") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "R29") (unit 1)
         )
       )
@@ -3966,8 +4160,13 @@
     )
     (pin "1" (uuid 1427d872-3f76-415f-93c7-156942547ab7))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "#PWR014") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "#PWR014") (unit 1)
         )
       )
@@ -3991,8 +4190,13 @@
     )
     (pin "1" (uuid ab8698e0-5af2-4e34-95b3-0957a06d8c3f))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "#PWR0128") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "#PWR0128") (unit 1)
         )
       )
@@ -4017,34 +4221,14 @@
     (pin "1" (uuid 77df666f-48fe-463e-b4eb-547302aa85a2))
     (pin "2" (uuid 0a5ed46d-6f3a-4471-a7b7-3029d41b73c7))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
           (reference "C27") (unit 1)
         )
       )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 212.09 135.89 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 295cc4b7-6c68-450f-8cf9-bf7a423e9350)
-    (property "Reference" "MH1" (at 214.63 133.3499 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole_Pad" (at 214.63 135.8899 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_3mm" (at 212.09 135.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 212.09 135.89 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid fceda47c-e17f-433f-aa4c-beab45754aee))
-    (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
-          (reference "MH1") (unit 1)
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
+          (reference "C27") (unit 1)
         )
       )
     )
@@ -4068,8 +4252,13 @@
     (pin "1" (uuid e858b04d-7bfb-4738-a148-df7d95a2101e))
     (pin "2" (uuid 4c374a38-a7f9-45c9-a768-5126a1309a66))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "R22") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "R22") (unit 1)
         )
       )
@@ -4095,8 +4284,13 @@
     (pin "2" (uuid 3c223964-5ec8-46cf-b82c-c89f5bb6da86))
     (pin "3" (uuid 8a230cc6-1c66-4dac-aa80-dcfaaeb36df5))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "J2") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "J2") (unit 1)
         )
       )
@@ -4109,7 +4303,7 @@
     (property "Reference" "R25" (at 165.608 44.5516 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "5.1k" (at 165.608 46.863 0)
+    (property "Value" "DNI" (at 165.608 46.863 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 162.052 45.72 90)
@@ -4121,8 +4315,13 @@
     (pin "1" (uuid f90f61a5-530e-43a8-a97a-b9c80c1ccda1))
     (pin "2" (uuid e12dbaa0-e62e-405e-9151-dce602ef2ae4))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "R25") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "R25") (unit 1)
         )
       )
@@ -4146,8 +4345,13 @@
     )
     (pin "1" (uuid 0dcedf1b-fd45-4aeb-a8d0-5d96b77bbcfb))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "#PWR0141") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "#PWR0141") (unit 1)
         )
       )
@@ -4171,8 +4375,13 @@
     )
     (pin "1" (uuid 6686d83d-bc77-4aaf-b956-51a7cfe81cd6))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "#PWR0147") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "#PWR0147") (unit 1)
         )
       )
@@ -4203,8 +4412,13 @@
     (pin "7" (uuid dddd9ee4-ca75-41df-bcec-179795a9daf8))
     (pin "8" (uuid 36901fec-975d-4cff-a232-b63b2ae4fa82))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "J4") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "J4") (unit 1)
         )
       )
@@ -4229,8 +4443,13 @@
     (pin "1" (uuid a54b9ac3-2264-458a-9a03-77778cc2dd81))
     (pin "2" (uuid 5c755566-6bef-40ee-a0c7-7fc9125160c9))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "R16") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "R16") (unit 1)
         )
       )
@@ -4254,8 +4473,13 @@
     )
     (pin "1" (uuid 2fe5544b-327f-44af-a1f1-ba91a50acdeb))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "#PWR0126") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "#PWR0126") (unit 1)
         )
       )
@@ -4280,8 +4504,13 @@
     (pin "1" (uuid 6a35fbbd-0c79-4c3d-b119-d8c254f8c543))
     (pin "2" (uuid 6dc55a63-9bfd-4321-9882-85b04e2e9a32))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "C13") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "C13") (unit 1)
         )
       )
@@ -4306,9 +4535,44 @@
     (pin "1" (uuid 24b40690-0575-4440-b157-dd9a05c98145))
     (pin "2" (uuid fafba308-ff58-4d82-8bfe-2fe734bf3371))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
           (reference "R23") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
+          (reference "R23") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND1") (at 241.3 144.78 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 3c413c3c-fcd9-4271-a4df-e1d72be13df4)
+    (property "Reference" "#PWR012" (at 241.3 151.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND1" (at 241.427 149.1742 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 241.3 144.78 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 241.3 144.78 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 2bac32a4-8dd4-4cec-a0c4-5103564c1fce))
+    (instances
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "#PWR012") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -4332,8 +4596,13 @@
     (pin "1" (uuid ad40e7a3-0637-4dc7-a65b-6f707dd288b1))
     (pin "2" (uuid 1f2e424a-bbb0-45ae-9d77-127aab672717))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "C4") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "C4") (unit 1)
         )
       )
@@ -4357,8 +4626,13 @@
     )
     (pin "1" (uuid f95ac749-2890-4337-9148-677ee4243c91))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "#PWR0119") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "#PWR0119") (unit 1)
         )
       )
@@ -4383,8 +4657,13 @@
     (pin "1" (uuid 79b4dba4-3533-4a62-83c0-104088710462))
     (pin "2" (uuid ed0d4f35-1edf-44ba-b1ac-02df3d8e9448))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "C25") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "C25") (unit 1)
         )
       )
@@ -4409,8 +4688,13 @@
     (pin "1" (uuid c28eb23c-478a-4a06-bbe6-99a2087c7fb4))
     (pin "2" (uuid df4e0c64-6c37-492e-8135-35af4cfb0dec))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "R28") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "R28") (unit 1)
         )
       )
@@ -4434,34 +4718,44 @@
     )
     (pin "1" (uuid e7f3b1b8-6c7d-4b3e-a07a-1a849f947a32))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "#PWR0120") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "#PWR0120") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:R") (at 234.95 99.06 0) (unit 1)
+  (symbol (lib_id "Device:R") (at 237.49 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 46b56d9b-09be-42c2-9135-8d329a056975)
-    (property "Reference" "R33" (at 236.728 97.8916 0)
+    (property "Reference" "R33" (at 239.268 97.8916 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10k" (at 236.728 100.203 0)
+    (property "Value" "10k" (at 239.268 100.203 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 233.172 99.06 90)
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 235.712 99.06 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 234.95 99.06 0)
+    (property "Datasheet" "~" (at 237.49 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 44348521-5e5e-4e12-ab59-0fffbfad667b))
     (pin "2" (uuid 0c409e34-a8c5-43eb-a789-6ae27226d3c3))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "R33") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "R33") (unit 1)
         )
       )
@@ -4486,8 +4780,13 @@
     (pin "1" (uuid 14b59bbe-d4cf-4264-90d1-983b4bd426fa))
     (pin "2" (uuid d848591b-58e1-497d-9ecf-ba2164a57a8d))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "R30") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "R30") (unit 1)
         )
       )
@@ -4511,8 +4810,13 @@
     )
     (pin "1" (uuid bb565a2e-ef21-4f40-95b4-7189ea1c725d))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "#PWR0127") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "#PWR0127") (unit 1)
         )
       )
@@ -4537,8 +4841,13 @@
     (pin "1" (uuid 31d5283f-3409-46c9-a60c-be93c1de4c64))
     (pin "2" (uuid ae1defe4-026a-4b0e-8171-4494a629272f))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "R27") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "R27") (unit 1)
         )
       )
@@ -4562,8 +4871,13 @@
     )
     (pin "1" (uuid d8a4c021-d5f4-4aa2-a73f-7a68117f3565))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "#PWR0139") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "#PWR0139") (unit 1)
         )
       )
@@ -4591,8 +4905,13 @@
     (pin "4" (uuid 4c8b376c-735d-419e-a73e-8f86a1137a58))
     (pin "5" (uuid da0113fc-2f10-493b-bb92-560a42ca4f86))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "U11") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "U11") (unit 1)
         )
       )
@@ -4616,8 +4935,13 @@
     )
     (pin "1" (uuid ca475ba0-54ef-4b10-ad08-2aab7a8e610e))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "#PWR0142") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "#PWR0142") (unit 1)
         )
       )
@@ -4642,8 +4966,13 @@
     (pin "1" (uuid 4caec273-3edd-46b7-a6df-8d677de2829c))
     (pin "2" (uuid 80f833d4-cdab-4c72-85d8-22126aceeeac))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "C18") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "C18") (unit 1)
         )
       )
@@ -4667,8 +4996,13 @@
     )
     (pin "1" (uuid d747b480-b6eb-47d7-a147-c7de4b9cff8d))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "#PWR01") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "#PWR01") (unit 1)
         )
       )
@@ -4692,8 +5026,13 @@
     )
     (pin "1" (uuid 2daa8da2-bf25-4977-9e8d-40433e54cf5d))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "#PWR0149") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "#PWR0149") (unit 1)
         )
       )
@@ -4717,9 +5056,40 @@
     )
     (pin "1" (uuid fc77f611-90c5-4457-b620-46c09b0a1250))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
           (reference "#PWR0137") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
+          (reference "#PWR0137") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:LED") (at 227.33 143.51 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 6229caa7-ef86-4cee-b02a-aebdd9185896)
+    (property "Reference" "D1" (at 228.9175 137.16 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "GREEN LED" (at 228.9175 139.7 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder" (at 227.33 143.51 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://jlcpcb.com/partdetail/EverlightElec-16_213SYGC_S530_E3TR8/C264408" (at 227.33 143.51 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 24571dba-0381-40fe-8cc8-2f4463d6a331))
+    (pin "2" (uuid 2f3355e5-24d8-4caf-a71a-a95098699064))
+    (instances
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
+          (reference "D1") (unit 1)
         )
       )
     )
@@ -4742,8 +5112,13 @@
     )
     (pin "1" (uuid ed5ed7b6-d09a-4c23-a6b6-ff50ff84b16d))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "#PWR0151") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "#PWR0151") (unit 1)
         )
       )
@@ -4768,8 +5143,13 @@
     (pin "1" (uuid 463fa4fa-bf49-4848-90f1-a085c45c38f3))
     (pin "2" (uuid a8652f86-07e9-4773-b3e3-311af5246a78))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "R18") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "R18") (unit 1)
         )
       )
@@ -4794,8 +5174,13 @@
     (pin "1" (uuid ca35be26-c66e-4abe-adde-ff19aeb1783f))
     (pin "2" (uuid 773d7685-c9e4-4c0e-94e7-087a608cdd38))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "C11") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "C11") (unit 1)
         )
       )
@@ -4819,8 +5204,13 @@
     )
     (pin "1" (uuid a5c21d3e-259d-486c-9a81-cbc7b9af4e1e))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "#PWR0150") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "#PWR0150") (unit 1)
         )
       )
@@ -4844,8 +5234,13 @@
     )
     (pin "1" (uuid b06d766b-a306-4604-9469-3414f913e4b0))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "#PWR0124") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "#PWR0124") (unit 1)
         )
       )
@@ -4869,9 +5264,44 @@
     )
     (pin "1" (uuid b346646d-2bc1-474a-a6f4-ea69dbc2a875))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
           (reference "#PWR03") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
+          (reference "#PWR03") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 158.75 19.05 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 6f051042-5e7a-4501-acad-13292209f0b9)
+    (property "Reference" "MH2" (at 161.29 16.5099 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole_Pad" (at 161.29 19.0499 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MountingHole:MountingHole_3mm" (at 158.75 19.05 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 158.75 19.05 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ceaa24b5-c2c7-4e2e-b857-1d6c749c8ea2))
+    (instances
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "MH2") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
+          (reference "MH2") (unit 1)
         )
       )
     )
@@ -4894,35 +5324,44 @@
     )
     (pin "1" (uuid 51044d26-ae63-4e53-b279-92ee781a232c))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "#PWR0130") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "#PWR0130") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Connector:Conn_01x02_Male") (at 105.41 186.69 0) (unit 1)
+  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 135.89 19.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 7438c70b-8a8f-4566-b08c-1dd2215ef48a)
-    (property "Reference" "J5" (at 106.045 181.61 0)
-      (effects (font (size 1.27 1.27)))
+    (uuid 711af6e2-dd5d-4c1d-b140-68b658875c88)
+    (property "Reference" "MH1" (at 138.43 16.5099 0)
+      (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "Conn_01x02_Male" (at 106.045 184.15 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Value" "MountingHole_Pad" (at 138.43 19.0499 0)
+      (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (at 105.41 186.69 0)
+    (property "Footprint" "MountingHole:MountingHole_3mm" (at 135.89 19.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 105.41 186.69 0)
+    (property "Datasheet" "~" (at 135.89 19.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid da171239-2fea-440b-948e-eae31821399b))
-    (pin "2" (uuid cedad1b6-9c5f-4c1e-abbc-2c88f70e25da))
+    (pin "1" (uuid d7e67a4a-4ead-4f8e-9243-ace68eaa3cac))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
-          (reference "J5") (unit 1)
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "MH1") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
+          (reference "MH1") (unit 1)
         )
       )
     )
@@ -4946,8 +5385,13 @@
     (pin "1" (uuid 1aaff6c1-c3b3-417c-a432-8e58eb8bb893))
     (pin "2" (uuid 1cd87f62-b228-4034-91b0-93b03dd546a8))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "U7") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "U7") (unit 1)
         )
       )
@@ -4972,9 +5416,44 @@
     (pin "1" (uuid b1a53adf-5699-4521-acad-e55a41c594d9))
     (pin "2" (uuid 39c2f892-d191-4ca1-8589-abcdf046ed44))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
           (reference "C10") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
+          (reference "C10") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "spudglo_driver_v3p1-rescue:+3.3V-power") (at 173.99 30.48 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 7aa9da37-956a-4369-8f18-a10d183276c6)
+    (property "Reference" "#PWR05" (at 173.99 34.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 174.371 26.0858 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 173.99 30.48 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 173.99 30.48 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 0f503fe6-c8bc-4062-9ab6-7ce912027846))
+    (instances
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "#PWR05") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
+          (reference "#PWR0122") (unit 1)
         )
       )
     )
@@ -5008,8 +5487,13 @@
     (pin "8" (uuid ab6b79a4-563c-4c90-91f5-138559867d21))
     (pin "9" (uuid 5a2710c3-f7c8-4dee-aeb6-0e1e491ed08b))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "J3") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "J3") (unit 1)
         )
       )
@@ -5060,8 +5544,13 @@
     (pin "3" (uuid ca143893-b6a2-46e0-a1fa-171d9132faf4))
     (pin "4" (uuid 671849e6-2b74-45fd-b3da-6e9a01a4080f))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "U8") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "U8") (unit 1)
         )
       )
@@ -5086,34 +5575,14 @@
     (pin "1" (uuid c7eeb831-dfe0-4f92-bb36-d2dcde17b0c9))
     (pin "2" (uuid 6dad3334-c0dc-48ba-a814-7063024c6696))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
           (reference "C12") (unit 1)
         )
       )
-    )
-  )
-
-  (symbol (lib_id "Mechanical:MountingHole_Pad") (at 234.95 134.62 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 81bc7e4f-b0bf-408e-8520-5d779f0fc55e)
-    (property "Reference" "MH2" (at 237.49 132.0799 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MountingHole_Pad" (at 237.49 134.6199 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "MountingHole:MountingHole_3mm" (at 234.95 134.62 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 234.95 134.62 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c0a2f1b0-599f-4c19-bcea-0b8755840486))
-    (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
-          (reference "MH2") (unit 1)
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
+          (reference "C12") (unit 1)
         )
       )
     )
@@ -5136,8 +5605,13 @@
     )
     (pin "1" (uuid 27e53468-6f65-4253-8b06-020d990d111b))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "#PWR0121") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "#PWR0121") (unit 1)
         )
       )
@@ -5168,8 +5642,13 @@
     (pin "7" (uuid 805be346-a87e-4cd5-91e0-a421b16b39db))
     (pin "8" (uuid e7dbd8a1-cbe3-4046-b167-dc273ce7ba04))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "J1") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "J1") (unit 1)
         )
       )
@@ -5194,8 +5673,13 @@
     (pin "1" (uuid d43c67a7-dc23-4425-9779-83b3e6fe56b4))
     (pin "2" (uuid 0f773844-b4f3-42ec-b8d6-73d88ea1faba))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "R21") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "R21") (unit 1)
         )
       )
@@ -5219,8 +5703,13 @@
     )
     (pin "1" (uuid a7e3b2c1-c84a-4152-bffc-6ef871ae868a))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "#PWR0118") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "#PWR0118") (unit 1)
         )
       )
@@ -5250,8 +5739,13 @@
     (pin "6" (uuid e1835a4e-dd22-48e8-8e9f-d7f24c677012))
     (pin "EPAD" (uuid 82a7fd22-bca7-423f-aca9-8e7fc6fb2095))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "U14") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "U14") (unit 1)
         )
       )
@@ -5276,8 +5770,13 @@
     (pin "1" (uuid 671b5e47-3c75-49b9-abfd-d0fccdd07c47))
     (pin "2" (uuid 0b202577-3f10-41ac-a737-77e74d201d01))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "R36") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "R36") (unit 1)
         )
       )
@@ -5301,9 +5800,14 @@
     )
     (pin "1" (uuid fed923d7-a5e8-442b-aaaa-cba80e34fe2f))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
           (reference "#PWR0122") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
+          (reference "#PWR0154") (unit 1)
         )
       )
     )
@@ -5315,7 +5819,7 @@
     (property "Reference" "R26" (at 173.228 44.5516 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "5.1k" (at 173.228 46.863 0)
+    (property "Value" "DNI" (at 173.228 46.863 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 169.672 45.72 90)
@@ -5327,8 +5831,13 @@
     (pin "1" (uuid 097fab30-052c-4c2d-8821-1c9c8a4ff286))
     (pin "2" (uuid 4b259d87-3571-4766-9c51-613196e9ddec))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "R26") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "R26") (unit 1)
         )
       )
@@ -5353,8 +5862,13 @@
     (pin "1" (uuid 1bf8b51c-8302-4f08-9cbd-e9dffeae2ebd))
     (pin "2" (uuid e6925f54-08a9-43df-af48-e7457717ace7))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "R17") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "R17") (unit 1)
         )
       )
@@ -5378,8 +5892,13 @@
     )
     (pin "1" (uuid ac7c9a35-de2f-4c39-b514-402033504cee))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "#PWR0135") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "#PWR0135") (unit 1)
         )
       )
@@ -5404,8 +5923,13 @@
     (pin "1" (uuid 3f3d9f30-1362-4531-925f-828b4ba5547b))
     (pin "2" (uuid b6374468-f3a7-4be2-a663-398287e71eff))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "C8") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "C8") (unit 1)
         )
       )
@@ -5429,8 +5953,13 @@
     )
     (pin "1" (uuid 921c55b2-2244-48e1-ba94-68116da3bc3b))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "#PWR0148") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "#PWR0148") (unit 1)
         )
       )
@@ -5455,8 +5984,13 @@
     (pin "1" (uuid 74a4affe-b7f2-4ba1-aba9-7e5b42f3d0f5))
     (pin "2" (uuid ae0a88e2-e2c9-4ed1-b88b-25434db34442))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "R31") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "R31") (unit 1)
         )
       )
@@ -5481,8 +6015,13 @@
     (pin "1" (uuid 1bea19cf-d73d-4efd-9c0a-6fb30d9bd0b5))
     (pin "2" (uuid c7a2ed57-861f-4411-80b8-b8fabd35da7d))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "C28") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "C28") (unit 1)
         )
       )
@@ -5522,8 +6061,13 @@
     (pin "9" (uuid c8a33887-e8dc-458b-99c3-38eb961d073f))
     (pin "EPAD" (uuid e1d8394d-7aa2-4125-94bc-6a6bbc012616))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "U13") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "U13") (unit 1)
         )
       )
@@ -5547,9 +6091,45 @@
     )
     (pin "1" (uuid 9a10d801-ed22-4f62-8947-65cf67fe9aa6))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
           (reference "#PWR0138") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
+          (reference "#PWR0138") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 236.22 154.94 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid a81d757e-56ae-4bc5-b9c2-d22f9d0fee17)
+    (property "Reference" "R37" (at 235.0516 153.162 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "1k" (at 237.363 153.162 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 236.22 156.718 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 236.22 154.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c584a9f3-68b3-4f43-a3d8-8018e983a55c))
+    (pin "2" (uuid 75e748e7-903a-49ca-964d-3d991fa1f471))
+    (instances
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
+          (reference "R37") (unit 1)
+        )
+      )
+      (project "mn_wild_siren_micro"
+        (path "/642aff96-1f4d-4715-8e98-de6dbae8ede0"
+          (reference "R399") (unit 1)
         )
       )
     )
@@ -5572,8 +6152,13 @@
     )
     (pin "1" (uuid 66c587fc-d3fa-4dfa-b5b1-035adae1b6af))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "#PWR0123") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "#PWR0123") (unit 1)
         )
       )
@@ -5597,8 +6182,13 @@
     )
     (pin "1" (uuid 6d869738-6ac8-4dc7-b082-4d8f2956c831))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "#PWR0134") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "#PWR0134") (unit 1)
         )
       )
@@ -5622,8 +6212,13 @@
     )
     (pin "1" (uuid d1922357-a2c7-4b45-8410-bd140cd58ff7))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "#PWR0131") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "#PWR0131") (unit 1)
         )
       )
@@ -5647,9 +6242,44 @@
     )
     (pin "1" (uuid 1094d9f0-561e-4f33-9cba-8a0575df26ee))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
           (reference "#PWR08") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
+          (reference "#PWR08") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND1") (at 241.3 156.21 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid aebf1ca2-8120-4b1d-95af-7e8d2eae50ac)
+    (property "Reference" "#PWR012" (at 241.3 162.56 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND1" (at 241.427 160.6042 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 241.3 156.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 241.3 156.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ec8599ce-6bbd-4a88-b529-521201f8bac1))
+    (instances
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "#PWR012") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -5672,8 +6302,13 @@
     )
     (pin "1" (uuid dd056625-29ff-4717-a8ca-411e8b78802a))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "#PWR0146") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "#PWR0146") (unit 1)
         )
       )
@@ -5698,8 +6333,13 @@
     (pin "1" (uuid 47d9e9e8-d5b4-4f10-a2eb-f4669fea29fd))
     (pin "2" (uuid 9cf8aca7-2269-4e30-9a63-744d1f220deb))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "R15") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "R15") (unit 1)
         )
       )
@@ -5724,8 +6364,13 @@
     (pin "1" (uuid 72991b5e-6afc-4ed2-a208-e9009bb95cb5))
     (pin "2" (uuid 241b24b7-18af-42e2-8c6b-b9d455130c5f))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "C17") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "C17") (unit 1)
         )
       )
@@ -5750,8 +6395,13 @@
     (pin "1" (uuid 15928534-7153-43b8-9571-646f3c658ae8))
     (pin "2" (uuid 60a41522-504f-43b4-9b02-92e6539df85a))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "C6") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "C6") (unit 1)
         )
       )
@@ -5776,8 +6426,13 @@
     (pin "1" (uuid 2dee37c4-86dc-4698-927e-2ed9da2ee822))
     (pin "2" (uuid e7277e3f-42ae-49b5-9fb8-625f1bfba193))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "R19") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "R19") (unit 1)
         )
       )
@@ -5801,8 +6456,13 @@
     )
     (pin "1" (uuid 4c07cea7-a3c5-4280-b92a-d6bd3baac6d9))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "#PWR0144") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "#PWR0144") (unit 1)
         )
       )
@@ -5827,33 +6487,43 @@
     (pin "1" (uuid 46e9e9c9-b5f6-4a1e-aded-6ffac6b2ba46))
     (pin "2" (uuid 64f7c628-3c4e-48fb-8282-f655a9dc40d2))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "C3") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "C3") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "power:GND1") (at 234.95 104.14 0) (unit 1)
+  (symbol (lib_id "power:GND1") (at 237.49 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bd29832b-b268-4e73-aedd-d49d34080dec)
-    (property "Reference" "#PWR012" (at 234.95 110.49 0)
+    (property "Reference" "#PWR012" (at 237.49 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND1" (at 235.077 108.5342 0)
+    (property "Value" "GND1" (at 237.617 108.5342 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 234.95 104.14 0)
+    (property "Footprint" "" (at 237.49 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 234.95 104.14 0)
+    (property "Datasheet" "" (at 237.49 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 9944b83e-61b3-443d-8a2b-b2fa4f183d9d))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "#PWR012") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "#PWR012") (unit 1)
         )
       )
@@ -5878,8 +6548,13 @@
     (pin "1" (uuid 4aad4766-5f15-48d3-9675-ef20dd896e01))
     (pin "2" (uuid 42e000f2-8cee-4a4b-97c5-0d2eb067e6b9))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "F1") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "F1") (unit 1)
         )
       )
@@ -5904,8 +6579,13 @@
     (pin "1" (uuid 7f3e8056-9511-43fc-a16d-636a53dd2335))
     (pin "2" (uuid 182fdd17-0470-4ad9-85bb-a59e7a92c4c2))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "C16") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "C16") (unit 1)
         )
       )
@@ -5929,8 +6609,13 @@
     )
     (pin "1" (uuid d25ab6ae-58a1-434f-9ccb-9b7accbf18ec))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "#PWR0143") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "#PWR0143") (unit 1)
         )
       )
@@ -5954,8 +6639,13 @@
     )
     (pin "1" (uuid afc3d1f0-b600-4cc1-bed7-7bd18af2e722))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "#PWR0136") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "#PWR0136") (unit 1)
         )
       )
@@ -5979,8 +6669,13 @@
     )
     (pin "1" (uuid e82288cb-1c09-4642-a2d3-10c4011ac539))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "#PWR011") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "#PWR011") (unit 1)
         )
       )
@@ -6004,8 +6699,13 @@
     )
     (pin "1" (uuid 5dde2565-f7ee-4e9b-80dd-dad25c628007))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "#PWR0129") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "#PWR0129") (unit 1)
         )
       )
@@ -6029,8 +6729,13 @@
     )
     (pin "1" (uuid 71cd6af4-e818-464e-9cd2-b61ccdc846c9))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "#PWR09") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "#PWR09") (unit 1)
         )
       )
@@ -6055,8 +6760,13 @@
     (pin "1" (uuid 69a587bd-7ad1-4b85-b2dc-6ae5bd2766e8))
     (pin "2" (uuid 32779629-77df-4458-8e4d-9ef920a077de))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "C19") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "C19") (unit 1)
         )
       )
@@ -6081,8 +6791,13 @@
     (pin "1" (uuid d588064a-ea6f-42d5-aeef-09f9714034e4))
     (pin "2" (uuid f3ac29db-613e-47a6-92f1-8ca2f44b8f31))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "R35") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "R35") (unit 1)
         )
       )
@@ -6106,8 +6821,13 @@
     )
     (pin "1" (uuid a3b1fb6e-1e38-465a-a953-86d787baef2d))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "#PWR0140") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "#PWR0140") (unit 1)
         )
       )
@@ -6131,8 +6851,13 @@
     )
     (pin "1" (uuid 0552713e-6726-439a-8a8c-3ac547133822))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "#PWR0152") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "#PWR0152") (unit 1)
         )
       )
@@ -6157,34 +6882,14 @@
     (pin "1" (uuid a1e1315d-1eae-47c2-9a0b-353827fa8607))
     (pin "2" (uuid 26e40f41-e686-470a-9cd1-d16cff35e8e1))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
           (reference "C5") (unit 1)
         )
       )
-    )
-  )
-
-  (symbol (lib_id "power:GND1") (at 223.52 139.7 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid dd43daf8-95f1-452f-90c4-453072b756fe)
-    (property "Reference" "#PWR0153" (at 223.52 146.05 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND1" (at 223.647 144.0942 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 223.52 139.7 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 223.52 139.7 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 2645331b-e712-4e4c-9378-caf5f9da0323))
-    (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
-          (reference "#PWR0153") (unit 1)
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -6208,8 +6913,13 @@
     (pin "1" (uuid 6e2b991c-f6c4-4c91-9aa4-1e2699da87dc))
     (pin "2" (uuid 9f0eafaa-d1e0-48d9-ac22-32d0ff124ade))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "R32") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "R32") (unit 1)
         )
       )
@@ -6252,8 +6962,13 @@
     (pin "8" (uuid 55ed2820-a00a-4dde-8ac5-a28ebb66b1b4))
     (pin "9" (uuid 37f8bcf9-f5f0-4277-814c-cee590980f03))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "U9") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "U9") (unit 1)
         )
       )
@@ -6277,8 +6992,13 @@
     )
     (pin "1" (uuid 58002864-1910-4a17-bae1-0ca04c86eeab))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "#PWR0125") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "#PWR0125") (unit 1)
         )
       )
@@ -6303,9 +7023,45 @@
     (pin "1" (uuid 41c634fb-d09e-4e56-8c52-f9a3ec7f2a3f))
     (pin "2" (uuid c3facd60-5ae0-407d-bac9-65f3e50e9bc5))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
           (reference "C15") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
+          (reference "C15") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R") (at 236.22 143.51 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid ea317a92-53a7-4f96-84a3-73e31a6bc119)
+    (property "Reference" "R39" (at 235.0516 141.732 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "1k" (at 237.363 141.732 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 236.22 145.288 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 236.22 143.51 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ca193ce0-6bff-4794-99f8-c366ad0ae1e7))
+    (pin "2" (uuid bc041526-0b28-4d38-98ed-377e5abc7713))
+    (instances
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
+          (reference "R39") (unit 1)
+        )
+      )
+      (project "mn_wild_siren_micro"
+        (path "/642aff96-1f4d-4715-8e98-de6dbae8ede0"
+          (reference "R399") (unit 1)
         )
       )
     )
@@ -6329,8 +7085,13 @@
     (pin "1" (uuid a4d5a8ce-cc94-4579-89dd-00837e99ad10))
     (pin "2" (uuid 91f4c388-134e-4d5f-8548-3226781d6e5e))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "C7") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "C7") (unit 1)
         )
       )
@@ -6354,8 +7115,13 @@
     )
     (pin "1" (uuid 7f28ee07-51fe-49ed-84fb-fdc1c0892c81))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "#PWR04") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "#PWR04") (unit 1)
         )
       )
@@ -6379,9 +7145,44 @@
     )
     (pin "1" (uuid a1386ef8-4f37-4309-ab23-e5bdfe04e158))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
           (reference "#PWR02") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
+          (reference "#PWR02") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND1") (at 147.32 24.13 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid f9fc8968-b6b9-4efe-8e2f-22fae18df810)
+    (property "Reference" "#PWR0153" (at 147.32 30.48 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND1" (at 147.447 28.5242 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 147.32 24.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 147.32 24.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid aceb9bf6-e4f9-4322-aaa5-5ed8f12ccd15))
+    (instances
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "#PWR0153") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -6404,8 +7205,13 @@
     )
     (pin "1" (uuid e4083e47-0175-4c0b-9b10-2296d2fc8d66))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "#PWR010") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "#PWR010") (unit 1)
         )
       )
@@ -6430,11 +7236,20 @@
     (pin "1" (uuid 09d2bfa7-bb1d-4218-a2e1-9271892f5bd8))
     (pin "2" (uuid 046f315c-a1ba-49f1-b26b-d28ec12eadee))
     (instances
-      (project "spudglo_driver_v4p2"
-        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/5af74bf5-987c-4d46-98f6-b35b1497740a"
+      (project "spudglo_v4p3_micro"
+        (path "/26caf727-21d8-4cb9-bb60-19e6294d9105"
+          (reference "C26") (unit 1)
+        )
+      )
+      (project "spudglo_driver_v4p3"
+        (path "/52f8bacc-d1b9-4904-87e9-4727c7e9578e/4b6ef90a-658e-42bc-8f53-2c1342f6e863"
           (reference "C26") (unit 1)
         )
       )
     )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
   )
 )

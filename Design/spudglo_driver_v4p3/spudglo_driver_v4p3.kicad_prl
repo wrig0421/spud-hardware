@@ -64,11 +64,11 @@
       35,
       36
     ],
-    "visible_layers": "fffffff_7ffffff9",
+    "visible_layers": "fffffff_fffffffb",
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "spudglo_driver_v4p2.kicad_prl",
+    "filename": "spudglo_driver_v4p3.kicad_prl",
     "version": 3
   },
   "project": {
