@@ -1,12 +1,10 @@
 Comment,Designator,Footprint
 1u,"C1, C2, C3, C4, C5, C6, C7, C8",Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder
-Conn_01x20_Male,J1,Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical
-Conn_01x02_Pin,"J2, J3",Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical
+Conn_01x02_Pin,J2,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical
+Conn_01x08_Male,J4,Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical
 Conn_01x02_Male,"J5, J6",Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical
-MountingHole_Pad,"MH1, MH2",MountingHole:MountingHole_3mm
 USB_C_Plug,P1,Connector_USB:USB_C_Plug_JAE_DX07P024AJ1
 BSS138,"Q2, Q3",Package_TO_SOT_SMD:SOT-23
-0,R1,Resistor_SMD:R_0402_1005Metric
 1M,"R2, R3",Resistor_SMD:R_0402_1005Metric
 1k,"R5, R7",Resistor_SMD:R_0402_1005Metric
 USB-C-31-M-12,U1,Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12

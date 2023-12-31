@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "opto_isolator-rescue")(type "KiCad")(uri "${KIPRJMOD}/opto_isolator-rescue.kicad_sym")(options "")(descr ""))
+)

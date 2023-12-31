@@ -1,0 +1,34 @@
+Comment,Designator,Footprint
+Value,Reference(s),Footprint
+6p,"C3, C7",Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+8p,"C4, C5",Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+0.1u,"C6, C8, C9, C10, C11, C12, C13",Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+4.7u,C14,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+1u,"C15, C17, C18, C20, C21, C22, C23, C26, C27, C28",Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+0.01u,C16,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+10u,"C24, C29",Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+22u,C25,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+GREEN LED,D1,LED_SMD:LED_0603_1608Metric
+RED_LED,D3,LED_SMD:LED_0603_1608Metric
+Fuse-2410FA,F1,srw_custom:2410FA
+MountingHole,"H1, H2, H3, H4",MountingHole:MountingHole_5.5mm
+Conn_01x08_Male,J1,Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical
+Barrel_Jack_Switch,J2,Connector_BarrelJack:BarrelJack_Wuerth_6941xx301002
+terminal_custom_12pin,J3,srw_custom:1984714
+Conn_01x03_Pin,"J4, J5",Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical
+Conn_01x02_Pin,J6,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical
+L,L1,Inductor_SMD:L_1008_2520Metric_Pad1.43x2.20mm_HandSolder
+10k,"R1, R3, R4, R5, R10, R13, R14, R15, R17, R18, R19, R20, R21, R22, R23, R25, R26, R27, R28, R32, R34, R342",Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+28k,R35,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+100,"R37, R39",Resistor_SMD:R_0402_1005Metric
+receiver_433MHz,"U1, U3, U4, U5",Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical
+XR21B1411,U6,srw_cuustom:XR21B1411
+ECS-.327-9-1210-TR,U7,ECS-:XTAL_ECS-.327-9-1210-TR
+ECS-480-8-36-RWN-TR,U8,XTAL_ECS-480-8-36-RWN-TR
+SN74HCT245PW,U9,Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm
+STM32L431RCTx,U10,Package_QFP:LQFP-64_10x10mm_P0.5mm
+LP5907MFX-3.3,"U11, U14",Package_TO_SOT_SMD:SOT-23-5
+USB-C-31-M-12,U12,Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12
+NCP361,U13,srw_cuustom:NCP361
+ESP-12F,U15,RF_Module:ESP-12E
+TPS62163DSG,U16,Package_SON:WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm_ThermalVias

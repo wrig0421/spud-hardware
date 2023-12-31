@@ -1,0 +1,2678 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/spud/Documents/GitHub/spud-hardware/Design/spudglo_business_card/spudglo_business_card/spudglo_business_card.kicad_sch</source>
+    <date>2023 October 15, Sunday 17:47:12</date>
+    <tool>Eeschema 7.0.2-0</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>spudglo_business_card.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>spudglo_business_card_micro.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="BT1">
+      <value>BC2AAPC</value>
+      <footprint>srw_custom:BAT_BC2AAPC</footprint>
+      <fields>
+        <field name="Check_prices">https://www.snapeda.com/parts/BC2AAPC/MPD+%2528Memory+Protection+Devices%2529/view-part/?ref=eda</field>
+        <field name="Description">
+Battery Holder (Open) AA 2 Cell PC Pin
+</field>
+        <field name="DigiKey_Part_Number">BC2AAPC-ND</field>
+        <field name="MANUFACTURER">MPD</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">15.00mm</field>
+        <field name="MF">MPD (Memory</field>
+        <field name="MP">BC2AAPC</field>
+        <field name="PARTREV">M</field>
+        <field name="Package">None</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=2682018&amp;manufacturer=MPD (Memory&amp;part_name=BC2AAPC&amp;search_term=None</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/BC2AAPC/MPD+%2528Memory+Protection+Devices%2529/view-part/?ref=snap</field>
+      </fields>
+      <libsource lib="srw" part="BC2AAPC" description=""/>
+      <property name="DigiKey_Part_Number" value="BC2AAPC-ND"/>
+      <property name="MF" value="MPD (Memory"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="15.00mm"/>
+      <property name="Package" value="None"/>
+      <property name="Check_prices" value="https://www.snapeda.com/parts/BC2AAPC/MPD+%2528Memory+Protection+Devices%2529/view-part/?ref=eda"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="M"/>
+      <property name="SnapEDA_Link" value="https://www.snapeda.com/parts/BC2AAPC/MPD+%2528Memory+Protection+Devices%2529/view-part/?ref=snap"/>
+      <property name="MP" value="BC2AAPC"/>
+      <property name="Purchase-URL" value="https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=2682018&amp;manufacturer=MPD (Memory&amp;part_name=BC2AAPC&amp;search_term=None"/>
+      <property name="Description" value="&#xA;Battery Holder (Open) AA 2 Cell PC Pin&#xA;"/>
+      <property name="MANUFACTURER" value="MPD"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_business_card.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ffd88007-008d-4e22-895a-004bd9c12c10</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_business_card.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5484314c-1158-47be-aafc-b28d67918339</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_business_card.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ac52e8ad-5005-4205-9289-2417697c9a58</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_business_card.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>807632b0-152a-4984-99b5-ea49a38dfaf1</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_business_card.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>96d030cb-0f55-4f40-b3c0-ad9ca8c6278b</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_business_card.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>36ca6904-4d58-44af-9e3a-296785d3d287</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_business_card.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>07de444b-937c-4ceb-8a2e-39de7738ffc8</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_business_card.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c23e410f-4f58-4248-a6e3-3e09ed9492c5</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>WS2812B-2020</value>
+      <footprint>LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm</footprint>
+      <libsource lib="srw" part="ws2812b-2020" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_business_card.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>82ea3186-15a1-4ead-ac9c-3efd2a27cfb9</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>WS2812B-2020</value>
+      <footprint>LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm</footprint>
+      <libsource lib="srw" part="ws2812b-2020" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_business_card.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b9cf0d84-56fc-4eb3-a83f-d22075294ad1</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>WS2812B-2020</value>
+      <footprint>LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm</footprint>
+      <libsource lib="srw" part="ws2812b-2020" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_business_card.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fc5082b9-c0e6-44b3-b9e7-31de5cd5bf15</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>WS2812B-2020</value>
+      <footprint>LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm</footprint>
+      <libsource lib="srw" part="ws2812b-2020" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_business_card.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1e1213ff-dcb2-41a1-8ee8-86c5c2cd7feb</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>WS2812B-2020</value>
+      <footprint>LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm</footprint>
+      <libsource lib="srw" part="ws2812b-2020" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_business_card.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ae8ef715-a485-4775-a824-d684be9679b0</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>WS2812B-2020</value>
+      <footprint>LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm</footprint>
+      <libsource lib="srw" part="ws2812b-2020" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_business_card.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9cd8b564-4852-400e-9666-a331e7b7d2db</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>WS2812B-2020</value>
+      <footprint>LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm</footprint>
+      <libsource lib="srw" part="ws2812b-2020" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_business_card.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>517a3e39-032c-4679-aa74-f104693b0eff</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>WS2812B-2020</value>
+      <footprint>LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm</footprint>
+      <libsource lib="srw" part="ws2812b-2020" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_business_card.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9682ab71-ae7d-47d6-b0e7-65a15ad52d15</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>WS2812B-2020</value>
+      <footprint>LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm</footprint>
+      <libsource lib="srw" part="ws2812b-2020" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_business_card.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a0bbd4cb-6102-4657-8252-7476db1c197b</tstamps>
+    </comp>
+    <comp ref="D10">
+      <value>WS2812B-2020</value>
+      <footprint>LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm</footprint>
+      <libsource lib="srw" part="ws2812b-2020" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_business_card.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>41036ab8-f82d-454f-ae54-1d22bf68a76a</tstamps>
+    </comp>
+    <comp ref="D11">
+      <value>WS2812B-2020</value>
+      <footprint>LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm</footprint>
+      <libsource lib="srw" part="ws2812b-2020" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_business_card.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b57c141d-bddf-4290-b592-c943bf7c7d30</tstamps>
+    </comp>
+    <comp ref="D12">
+      <value>WS2812B-2020</value>
+      <footprint>LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm</footprint>
+      <libsource lib="srw" part="ws2812b-2020" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_business_card.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d2963251-3b2b-4344-bec5-38abc3201827</tstamps>
+    </comp>
+    <comp ref="D13">
+      <value>WS2812B-2020</value>
+      <footprint>LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm</footprint>
+      <libsource lib="srw" part="ws2812b-2020" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_business_card.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>880cbffd-6ead-45ab-926f-464dda5d5b9a</tstamps>
+    </comp>
+    <comp ref="D14">
+      <value>WS2812B-2020</value>
+      <footprint>LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm</footprint>
+      <libsource lib="srw" part="ws2812b-2020" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_business_card.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e748f5c1-59a7-4a33-be1f-6597735a5de8</tstamps>
+    </comp>
+    <comp ref="D15">
+      <value>WS2812B-2020</value>
+      <footprint>LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm</footprint>
+      <libsource lib="srw" part="ws2812b-2020" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_business_card.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4f2a8876-a088-479e-a42a-01411af833b3</tstamps>
+    </comp>
+    <comp ref="D16">
+      <value>WS2812B-2020</value>
+      <footprint>LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm</footprint>
+      <libsource lib="srw" part="ws2812b-2020" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_business_card.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2d535095-13c2-46bb-ac09-f3c92a9e8343</tstamps>
+    </comp>
+    <comp ref="D17">
+      <value>WS2812B-2020</value>
+      <footprint>LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm</footprint>
+      <libsource lib="srw" part="ws2812b-2020" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_business_card.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4188a3bc-67f2-470c-87e6-fcd716cef81a</tstamps>
+    </comp>
+    <comp ref="D18">
+      <value>WS2812B-2020</value>
+      <footprint>LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm</footprint>
+      <libsource lib="srw" part="ws2812b-2020" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_business_card.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>653027aa-600d-4f79-a7e0-fee9a0b02fc7</tstamps>
+    </comp>
+    <comp ref="D19">
+      <value>WS2812B-2020</value>
+      <footprint>LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm</footprint>
+      <libsource lib="srw" part="ws2812b-2020" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_business_card.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>adbcc7ac-5353-4772-92c0-08f84d3642cc</tstamps>
+    </comp>
+    <comp ref="D20">
+      <value>WS2812B-2020</value>
+      <footprint>LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm</footprint>
+      <libsource lib="srw" part="ws2812b-2020" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_business_card.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8bf73ed9-0417-4450-972e-8975ea6ef441</tstamps>
+    </comp>
+    <comp ref="D21">
+      <value>WS2812B-2020</value>
+      <footprint>LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm</footprint>
+      <libsource lib="srw" part="ws2812b-2020" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_business_card.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>59d0815d-dffa-454a-a59c-4c8859feca03</tstamps>
+    </comp>
+    <comp ref="D22">
+      <value>WS2812B-2020</value>
+      <footprint>LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm</footprint>
+      <libsource lib="srw" part="ws2812b-2020" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_business_card.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9f623629-5a4b-489e-95d1-6997e37440e8</tstamps>
+    </comp>
+    <comp ref="D23">
+      <value>WS2812B-2020</value>
+      <footprint>LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm</footprint>
+      <libsource lib="srw" part="ws2812b-2020" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_business_card.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a3dc461e-50a2-49c3-ac51-df3badeeede1</tstamps>
+    </comp>
+    <comp ref="D24">
+      <value>WS2812B-2020</value>
+      <footprint>LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm</footprint>
+      <libsource lib="srw" part="ws2812b-2020" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_business_card.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bf504f74-c885-4cbd-bb59-c2723fbfd8d0</tstamps>
+    </comp>
+    <comp ref="D25">
+      <value>WS2812B-2020</value>
+      <footprint>LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm</footprint>
+      <libsource lib="srw" part="ws2812b-2020" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_business_card.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c48086f8-b550-4c75-aa72-9993832d6f0b</tstamps>
+    </comp>
+    <comp ref="D26">
+      <value>WS2812B-2020</value>
+      <footprint>LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm</footprint>
+      <libsource lib="srw" part="ws2812b-2020" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_business_card.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d38656af-ccf3-4d30-9794-d30bc6352edf</tstamps>
+    </comp>
+    <comp ref="D27">
+      <value>WS2812B-2020</value>
+      <footprint>LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm</footprint>
+      <libsource lib="srw" part="ws2812b-2020" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_business_card.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0bac94c3-7d05-454e-8bae-6f147b53ab28</tstamps>
+    </comp>
+    <comp ref="D28">
+      <value>WS2812B-2020</value>
+      <footprint>LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm</footprint>
+      <libsource lib="srw" part="ws2812b-2020" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_business_card.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f2e8b886-f429-4335-b48f-1fd0ca69b21d</tstamps>
+    </comp>
+    <comp ref="D29">
+      <value>WS2812B-2020</value>
+      <footprint>LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm</footprint>
+      <libsource lib="srw" part="ws2812b-2020" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_business_card.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ded0ecaa-b895-4e41-833c-5f176180d198</tstamps>
+    </comp>
+    <comp ref="D30">
+      <value>WS2812B-2020</value>
+      <footprint>LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm</footprint>
+      <libsource lib="srw" part="ws2812b-2020" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_business_card.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c072bed2-ff9a-4943-838e-1d9124e90e35</tstamps>
+    </comp>
+    <comp ref="D31">
+      <value>WS2812B-2020</value>
+      <footprint>LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm</footprint>
+      <libsource lib="srw" part="ws2812b-2020" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_business_card.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>efbc3a6a-220c-4480-8298-afe1fb73f310</tstamps>
+    </comp>
+    <comp ref="D32">
+      <value>WS2812B-2020</value>
+      <footprint>LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm</footprint>
+      <libsource lib="srw" part="ws2812b-2020" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_business_card.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d9937e3b-ea53-4a9d-a9ab-8692b28dcafa</tstamps>
+    </comp>
+    <comp ref="D33">
+      <value>WS2812B-2020</value>
+      <footprint>LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm</footprint>
+      <libsource lib="srw" part="ws2812b-2020" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_business_card.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>983b89b8-1691-4f84-88dd-007614f1eb7f</tstamps>
+    </comp>
+    <comp ref="D34">
+      <value>WS2812B-2020</value>
+      <footprint>LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm</footprint>
+      <libsource lib="srw" part="ws2812b-2020" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_business_card.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ff9f6669-c530-466d-bdc8-cf6bcc6df5d9</tstamps>
+    </comp>
+    <comp ref="D35">
+      <value>WS2812B-2020</value>
+      <footprint>LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm</footprint>
+      <libsource lib="srw" part="ws2812b-2020" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_business_card.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a7461ce2-329a-4568-84c5-3b358758eeb5</tstamps>
+    </comp>
+    <comp ref="D36">
+      <value>WS2812B-2020</value>
+      <footprint>LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm</footprint>
+      <libsource lib="srw" part="ws2812b-2020" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_business_card.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2fe8f0c7-1460-4f5e-ab6f-e71d2f49ed09</tstamps>
+    </comp>
+    <comp ref="D37">
+      <value>WS2812B-2020</value>
+      <footprint>LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm</footprint>
+      <libsource lib="srw" part="ws2812b-2020" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_business_card.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>57240131-5d98-4b61-9595-f23cf1b444c3</tstamps>
+    </comp>
+    <comp ref="D38">
+      <value>WS2812B-2020</value>
+      <footprint>LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm</footprint>
+      <libsource lib="srw" part="ws2812b-2020" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_business_card.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ceab2940-f8ed-48b5-9280-7fb16fef1a6a</tstamps>
+    </comp>
+    <comp ref="D39">
+      <value>WS2812B-2020</value>
+      <footprint>LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm</footprint>
+      <libsource lib="srw" part="ws2812b-2020" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_business_card.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>671727b6-b3b2-4312-b421-a0485704b72d</tstamps>
+    </comp>
+    <comp ref="D40">
+      <value>WS2812B-2020</value>
+      <footprint>LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm</footprint>
+      <libsource lib="srw" part="ws2812b-2020" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_business_card.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>efeae296-3f93-4c4d-a94a-d267ac33e87a</tstamps>
+    </comp>
+    <comp ref="D41">
+      <value>WS2812B-2020</value>
+      <footprint>LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm</footprint>
+      <libsource lib="srw" part="ws2812b-2020" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_business_card.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5c487017-b167-4d82-b098-52983e79abd5</tstamps>
+    </comp>
+    <comp ref="D42">
+      <value>WS2812B-2020</value>
+      <footprint>LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm</footprint>
+      <libsource lib="srw" part="ws2812b-2020" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_business_card.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bf251b16-d5cf-4f7f-9564-b7acb1019c61</tstamps>
+    </comp>
+    <comp ref="D43">
+      <value>WS2812B-2020</value>
+      <footprint>LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm</footprint>
+      <libsource lib="srw" part="ws2812b-2020" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_business_card.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8a1d6062-5c3f-4a63-ba87-53e08b297132</tstamps>
+    </comp>
+    <comp ref="D44">
+      <value>WS2812B-2020</value>
+      <footprint>LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm</footprint>
+      <libsource lib="srw" part="ws2812b-2020" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_business_card.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6ffa7799-30fd-4ddd-81d3-41de7ae9d7cd</tstamps>
+    </comp>
+    <comp ref="D45">
+      <value>WS2812B-2020</value>
+      <footprint>LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm</footprint>
+      <libsource lib="srw" part="ws2812b-2020" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_business_card.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9d490818-da23-4e34-a438-72958765f70f</tstamps>
+    </comp>
+    <comp ref="D46">
+      <value>WS2812B-2020</value>
+      <footprint>LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm</footprint>
+      <libsource lib="srw" part="ws2812b-2020" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_business_card.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>78a13454-8572-48d0-85cb-290ece54596a</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>LQM21PN1R0MC0</value>
+      <footprint>Inductor_SMD:L_0805_2012Metric</footprint>
+      <libsource lib="Device" part="L" description="Inductor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_business_card.kicad_sch"/>
+      <property name="ki_description" value="Inductor"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ebad2ed7-82c3-4b42-b694-c00e4c982c84</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_business_card.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ed1de961-2a64-4ec6-823f-7bce2a71fc10</tstamps>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_DIP_x01</value>
+      <footprint>srw_custom:SW_CFS-0102MA_NDC-L</footprint>
+      <libsource lib="Switch" part="SW_DIP_x01" description="1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_business_card.kicad_sch"/>
+      <property name="ki_description" value="1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"/>
+      <property name="ki_keywords" value="dip switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>411c0239-04f2-4668-a065-225117d6561d</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>~</value>
+      <footprint>Package_DFN_QFN:DFN-6-1EP_2x2mm_P0.65mm_EP1x1.6mm</footprint>
+      <libsource lib="srw" part="TPS61240DRVR" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="spudglo_business_card.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>497e0e3e-70e1-4195-aa9f-73f800542c08</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="spudglo_driver_v3p1-rescue" part="CP_Small-Device" description=""/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>d808c338-c282-4581-b9e6-a77c12234524</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="spudglo_driver_v3p1-rescue" part="CP_Small-Device" description=""/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>7af18ac3-f76b-4488-bc3d-103d6563c5a4</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="spudglo_driver_v3p1-rescue" part="CP_Small-Device" description=""/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>31b5efc4-c5e7-4218-8d04-26aea180874c</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="spudglo_driver_v3p1-rescue" part="CP_Small-Device" description=""/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>270cebb8-df84-45f5-8863-fcbbb3721090</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="spudglo_driver_v3p1-rescue" part="CP_Small-Device" description=""/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>e1cd0d77-b7fd-4169-8eb2-6f5bc2aa0719</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="spudglo_driver_v3p1-rescue" part="CP_Small-Device" description=""/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>bdd3ece4-70e9-4c89-b285-9b1fcd085d1d</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>0.1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="spudglo_driver_v3p1-rescue" part="CP_Small-Device" description=""/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>7e7b9b08-7194-41d6-a841-c30ef2680b2e</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="spudglo_driver_v3p1-rescue" part="CP_Small-Device" description=""/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>ef74ce7c-a472-4105-b176-41867762eb9e</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>0.01u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="spudglo_driver_v3p1-rescue" part="CP_Small-Device" description=""/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>d7c90843-2784-41be-8e3a-6739b22e1d49</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="spudglo_driver_v3p1-rescue" part="CP_Small-Device" description=""/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>c0a50de0-c314-4a27-9e78-98a3af97237a</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>6p</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="spudglo_driver_v3p1-rescue" part="CP_Small-Device" description=""/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>8b34f300-2d10-4ff8-a814-3242ab092a58</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>8p</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="spudglo_driver_v3p1-rescue" part="CP_Small-Device" description=""/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>bbfde9ab-3e15-4180-ab7f-60af0cefd1ae</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>8p</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="spudglo_driver_v3p1-rescue" part="CP_Small-Device" description=""/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>1c52343d-0233-48f3-a0be-b5d5224e9b01</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>6p</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="spudglo_driver_v3p1-rescue" part="CP_Small-Device" description=""/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>2e93482d-68db-4521-b68b-7c7896ebcb77</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="spudglo_driver_v3p1-rescue" part="CP_Small-Device" description=""/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>48ccce0e-233d-4551-99fc-12a0b56cef00</tstamps>
+    </comp>
+    <comp ref="C23">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="spudglo_driver_v3p1-rescue" part="CP_Small-Device" description=""/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>b5e2ba86-10b0-4d58-a41b-c55bea9e240e</tstamps>
+    </comp>
+    <comp ref="C24">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="spudglo_driver_v3p1-rescue" part="CP_Small-Device" description=""/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>89307ee9-c348-40e2-bcde-771b6a9b4e3e</tstamps>
+    </comp>
+    <comp ref="C25">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>ce1772c5-5fed-494a-a6a8-6de5d6518ab7</tstamps>
+    </comp>
+    <comp ref="C26">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>0f73ba8c-dfd1-40eb-90dd-adeb9bb90431</tstamps>
+    </comp>
+    <comp ref="C27">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>4c7f5514-0e38-423b-ba92-e1504192ece2</tstamps>
+    </comp>
+    <comp ref="C28">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>d356a31f-bd3d-412c-a9f5-a8fbb39467bc</tstamps>
+    </comp>
+    <comp ref="C29">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>c8f739f3-7f79-49bb-89ec-8ead8f90f52f</tstamps>
+    </comp>
+    <comp ref="C30">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>d534a5b4-f224-4a2c-aaca-ceb8c69d82b3</tstamps>
+    </comp>
+    <comp ref="C31">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>03bd034b-db81-4942-ab7b-93e3a34e440c</tstamps>
+    </comp>
+    <comp ref="C32">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>c0db6e28-718b-4488-941f-4102cc872a62</tstamps>
+    </comp>
+    <comp ref="C33">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>3226c12b-c1b6-4d0d-a7b0-34eb41f111e5</tstamps>
+    </comp>
+    <comp ref="C34">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>2f0559de-15c6-49b9-9faf-48eadbe6216b</tstamps>
+    </comp>
+    <comp ref="C35">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>477b059e-55bd-4a13-9603-42a39bd78b48</tstamps>
+    </comp>
+    <comp ref="C36">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>654b811e-8412-43b3-888a-13f7ad21d680</tstamps>
+    </comp>
+    <comp ref="C37">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>0402a55b-193f-4aa3-8949-a75ea2aac024</tstamps>
+    </comp>
+    <comp ref="C38">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>e5c7052d-2d0a-40f5-a0e2-780c22ec3535</tstamps>
+    </comp>
+    <comp ref="C39">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>505039e4-417f-423f-be62-5072b127b59f</tstamps>
+    </comp>
+    <comp ref="C40">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>66c1f9b8-ae23-47c1-9ebc-beab2a62dd4a</tstamps>
+    </comp>
+    <comp ref="C41">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>64ad3035-64c1-4059-a276-5e8618061d9b</tstamps>
+    </comp>
+    <comp ref="C42">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>e81349c4-ee61-4d49-8ef1-acd5be7c0480</tstamps>
+    </comp>
+    <comp ref="C43">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>8f2df98e-0ecf-49b6-8472-a2d3b09bca78</tstamps>
+    </comp>
+    <comp ref="C44">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>18078bce-cead-436b-8c16-0c7abb9f085f</tstamps>
+    </comp>
+    <comp ref="C45">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>889a5c4b-a1f0-475f-ad72-e113bdf44ae9</tstamps>
+    </comp>
+    <comp ref="C46">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>18eff0d9-68ab-430c-9d9e-b6522515c3c0</tstamps>
+    </comp>
+    <comp ref="C47">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>0159ab42-f240-477a-a122-e9500fd9767e</tstamps>
+    </comp>
+    <comp ref="C48">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>06b174a4-a792-4987-b3de-9f3c79846968</tstamps>
+    </comp>
+    <comp ref="C49">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>b4a9b4ed-3568-4ca3-b855-d8cb4586375a</tstamps>
+    </comp>
+    <comp ref="C50">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>bb87a534-256f-4ecd-b3cc-016060ecf212</tstamps>
+    </comp>
+    <comp ref="C51">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>9026015c-869c-4dd5-b35e-fb4ae7c5d9af</tstamps>
+    </comp>
+    <comp ref="C52">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>80787ab4-8f8e-45df-9a35-0a7b45f81e5a</tstamps>
+    </comp>
+    <comp ref="C53">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>40e47b89-bdb1-4e6c-a370-367b1b81c508</tstamps>
+    </comp>
+    <comp ref="C54">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>b9a410ff-14a7-4372-abd7-560aafa89f33</tstamps>
+    </comp>
+    <comp ref="C55">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>866590ed-981f-4b65-9977-bce9e764e4df</tstamps>
+    </comp>
+    <comp ref="C56">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>0929a731-bfe0-4d0d-9dff-f467bbbd352f</tstamps>
+    </comp>
+    <comp ref="C57">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>44e38a6d-8143-4e88-a78c-82322d165c1f</tstamps>
+    </comp>
+    <comp ref="C58">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>853bf231-5fc8-4425-857e-2ccd38d24ccb</tstamps>
+    </comp>
+    <comp ref="C59">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>c2208c22-8d5a-454f-b5d5-e400bbbbf327</tstamps>
+    </comp>
+    <comp ref="C60">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>ac19af73-15bd-4035-9aa2-0903a2a26106</tstamps>
+    </comp>
+    <comp ref="C61">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>806798fa-89d6-4649-be92-1445d9502d33</tstamps>
+    </comp>
+    <comp ref="C62">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>63365b4d-db14-4e2b-8d44-ddefc28d3b0a</tstamps>
+    </comp>
+    <comp ref="C63">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>21e4dd5e-ccac-4267-a52b-cb6ca09d6e47</tstamps>
+    </comp>
+    <comp ref="C64">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>bf5f53c9-9bf0-4c71-aa6f-523735ae03d5</tstamps>
+    </comp>
+    <comp ref="C65">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>cfa3e6d1-88d7-4611-a104-c0dcf3f6567b</tstamps>
+    </comp>
+    <comp ref="C66">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>b7f5af15-768c-4cdc-a6a0-1c2bc6d35f9a</tstamps>
+    </comp>
+    <comp ref="C67">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>c9cfd4c2-21ca-4ed0-9804-1ae3b2463a4e</tstamps>
+    </comp>
+    <comp ref="C68">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>26a0877c-94dd-4356-9c2e-7d2d352a4809</tstamps>
+    </comp>
+    <comp ref="C69">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>ec717b22-183b-4572-b592-ad000f2c32f4</tstamps>
+    </comp>
+    <comp ref="C70">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>33e39e88-ceb7-4009-bdfe-e08db838e274</tstamps>
+    </comp>
+    <comp ref="D47">
+      <value>RED_LED</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>C389517</datasheet>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>6d089a8a-124d-497c-af50-f74e80c252f8</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x08_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x08_Male" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>826f42fe-da4e-4cfb-830c-05e21d6ddcb2</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>ca66d0d5-f6ef-4797-bb4b-934ea06c0fe5</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>61153ae9-7f48-4002-b902-ffe5f36c2e64</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>6b732e2c-d3fc-440c-9608-9b47b2abed23</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>1a4df7d7-0d6c-4ef2-a6da-9532a7d696d8</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>65b59872-c1ac-49a6-9ccf-5db39ef5a45f</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>033c1912-e7a0-42c8-ae18-4521c76184f5</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>265f431a-5f9c-4a6a-b3c5-479164385384</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>DNI</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>39652536-994a-466d-b793-b15d0cc79390</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>0</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>fe79043d-5178-40aa-9ab4-7c0b1a89ceaa</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>0f3df148-ae68-4912-9b6e-a63582baff13</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>e6933b3c-1469-43a6-bc99-2e5dbfe561a0</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>9fab0639-7c8e-4b9e-bf18-4c0bbb0014b9</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>cc5c317d-1b0d-432f-a848-8d0cbd4df749</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>8b563863-bb98-4cab-a8f9-198d9fb045b8</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>100k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>12bc1549-59aa-4eb4-9035-c97eacfcd98e</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>9cb291ff-c307-4b61-a059-981890f1ec2e</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>SN74HCT245PW</value>
+      <footprint>Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm</footprint>
+      <libsource lib="spudglo_driver_v3p1-rescue" part="SN74HCT245PW-srw_custom" description=""/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>ad779389-6ad2-4a4d-a8ec-98d79b9ee03d</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>STM32L431RCTx</value>
+      <footprint>Package_QFP:LQFP-64_10x10mm_P0.5mm</footprint>
+      <datasheet>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257211.pdf</datasheet>
+      <libsource lib="spudglo_driver_v3p1-rescue" part="STM32L431RCTx-MCU_ST_STM32L4" description=""/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>31d557db-344a-4dc9-8787-1c11c67fc88b</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>ECS-480-8-36-RWN-TR</value>
+      <footprint>srw_custom:XTAL_ECS-480-8-36-RWN-TR</footprint>
+      <fields>
+        <field name="AVAILABILITY">Good</field>
+        <field name="DESCRIPTION">The minature ECX-2236 is a compact SMD Crystal. The industry standard 2.5 x 2.0 x 0.55 mm ceramic package is ideal for today’s SMD manufacturing environment.</field>
+        <field name="MF">ECS INC</field>
+        <field name="MP">ECX-2236</field>
+        <field name="PACKAGE">SMD-4 ECX</field>
+        <field name="PARTREV">2017</field>
+        <field name="STANDARD">Manufacturer Recommendation</field>
+      </fields>
+      <libsource lib="spudglo_driver_v3p1-rescue" part="ECS-480-8-36-RWN-TR-ECS-480-8-36-RWN-TR" description=""/>
+      <property name="MF" value="ECS INC"/>
+      <property name="DESCRIPTION" value="The minature ECX-2236 is a compact SMD Crystal. The industry standard 2.5 x 2.0 x 0.55 mm ceramic package is ideal for today’s SMD manufacturing environment."/>
+      <property name="STANDARD" value="Manufacturer Recommendation"/>
+      <property name="MP" value="ECX-2236"/>
+      <property name="PRICE" value=""/>
+      <property name="PACKAGE" value="SMD-4 ECX"/>
+      <property name="AVAILABILITY" value="Good"/>
+      <property name="PARTREV" value="2017"/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>3d51821a-a242-4d9c-b0cf-c37da535300b</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>ECS-.327-9-1210-TR</value>
+      <footprint>srw_custom:XTAL_ECS-.327-9-1210-TR</footprint>
+      <libsource lib="Device" part="Crystal" description="Two pin crystal"/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <property name="ki_description" value="Two pin crystal"/>
+      <property name="ki_keywords" value="quartz ceramic resonator oscillator"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>261a5e2b-42ad-4a86-a3bb-54e9bc14f9f8</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>LP5907MFX-3.3</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lp5907.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="LP5907MFX-3.3" description="250-mA Ultra-Low-Noise Low-IQ LDO, 3.3V, SOT-23"/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <property name="ki_description" value="250-mA Ultra-Low-Noise Low-IQ LDO, 3.3V, SOT-23"/>
+      <property name="ki_keywords" value="Single Output LDO Low-Noise"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>5f89d221-f6ce-4582-8913-ae7103c6f483</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>~</value>
+      <footprint>srw_custom:MCSLPT4848C3DTR</footprint>
+      <libsource lib="srw" part="MCSLPT4848C3DTR" description=""/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>20729328-6688-417c-9a79-93ca1aacd88c</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>~</value>
+      <footprint>srw_custom:MCSLPT4848C3DTR</footprint>
+      <libsource lib="srw" part="MCSLPT4848C3DTR" description=""/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>59517a86-8fe9-44c5-b0cf-35530691ee64</tstamps>
+    </comp>
+    <comp ref="U9">
+      <value>~</value>
+      <footprint>srw_custom:MCSLPT4848C3DTR</footprint>
+      <libsource lib="srw" part="MCSLPT4848C3DTR" description=""/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>41e2c513-0a7c-44c8-a678-5ebcf5dac9ad</tstamps>
+    </comp>
+    <comp ref="U10">
+      <value>~</value>
+      <footprint>srw_custom:MCSLPT4848C3DTR</footprint>
+      <libsource lib="srw" part="MCSLPT4848C3DTR" description=""/>
+      <property name="Sheetname" value="spudglo_business_card_micro"/>
+      <property name="Sheetfile" value="spudglo_business_card_micro.kicad_sch"/>
+      <sheetpath names="/spudglo_business_card_micro/" tstamps="/1cacccdf-5398-475e-815d-e670b1242bbd/"/>
+      <tstamps>1e66924a-9bb5-4c1a-9eb4-ee158f3905a2</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x08_Male">
+      <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal">
+      <description>Two pin crystal</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="LP5907MFX-3.3">
+      <description>250-mA Ultra-Low-Noise Low-IQ LDO, 3.3V, SOT-23</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lp5907.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LP5907MFX-3.3</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lp5907.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="NC" type="no_connect"/>
+        <pin num="5" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_DIP_x01">
+      <description>1x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>SW?DIP?x1*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_DIP_x01</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="spudglo_driver_v3p1-rescue" part="CP_Small-Device">
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP_Small-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="spudglo_driver_v3p1-rescue" part="ECS-480-8-36-RWN-TR-ECS-480-8-36-RWN-TR">
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">ECS-480-8-36-RWN-TR-ECS-480-8-36-RWN-TR</field>
+        <field name="Footprint">XTAL_ECS-480-8-36-RWN-TR</field>
+        <field name="MF">ECS INC</field>
+        <field name="DESCRIPTION">The minature ECX-2236 is a compact SMD Crystal. The industry standard 2.5 x 2.0 x 0.55 mm ceramic package is ideal for today’s SMD manufacturing environment.</field>
+        <field name="STANDARD">Manufacturer Recommendation</field>
+        <field name="MP">ECX-2236</field>
+        <field name="PACKAGE">SMD-4 ECX</field>
+        <field name="AVAILABILITY">Good</field>
+        <field name="PARTREV">2017</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN/OUT" type="bidirectional"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT/IN" type="bidirectional"/>
+        <pin num="4" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="spudglo_driver_v3p1-rescue" part="SN74HCT245PW-srw_custom">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN74HCT245PW-srw_custom</field>
+        <field name="Footprint">Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DIR" type="input"/>
+        <pin num="2" name="A1" type="input"/>
+        <pin num="3" name="A2" type="input"/>
+        <pin num="4" name="A3" type="input"/>
+        <pin num="5" name="A4" type="input"/>
+        <pin num="6" name="A5" type="input"/>
+        <pin num="7" name="A6" type="input"/>
+        <pin num="8" name="A7" type="input"/>
+        <pin num="9" name="A8" type="input"/>
+        <pin num="10" name="GND" type="input"/>
+        <pin num="11" name="B8" type="input"/>
+        <pin num="12" name="B7" type="input"/>
+        <pin num="13" name="B6" type="input"/>
+        <pin num="14" name="B5" type="input"/>
+        <pin num="15" name="B4" type="input"/>
+        <pin num="16" name="B3" type="input"/>
+        <pin num="17" name="B2" type="input"/>
+        <pin num="18" name="B1" type="input"/>
+        <pin num="19" name="OE_N" type="input"/>
+        <pin num="20" name="VCC" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="spudglo_driver_v3p1-rescue" part="STM32L431RCTx-MCU_ST_STM32L4">
+      <footprints>
+        <fp>LQFP*10x10mm*P0.5mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">STM32L431RCTx-MCU_ST_STM32L4</field>
+        <field name="Footprint">Package_QFP:LQFP-64_10x10mm_P0.5mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBAT" type="power_in"/>
+        <pin num="2" name="PC13/WKUP2" type="bidirectional"/>
+        <pin num="3" name="PC14_OSC32_IN" type="bidirectional"/>
+        <pin num="4" name="PC15_OSC32_OUT" type="bidirectional"/>
+        <pin num="5" name="PH0/OSCIN" type="input"/>
+        <pin num="6" name="PH1/OSCOUT" type="input"/>
+        <pin num="7" name="NRST" type="input"/>
+        <pin num="8" name="PC0/LPUART1_RX" type="bidirectional"/>
+        <pin num="9" name="PC1/LPUART1_TX" type="bidirectional"/>
+        <pin num="10" name="PC2/SPI2_MISO" type="bidirectional"/>
+        <pin num="11" name="PC3/SPI2_MOSI" type="bidirectional"/>
+        <pin num="12" name="VSSA" type="power_in"/>
+        <pin num="13" name="VDDA" type="power_in"/>
+        <pin num="14" name="PA0_WKUP1" type="bidirectional"/>
+        <pin num="15" name="PA1_SPI1_SCK" type="bidirectional"/>
+        <pin num="16" name="PA2/LPUART1_TX/TIM2_CH3/WKUP4" type="bidirectional"/>
+        <pin num="17" name="PA3/LPUART1_RX/TIM2_CH4" type="bidirectional"/>
+        <pin num="18" name="VSS" type="power_in"/>
+        <pin num="19" name="VDD" type="power_in"/>
+        <pin num="20" name="PA4/SPI1_NSS/LPTIM2_OUT" type="bidirectional"/>
+        <pin num="21" name="PA5/SPI1_SCK/TIM2_CH1" type="bidirectional"/>
+        <pin num="22" name="PA6/TIM16_CH1" type="bidirectional"/>
+        <pin num="23" name="PA7/SPI1_MOSI" type="bidirectional"/>
+        <pin num="24" name="PC4/USART3_TX" type="bidirectional"/>
+        <pin num="25" name="PC5/USART3_RX/WKUP5" type="bidirectional"/>
+        <pin num="26" name="PB0" type="bidirectional"/>
+        <pin num="27" name="PB1" type="bidirectional"/>
+        <pin num="28" name="PB2" type="bidirectional"/>
+        <pin num="29" name="PB10/LPUART1_RX/SPI2_SCK/TIM2_CH3/I2C2_SCL" type="bidirectional"/>
+        <pin num="30" name="PB11/USART3_RX/LPUART1_TX/TIM2_CH4/I2C2_SDA" type="bidirectional"/>
+        <pin num="31" name="VSS" type="power_in"/>
+        <pin num="32" name="VDD" type="power_in"/>
+        <pin num="33" name="PB12" type="bidirectional"/>
+        <pin num="34" name="PB13" type="bidirectional"/>
+        <pin num="35" name="PB14/SPI2_MISO/TIM15_CH1" type="bidirectional"/>
+        <pin num="36" name="PB15/SPI2_MOSI/TIM15_CH2" type="bidirectional"/>
+        <pin num="37" name="PC6" type="bidirectional"/>
+        <pin num="38" name="PC7" type="bidirectional"/>
+        <pin num="39" name="PC8" type="bidirectional"/>
+        <pin num="40" name="PC9" type="bidirectional"/>
+        <pin num="41" name="PA8/TIM1_CH1" type="bidirectional"/>
+        <pin num="42" name="PA9/TIM1_CH2/USART1_TX" type="bidirectional"/>
+        <pin num="43" name="PA10/TIM1_CH3/USART1_RX" type="bidirectional"/>
+        <pin num="44" name="PA11/TIM1_CH4/SPI1_MISO" type="bidirectional"/>
+        <pin num="45" name="PA12/SPI_MOSI" type="bidirectional"/>
+        <pin num="46" name="PA13/SWDIO" type="bidirectional"/>
+        <pin num="47" name="VSS" type="power_in"/>
+        <pin num="48" name="VDDUSB" type="power_in"/>
+        <pin num="49" name="PA14/SWCLK" type="bidirectional"/>
+        <pin num="50" name="PA15/JTDI" type="bidirectional"/>
+        <pin num="51" name="PC10" type="bidirectional"/>
+        <pin num="52" name="PC11/SPI3_MISO/USART3_RX" type="bidirectional"/>
+        <pin num="53" name="PC12/SPI3_MOSI" type="bidirectional"/>
+        <pin num="54" name="PD2" type="bidirectional"/>
+        <pin num="55" name="PB3/JTDO-TRACE-SWO" type="bidirectional"/>
+        <pin num="56" name="PB4/NJTRST" type="bidirectional"/>
+        <pin num="57" name="PB5/SPI1_MOSI/SPI3_MOSI" type="bidirectional"/>
+        <pin num="58" name="PB6/USART1_TX" type="bidirectional"/>
+        <pin num="59" name="PB7/USART1_RX" type="bidirectional"/>
+        <pin num="60" name="PH3/BOOT0" type="bidirectional"/>
+        <pin num="61" name="PB8/I2C1_SCL/TIM16_CH1" type="bidirectional"/>
+        <pin num="62" name="PB9/I2C1_SDA/SPI2_NSS" type="bidirectional"/>
+        <pin num="63" name="VSS" type="power_in"/>
+        <pin num="64" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="srw" part="BC2AAPC">
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">BC2AAPC</field>
+        <field name="Footprint">BC2AAPC:BAT_BC2AAPC</field>
+        <field name="DigiKey_Part_Number">BC2AAPC-ND</field>
+        <field name="MF">MPD (Memory</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">15.00mm</field>
+        <field name="Package">None</field>
+        <field name="Check_prices">https://www.snapeda.com/parts/BC2AAPC/MPD+%2528Memory+Protection+Devices%2529/view-part/?ref=eda</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="PARTREV">M</field>
+        <field name="SnapEDA_Link">https://www.snapeda.com/parts/BC2AAPC/MPD+%2528Memory+Protection+Devices%2529/view-part/?ref=snap</field>
+        <field name="MP">BC2AAPC</field>
+        <field name="Purchase-URL">https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=2682018&amp;manufacturer=MPD (Memory&amp;part_name=BC2AAPC&amp;search_term=None</field>
+        <field name="Description">
+Battery Holder (Open) AA 2 Cell PC Pin
+</field>
+        <field name="MANUFACTURER">MPD</field>
+      </fields>
+      <pins>
+        <pin num="+" name="" type="passive"/>
+        <pin num="-" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="srw" part="MCSLPT4848C3DTR">
+      <fields>
+        <field name="Reference">U</field>
+      </fields>
+      <pins>
+        <pin num="1" name="T1" type="input"/>
+        <pin num="2" name="T2" type="input"/>
+        <pin num="3" name="T3" type="input"/>
+        <pin num="4" name="T4" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="srw" part="TPS61240DRVR">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Footprint">Package_DFN_QFN:DFN-6-1EP_2x2mm_P0.65mm_EP1x1.6mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="input"/>
+        <pin num="2" name="VOUT" type="input"/>
+        <pin num="3" name="FB" type="input"/>
+        <pin num="4" name="EN" type="input"/>
+        <pin num="5" name="IND" type="input"/>
+        <pin num="6" name="VIN" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="srw" part="ws2812b-2020">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">WS2812B-2020</field>
+        <field name="Footprint">LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DO" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="DI" type="input"/>
+        <pin num="4" name="VDD" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Switch.kicad_sym</uri>
+    </library>
+    <library logical="srw">
+      <uri>/Users/spud/Documents/GitHub/spud-hardware/Design/kicad_libraries/srw.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="J1" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="VBAT" pintype="power_in"/>
+      <node ref="U3" pin="13" pinfunction="VDDA" pintype="power_in"/>
+      <node ref="U3" pin="19" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U3" pin="32" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U3" pin="48" pinfunction="VDDUSB" pintype="power_in"/>
+      <node ref="U3" pin="64" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U6" pin="5" pinfunction="OUT" pintype="power_out"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="C25" pin="1" pintype="passive"/>
+      <node ref="C26" pin="1" pintype="passive"/>
+      <node ref="C27" pin="1" pintype="passive"/>
+      <node ref="C28" pin="1" pintype="passive"/>
+      <node ref="C29" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C30" pin="1" pintype="passive"/>
+      <node ref="C31" pin="1" pintype="passive"/>
+      <node ref="C32" pin="1" pintype="passive"/>
+      <node ref="C33" pin="1" pintype="passive"/>
+      <node ref="C34" pin="1" pintype="passive"/>
+      <node ref="C35" pin="1" pintype="passive"/>
+      <node ref="C36" pin="1" pintype="passive"/>
+      <node ref="C37" pin="1" pintype="passive"/>
+      <node ref="C38" pin="1" pintype="passive"/>
+      <node ref="C39" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C40" pin="1" pintype="passive"/>
+      <node ref="C41" pin="1" pintype="passive"/>
+      <node ref="C42" pin="1" pintype="passive"/>
+      <node ref="C43" pin="1" pintype="passive"/>
+      <node ref="C44" pin="1" pintype="passive"/>
+      <node ref="C45" pin="1" pintype="passive"/>
+      <node ref="C46" pin="1" pintype="passive"/>
+      <node ref="C47" pin="1" pintype="passive"/>
+      <node ref="C48" pin="1" pintype="passive"/>
+      <node ref="C49" pin="1" pintype="passive"/>
+      <node ref="C50" pin="1" pintype="passive"/>
+      <node ref="C51" pin="1" pintype="passive"/>
+      <node ref="C52" pin="1" pintype="passive"/>
+      <node ref="C53" pin="1" pintype="passive"/>
+      <node ref="C54" pin="1" pintype="passive"/>
+      <node ref="C55" pin="1" pintype="passive"/>
+      <node ref="C56" pin="1" pintype="passive"/>
+      <node ref="C57" pin="1" pintype="passive"/>
+      <node ref="C58" pin="1" pintype="passive"/>
+      <node ref="C59" pin="1" pintype="passive"/>
+      <node ref="C60" pin="1" pintype="passive"/>
+      <node ref="C61" pin="1" pintype="passive"/>
+      <node ref="C62" pin="1" pintype="passive"/>
+      <node ref="C63" pin="1" pintype="passive"/>
+      <node ref="C64" pin="1" pintype="passive"/>
+      <node ref="C65" pin="1" pintype="passive"/>
+      <node ref="C66" pin="1" pintype="passive"/>
+      <node ref="C67" pin="1" pintype="passive"/>
+      <node ref="C68" pin="1" pintype="passive"/>
+      <node ref="C69" pin="1" pintype="passive"/>
+      <node ref="C70" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="D1" pin="4" pinfunction="VDD" pintype="input"/>
+      <node ref="D10" pin="4" pinfunction="VDD" pintype="input"/>
+      <node ref="D11" pin="4" pinfunction="VDD" pintype="input"/>
+      <node ref="D12" pin="4" pinfunction="VDD" pintype="input"/>
+      <node ref="D13" pin="4" pinfunction="VDD" pintype="input"/>
+      <node ref="D14" pin="4" pinfunction="VDD" pintype="input"/>
+      <node ref="D15" pin="4" pinfunction="VDD" pintype="input"/>
+      <node ref="D16" pin="4" pinfunction="VDD" pintype="input"/>
+      <node ref="D17" pin="4" pinfunction="VDD" pintype="input"/>
+      <node ref="D18" pin="4" pinfunction="VDD" pintype="input"/>
+      <node ref="D19" pin="4" pinfunction="VDD" pintype="input"/>
+      <node ref="D2" pin="4" pinfunction="VDD" pintype="input"/>
+      <node ref="D20" pin="4" pinfunction="VDD" pintype="input"/>
+      <node ref="D21" pin="4" pinfunction="VDD" pintype="input"/>
+      <node ref="D22" pin="4" pinfunction="VDD" pintype="input"/>
+      <node ref="D23" pin="4" pinfunction="VDD" pintype="input"/>
+      <node ref="D24" pin="4" pinfunction="VDD" pintype="input"/>
+      <node ref="D25" pin="4" pinfunction="VDD" pintype="input"/>
+      <node ref="D26" pin="4" pinfunction="VDD" pintype="input"/>
+      <node ref="D27" pin="4" pinfunction="VDD" pintype="input"/>
+      <node ref="D28" pin="4" pinfunction="VDD" pintype="input"/>
+      <node ref="D29" pin="4" pinfunction="VDD" pintype="input"/>
+      <node ref="D3" pin="4" pinfunction="VDD" pintype="input"/>
+      <node ref="D30" pin="4" pinfunction="VDD" pintype="input"/>
+      <node ref="D31" pin="4" pinfunction="VDD" pintype="input"/>
+      <node ref="D32" pin="4" pinfunction="VDD" pintype="input"/>
+      <node ref="D33" pin="4" pinfunction="VDD" pintype="input"/>
+      <node ref="D34" pin="4" pinfunction="VDD" pintype="input"/>
+      <node ref="D35" pin="4" pinfunction="VDD" pintype="input"/>
+      <node ref="D36" pin="4" pinfunction="VDD" pintype="input"/>
+      <node ref="D37" pin="4" pinfunction="VDD" pintype="input"/>
+      <node ref="D38" pin="4" pinfunction="VDD" pintype="input"/>
+      <node ref="D39" pin="4" pinfunction="VDD" pintype="input"/>
+      <node ref="D4" pin="4" pinfunction="VDD" pintype="input"/>
+      <node ref="D40" pin="4" pinfunction="VDD" pintype="input"/>
+      <node ref="D41" pin="4" pinfunction="VDD" pintype="input"/>
+      <node ref="D42" pin="4" pinfunction="VDD" pintype="input"/>
+      <node ref="D43" pin="4" pinfunction="VDD" pintype="input"/>
+      <node ref="D44" pin="4" pinfunction="VDD" pintype="input"/>
+      <node ref="D45" pin="4" pinfunction="VDD" pintype="input"/>
+      <node ref="D46" pin="4" pinfunction="VDD" pintype="input"/>
+      <node ref="D5" pin="4" pinfunction="VDD" pintype="input"/>
+      <node ref="D6" pin="4" pinfunction="VDD" pintype="input"/>
+      <node ref="D7" pin="4" pinfunction="VDD" pintype="input"/>
+      <node ref="D8" pin="4" pinfunction="VDD" pintype="input"/>
+      <node ref="D9" pin="4" pinfunction="VDD" pintype="input"/>
+      <node ref="U1" pin="2" pinfunction="VOUT" pintype="input"/>
+      <node ref="U1" pin="3" pinfunction="FB" pintype="input"/>
+      <node ref="U2" pin="20" pinfunction="VCC" pintype="input"/>
+      <node ref="U6" pin="1" pinfunction="IN" pintype="power_in"/>
+      <node ref="U6" pin="3" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="3" name="/spudglo_business_card_micro/ANIMATION">
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="PC13/WKUP2" pintype="bidirectional"/>
+      <node ref="U8" pin="1" pinfunction="T1" pintype="input"/>
+      <node ref="U8" pin="3" pinfunction="T3" pintype="input"/>
+    </net>
+    <net code="4" name="/spudglo_business_card_micro/BOOT0">
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="U3" pin="60" pinfunction="PH3/BOOT0" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/spudglo_business_card_micro/COLOR">
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="U10" pin="1" pinfunction="T1" pintype="input"/>
+      <node ref="U10" pin="3" pinfunction="T3" pintype="input"/>
+      <node ref="U3" pin="25" pinfunction="PC5/USART3_RX/WKUP5" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/spudglo_business_card_micro/JTDI">
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U3" pin="50" pinfunction="PA15/JTDI" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/spudglo_business_card_micro/JTDO">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U3" pin="55" pinfunction="PB3/JTDO-TRACE-SWO" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/spudglo_business_card_micro/LVL_DIR">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="DIR" pintype="input"/>
+      <node ref="U3" pin="39" pinfunction="PC8" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/spudglo_business_card_micro/LVL_EN">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U2" pin="19" pinfunction="OE_N" pintype="input"/>
+      <node ref="U3" pin="38" pinfunction="PC7" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="/spudglo_business_card_micro/NJTRST">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U3" pin="56" pinfunction="PB4/NJTRST" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="/spudglo_business_card_micro/OSC32K_HI">
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="PC14_OSC32_IN" pintype="bidirectional"/>
+      <node ref="U5" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="12" name="/spudglo_business_card_micro/OSC32K_LO">
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="PC15_OSC32_OUT" pintype="bidirectional"/>
+      <node ref="U5" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="13" name="/spudglo_business_card_micro/OSC48_HI">
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="PH0/OSCIN" pintype="input"/>
+      <node ref="U4" pin="3" pinfunction="OUT/IN" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="/spudglo_business_card_micro/OSC48_LO">
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="PH1/OSCOUT" pintype="input"/>
+      <node ref="U4" pin="1" pinfunction="IN/OUT" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="/spudglo_business_card_micro/PAUSE">
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="U3" pin="16" pinfunction="PA2/LPUART1_TX/TIM2_CH3/WKUP4" pintype="bidirectional"/>
+      <node ref="U9" pin="1" pinfunction="T1" pintype="input"/>
+      <node ref="U9" pin="3" pinfunction="T3" pintype="input"/>
+    </net>
+    <net code="16" name="/spudglo_business_card_micro/RED_LED">
+      <node ref="D47" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="U3" pin="23" pinfunction="PA7/SPI1_MOSI" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="/spudglo_business_card_micro/SPEED">
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="U3" pin="14" pinfunction="PA0_WKUP1" pintype="bidirectional"/>
+      <node ref="U7" pin="1" pinfunction="T1" pintype="input"/>
+      <node ref="U7" pin="3" pinfunction="T3" pintype="input"/>
+    </net>
+    <net code="18" name="/spudglo_business_card_micro/SWCLK">
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U3" pin="49" pinfunction="PA14/SWCLK" pintype="bidirectional"/>
+    </net>
+    <net code="19" name="/spudglo_business_card_micro/SWDIO">
+      <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U3" pin="46" pinfunction="PA13/SWDIO" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="/spudglo_business_card_micro/VBAT_MON">
+      <node ref="C24" pin="1" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U3" pin="8" pinfunction="PC0/LPUART1_RX" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="GND">
+      <node ref="BT1" pin="-" pintype="passive"/>
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="C24" pin="2" pintype="passive"/>
+      <node ref="C25" pin="2" pintype="passive"/>
+      <node ref="C26" pin="2" pintype="passive"/>
+      <node ref="C27" pin="2" pintype="passive"/>
+      <node ref="C28" pin="2" pintype="passive"/>
+      <node ref="C29" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C30" pin="2" pintype="passive"/>
+      <node ref="C31" pin="2" pintype="passive"/>
+      <node ref="C32" pin="2" pintype="passive"/>
+      <node ref="C33" pin="2" pintype="passive"/>
+      <node ref="C34" pin="2" pintype="passive"/>
+      <node ref="C35" pin="2" pintype="passive"/>
+      <node ref="C36" pin="2" pintype="passive"/>
+      <node ref="C37" pin="2" pintype="passive"/>
+      <node ref="C38" pin="2" pintype="passive"/>
+      <node ref="C39" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C40" pin="2" pintype="passive"/>
+      <node ref="C41" pin="2" pintype="passive"/>
+      <node ref="C42" pin="2" pintype="passive"/>
+      <node ref="C43" pin="2" pintype="passive"/>
+      <node ref="C44" pin="2" pintype="passive"/>
+      <node ref="C45" pin="2" pintype="passive"/>
+      <node ref="C46" pin="2" pintype="passive"/>
+      <node ref="C47" pin="2" pintype="passive"/>
+      <node ref="C48" pin="2" pintype="passive"/>
+      <node ref="C49" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C50" pin="2" pintype="passive"/>
+      <node ref="C51" pin="2" pintype="passive"/>
+      <node ref="C52" pin="2" pintype="passive"/>
+      <node ref="C53" pin="2" pintype="passive"/>
+      <node ref="C54" pin="2" pintype="passive"/>
+      <node ref="C55" pin="2" pintype="passive"/>
+      <node ref="C56" pin="2" pintype="passive"/>
+      <node ref="C57" pin="2" pintype="passive"/>
+      <node ref="C58" pin="2" pintype="passive"/>
+      <node ref="C59" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C60" pin="2" pintype="passive"/>
+      <node ref="C61" pin="2" pintype="passive"/>
+      <node ref="C62" pin="2" pintype="passive"/>
+      <node ref="C63" pin="2" pintype="passive"/>
+      <node ref="C64" pin="2" pintype="passive"/>
+      <node ref="C65" pin="2" pintype="passive"/>
+      <node ref="C66" pin="2" pintype="passive"/>
+      <node ref="C67" pin="2" pintype="passive"/>
+      <node ref="C68" pin="2" pintype="passive"/>
+      <node ref="C69" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C70" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="GND" pintype="input"/>
+      <node ref="D10" pin="2" pinfunction="GND" pintype="input"/>
+      <node ref="D11" pin="2" pinfunction="GND" pintype="input"/>
+      <node ref="D12" pin="2" pinfunction="GND" pintype="input"/>
+      <node ref="D13" pin="2" pinfunction="GND" pintype="input"/>
+      <node ref="D14" pin="2" pinfunction="GND" pintype="input"/>
+      <node ref="D15" pin="2" pinfunction="GND" pintype="input"/>
+      <node ref="D16" pin="2" pinfunction="GND" pintype="input"/>
+      <node ref="D17" pin="2" pinfunction="GND" pintype="input"/>
+      <node ref="D18" pin="2" pinfunction="GND" pintype="input"/>
+      <node ref="D19" pin="2" pinfunction="GND" pintype="input"/>
+      <node ref="D2" pin="2" pinfunction="GND" pintype="input"/>
+      <node ref="D20" pin="2" pinfunction="GND" pintype="input"/>
+      <node ref="D21" pin="2" pinfunction="GND" pintype="input"/>
+      <node ref="D22" pin="2" pinfunction="GND" pintype="input"/>
+      <node ref="D23" pin="2" pinfunction="GND" pintype="input"/>
+      <node ref="D24" pin="2" pinfunction="GND" pintype="input"/>
+      <node ref="D25" pin="2" pinfunction="GND" pintype="input"/>
+      <node ref="D26" pin="2" pinfunction="GND" pintype="input"/>
+      <node ref="D27" pin="2" pinfunction="GND" pintype="input"/>
+      <node ref="D28" pin="2" pinfunction="GND" pintype="input"/>
+      <node ref="D29" pin="2" pinfunction="GND" pintype="input"/>
+      <node ref="D3" pin="2" pinfunction="GND" pintype="input"/>
+      <node ref="D30" pin="2" pinfunction="GND" pintype="input"/>
+      <node ref="D31" pin="2" pinfunction="GND" pintype="input"/>
+      <node ref="D32" pin="2" pinfunction="GND" pintype="input"/>
+      <node ref="D33" pin="2" pinfunction="GND" pintype="input"/>
+      <node ref="D34" pin="2" pinfunction="GND" pintype="input"/>
+      <node ref="D35" pin="2" pinfunction="GND" pintype="input"/>
+      <node ref="D36" pin="2" pinfunction="GND" pintype="input"/>
+      <node ref="D37" pin="2" pinfunction="GND" pintype="input"/>
+      <node ref="D38" pin="2" pinfunction="GND" pintype="input"/>
+      <node ref="D39" pin="2" pinfunction="GND" pintype="input"/>
+      <node ref="D4" pin="2" pinfunction="GND" pintype="input"/>
+      <node ref="D40" pin="2" pinfunction="GND" pintype="input"/>
+      <node ref="D41" pin="2" pinfunction="GND" pintype="input"/>
+      <node ref="D42" pin="2" pinfunction="GND" pintype="input"/>
+      <node ref="D43" pin="2" pinfunction="GND" pintype="input"/>
+      <node ref="D44" pin="2" pinfunction="GND" pintype="input"/>
+      <node ref="D45" pin="2" pinfunction="GND" pintype="input"/>
+      <node ref="D46" pin="2" pinfunction="GND" pintype="input"/>
+      <node ref="D5" pin="2" pinfunction="GND" pintype="input"/>
+      <node ref="D6" pin="2" pinfunction="GND" pintype="input"/>
+      <node ref="D7" pin="2" pinfunction="GND" pintype="input"/>
+      <node ref="D8" pin="2" pinfunction="GND" pintype="input"/>
+      <node ref="D9" pin="2" pinfunction="GND" pintype="input"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="GND" pintype="input"/>
+      <node ref="U10" pin="2" pinfunction="T2" pintype="input"/>
+      <node ref="U10" pin="4" pinfunction="T4" pintype="input"/>
+      <node ref="U2" pin="10" pinfunction="GND" pintype="input"/>
+      <node ref="U3" pin="12" pinfunction="VSSA" pintype="power_in"/>
+      <node ref="U3" pin="18" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U3" pin="31" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U3" pin="47" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U3" pin="63" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U4" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U6" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U7" pin="2" pinfunction="T2" pintype="input"/>
+      <node ref="U7" pin="4" pinfunction="T4" pintype="input"/>
+      <node ref="U8" pin="2" pinfunction="T2" pintype="input"/>
+      <node ref="U8" pin="4" pinfunction="T4" pintype="input"/>
+      <node ref="U9" pin="2" pinfunction="T2" pintype="input"/>
+      <node ref="U9" pin="4" pinfunction="T4" pintype="input"/>
+    </net>
+    <net code="22" name="NRST">
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="U3" pin="7" pinfunction="NRST" pintype="input"/>
+    </net>
+    <net code="23" name="Net-(D1-DO)">
+      <node ref="D1" pin="1" pinfunction="DO" pintype="input"/>
+      <node ref="D2" pin="3" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="24" name="Net-(D2-DO)">
+      <node ref="D2" pin="1" pinfunction="DO" pintype="input"/>
+      <node ref="D3" pin="3" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="25" name="Net-(D3-DO)">
+      <node ref="D3" pin="1" pinfunction="DO" pintype="input"/>
+      <node ref="D4" pin="3" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="26" name="Net-(D4-DO)">
+      <node ref="D4" pin="1" pinfunction="DO" pintype="input"/>
+      <node ref="D5" pin="3" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="27" name="Net-(D5-DO)">
+      <node ref="D5" pin="1" pinfunction="DO" pintype="input"/>
+      <node ref="D6" pin="3" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="28" name="Net-(D7-DO)">
+      <node ref="D7" pin="1" pinfunction="DO" pintype="input"/>
+      <node ref="D8" pin="3" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="29" name="Net-(D8-DO)">
+      <node ref="D8" pin="1" pinfunction="DO" pintype="input"/>
+      <node ref="D9" pin="3" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="30" name="Net-(D10-DI)">
+      <node ref="D10" pin="3" pinfunction="DI" pintype="input"/>
+      <node ref="D9" pin="1" pinfunction="DO" pintype="input"/>
+    </net>
+    <net code="31" name="Net-(D10-DO)">
+      <node ref="D10" pin="1" pinfunction="DO" pintype="input"/>
+      <node ref="D11" pin="3" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="32" name="Net-(D11-DO)">
+      <node ref="D11" pin="1" pinfunction="DO" pintype="input"/>
+      <node ref="D12" pin="3" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="33" name="Net-(D12-DO)">
+      <node ref="D12" pin="1" pinfunction="DO" pintype="input"/>
+      <node ref="D13" pin="3" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="34" name="Net-(D13-DO)">
+      <node ref="D13" pin="1" pinfunction="DO" pintype="input"/>
+      <node ref="D14" pin="3" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="35" name="Net-(D14-DO)">
+      <node ref="D14" pin="1" pinfunction="DO" pintype="input"/>
+      <node ref="D15" pin="3" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="36" name="Net-(D15-DO)">
+      <node ref="D15" pin="1" pinfunction="DO" pintype="input"/>
+      <node ref="D16" pin="3" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="37" name="Net-(D16-DO)">
+      <node ref="D16" pin="1" pinfunction="DO" pintype="input"/>
+      <node ref="D17" pin="3" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="38" name="Net-(D17-DO)">
+      <node ref="D17" pin="1" pinfunction="DO" pintype="input"/>
+      <node ref="D18" pin="3" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="39" name="Net-(D18-DO)">
+      <node ref="D18" pin="1" pinfunction="DO" pintype="input"/>
+      <node ref="D19" pin="3" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="40" name="Net-(D19-DO)">
+      <node ref="D19" pin="1" pinfunction="DO" pintype="input"/>
+      <node ref="D20" pin="3" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="41" name="Net-(D20-DO)">
+      <node ref="D20" pin="1" pinfunction="DO" pintype="input"/>
+      <node ref="D21" pin="3" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="42" name="Net-(D21-DO)">
+      <node ref="D21" pin="1" pinfunction="DO" pintype="input"/>
+      <node ref="D22" pin="3" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="43" name="Net-(D22-DO)">
+      <node ref="D22" pin="1" pinfunction="DO" pintype="input"/>
+      <node ref="D23" pin="3" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="44" name="Net-(D23-DO)">
+      <node ref="D23" pin="1" pinfunction="DO" pintype="input"/>
+      <node ref="D24" pin="3" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="45" name="Net-(D24-DO)">
+      <node ref="D24" pin="1" pinfunction="DO" pintype="input"/>
+      <node ref="D25" pin="3" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="46" name="Net-(D25-DO)">
+      <node ref="D25" pin="1" pinfunction="DO" pintype="input"/>
+      <node ref="D26" pin="3" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="47" name="Net-(D26-DO)">
+      <node ref="D26" pin="1" pinfunction="DO" pintype="input"/>
+      <node ref="D27" pin="3" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="48" name="Net-(D27-DO)">
+      <node ref="D27" pin="1" pinfunction="DO" pintype="input"/>
+      <node ref="D28" pin="3" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="49" name="Net-(D28-DO)">
+      <node ref="D28" pin="1" pinfunction="DO" pintype="input"/>
+      <node ref="D29" pin="3" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="50" name="Net-(D29-DO)">
+      <node ref="D29" pin="1" pinfunction="DO" pintype="input"/>
+      <node ref="D30" pin="3" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="51" name="Net-(D30-DO)">
+      <node ref="D30" pin="1" pinfunction="DO" pintype="input"/>
+      <node ref="D31" pin="3" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="52" name="Net-(D31-DO)">
+      <node ref="D31" pin="1" pinfunction="DO" pintype="input"/>
+      <node ref="D32" pin="3" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="53" name="Net-(D32-DO)">
+      <node ref="D32" pin="1" pinfunction="DO" pintype="input"/>
+      <node ref="D33" pin="3" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="54" name="Net-(D33-DO)">
+      <node ref="D33" pin="1" pinfunction="DO" pintype="input"/>
+      <node ref="D34" pin="3" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="55" name="Net-(D34-DO)">
+      <node ref="D34" pin="1" pinfunction="DO" pintype="input"/>
+      <node ref="D35" pin="3" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="56" name="Net-(D35-DO)">
+      <node ref="D35" pin="1" pinfunction="DO" pintype="input"/>
+      <node ref="D36" pin="3" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="57" name="Net-(D36-DO)">
+      <node ref="D36" pin="1" pinfunction="DO" pintype="input"/>
+      <node ref="D37" pin="3" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="58" name="Net-(D37-DO)">
+      <node ref="D37" pin="1" pinfunction="DO" pintype="input"/>
+      <node ref="D38" pin="3" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="59" name="Net-(D38-DO)">
+      <node ref="D38" pin="1" pinfunction="DO" pintype="input"/>
+      <node ref="D39" pin="3" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="60" name="Net-(D39-DO)">
+      <node ref="D39" pin="1" pinfunction="DO" pintype="input"/>
+      <node ref="D40" pin="3" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="61" name="Net-(D40-DO)">
+      <node ref="D40" pin="1" pinfunction="DO" pintype="input"/>
+      <node ref="D41" pin="3" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="62" name="Net-(D41-DO)">
+      <node ref="D41" pin="1" pinfunction="DO" pintype="input"/>
+      <node ref="D42" pin="3" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="63" name="Net-(D42-DO)">
+      <node ref="D42" pin="1" pinfunction="DO" pintype="input"/>
+      <node ref="D43" pin="3" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="64" name="Net-(D43-DO)">
+      <node ref="D43" pin="1" pinfunction="DO" pintype="input"/>
+      <node ref="D44" pin="3" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="65" name="Net-(D44-DO)">
+      <node ref="D44" pin="1" pinfunction="DO" pintype="input"/>
+      <node ref="D45" pin="3" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="66" name="Net-(D46-DI)">
+      <node ref="D46" pin="3" pinfunction="DI" pintype="input"/>
+      <node ref="D6" pin="1" pinfunction="DO" pintype="input"/>
+    </net>
+    <net code="67" name="Net-(D46-DO)">
+      <node ref="D46" pin="1" pinfunction="DO" pintype="input"/>
+      <node ref="D7" pin="3" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="68" name="Net-(D47-K)">
+      <node ref="D47" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+    </net>
+    <net code="69" name="Net-(U1-IND)">
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="IND" pintype="input"/>
+    </net>
+    <net code="70" name="TIM1_CH1">
+      <node ref="U2" pin="7" pinfunction="A6" pintype="input"/>
+      <node ref="U3" pin="41" pinfunction="PA8/TIM1_CH1" pintype="bidirectional"/>
+    </net>
+    <net code="71" name="TIM1_CH1_SHIFT">
+      <node ref="D1" pin="3" pinfunction="DI" pintype="input"/>
+      <node ref="U2" pin="13" pinfunction="B6" pintype="input"/>
+    </net>
+    <net code="72" name="VBAT">
+      <node ref="BT1" pin="+" pintype="passive"/>
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="VIN" pintype="input"/>
+    </net>
+    <net code="73" name="VBAT_EN">
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="EN" pintype="input"/>
+    </net>
+    <net code="74" name="unconnected-(D45-DO-Pad1)">
+      <node ref="D45" pin="1" pinfunction="DO" pintype="input+no_connect"/>
+    </net>
+    <net code="75" name="unconnected-(U2-A1-Pad2)">
+      <node ref="U2" pin="2" pinfunction="A1" pintype="input+no_connect"/>
+    </net>
+    <net code="76" name="unconnected-(U2-A2-Pad3)">
+      <node ref="U2" pin="3" pinfunction="A2" pintype="input+no_connect"/>
+    </net>
+    <net code="77" name="unconnected-(U2-A3-Pad4)">
+      <node ref="U2" pin="4" pinfunction="A3" pintype="input+no_connect"/>
+    </net>
+    <net code="78" name="unconnected-(U2-A4-Pad5)">
+      <node ref="U2" pin="5" pinfunction="A4" pintype="input+no_connect"/>
+    </net>
+    <net code="79" name="unconnected-(U2-A5-Pad6)">
+      <node ref="U2" pin="6" pinfunction="A5" pintype="input+no_connect"/>
+    </net>
+    <net code="80" name="unconnected-(U2-A7-Pad8)">
+      <node ref="U2" pin="8" pinfunction="A7" pintype="input+no_connect"/>
+    </net>
+    <net code="81" name="unconnected-(U2-A8-Pad9)">
+      <node ref="U2" pin="9" pinfunction="A8" pintype="input+no_connect"/>
+    </net>
+    <net code="82" name="unconnected-(U2-B1-Pad18)">
+      <node ref="U2" pin="18" pinfunction="B1" pintype="input+no_connect"/>
+    </net>
+    <net code="83" name="unconnected-(U2-B2-Pad17)">
+      <node ref="U2" pin="17" pinfunction="B2" pintype="input+no_connect"/>
+    </net>
+    <net code="84" name="unconnected-(U2-B3-Pad16)">
+      <node ref="U2" pin="16" pinfunction="B3" pintype="input+no_connect"/>
+    </net>
+    <net code="85" name="unconnected-(U2-B4-Pad15)">
+      <node ref="U2" pin="15" pinfunction="B4" pintype="input+no_connect"/>
+    </net>
+    <net code="86" name="unconnected-(U2-B5-Pad14)">
+      <node ref="U2" pin="14" pinfunction="B5" pintype="input+no_connect"/>
+    </net>
+    <net code="87" name="unconnected-(U2-B7-Pad12)">
+      <node ref="U2" pin="12" pinfunction="B7" pintype="input+no_connect"/>
+    </net>
+    <net code="88" name="unconnected-(U2-B8-Pad11)">
+      <node ref="U2" pin="11" pinfunction="B8" pintype="input+no_connect"/>
+    </net>
+    <net code="89" name="unconnected-(U3-PA1_SPI1_SCK-Pad15)">
+      <node ref="U3" pin="15" pinfunction="PA1_SPI1_SCK" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="90" name="unconnected-(U3-PA3{slash}LPUART1_RX{slash}TIM2_CH4-Pad17)">
+      <node ref="U3" pin="17" pinfunction="PA3/LPUART1_RX/TIM2_CH4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="91" name="unconnected-(U3-PA4{slash}SPI1_NSS{slash}LPTIM2_OUT-Pad20)">
+      <node ref="U3" pin="20" pinfunction="PA4/SPI1_NSS/LPTIM2_OUT" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="92" name="unconnected-(U3-PA5{slash}SPI1_SCK{slash}TIM2_CH1-Pad21)">
+      <node ref="U3" pin="21" pinfunction="PA5/SPI1_SCK/TIM2_CH1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="93" name="unconnected-(U3-PA6{slash}TIM16_CH1-Pad22)">
+      <node ref="U3" pin="22" pinfunction="PA6/TIM16_CH1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="94" name="unconnected-(U3-PA9{slash}TIM1_CH2{slash}USART1_TX-Pad42)">
+      <node ref="U3" pin="42" pinfunction="PA9/TIM1_CH2/USART1_TX" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="95" name="unconnected-(U3-PA10{slash}TIM1_CH3{slash}USART1_RX-Pad43)">
+      <node ref="U3" pin="43" pinfunction="PA10/TIM1_CH3/USART1_RX" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="96" name="unconnected-(U3-PA11{slash}TIM1_CH4{slash}SPI1_MISO-Pad44)">
+      <node ref="U3" pin="44" pinfunction="PA11/TIM1_CH4/SPI1_MISO" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="97" name="unconnected-(U3-PA12{slash}SPI_MOSI-Pad45)">
+      <node ref="U3" pin="45" pinfunction="PA12/SPI_MOSI" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="98" name="unconnected-(U3-PB0-Pad26)">
+      <node ref="U3" pin="26" pinfunction="PB0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="99" name="unconnected-(U3-PB1-Pad27)">
+      <node ref="U3" pin="27" pinfunction="PB1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="100" name="unconnected-(U3-PB2-Pad28)">
+      <node ref="U3" pin="28" pinfunction="PB2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="101" name="unconnected-(U3-PB5{slash}SPI1_MOSI{slash}SPI3_MOSI-Pad57)">
+      <node ref="U3" pin="57" pinfunction="PB5/SPI1_MOSI/SPI3_MOSI" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="102" name="unconnected-(U3-PB6{slash}USART1_TX-Pad58)">
+      <node ref="U3" pin="58" pinfunction="PB6/USART1_TX" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="103" name="unconnected-(U3-PB7{slash}USART1_RX-Pad59)">
+      <node ref="U3" pin="59" pinfunction="PB7/USART1_RX" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="104" name="unconnected-(U3-PB8{slash}I2C1_SCL{slash}TIM16_CH1-Pad61)">
+      <node ref="U3" pin="61" pinfunction="PB8/I2C1_SCL/TIM16_CH1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="105" name="unconnected-(U3-PB9{slash}I2C1_SDA{slash}SPI2_NSS-Pad62)">
+      <node ref="U3" pin="62" pinfunction="PB9/I2C1_SDA/SPI2_NSS" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="106" name="unconnected-(U3-PB10{slash}LPUART1_RX{slash}SPI2_SCK{slash}TIM2_CH3{slash}I2C2_SCL-Pad29)">
+      <node ref="U3" pin="29" pinfunction="PB10/LPUART1_RX/SPI2_SCK/TIM2_CH3/I2C2_SCL" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="107" name="unconnected-(U3-PB11{slash}USART3_RX{slash}LPUART1_TX{slash}TIM2_CH4{slash}I2C2_SDA-Pad30)">
+      <node ref="U3" pin="30" pinfunction="PB11/USART3_RX/LPUART1_TX/TIM2_CH4/I2C2_SDA" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="108" name="unconnected-(U3-PB12-Pad33)">
+      <node ref="U3" pin="33" pinfunction="PB12" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="109" name="unconnected-(U3-PB13-Pad34)">
+      <node ref="U3" pin="34" pinfunction="PB13" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="110" name="unconnected-(U3-PB14{slash}SPI2_MISO{slash}TIM15_CH1-Pad35)">
+      <node ref="U3" pin="35" pinfunction="PB14/SPI2_MISO/TIM15_CH1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="111" name="unconnected-(U3-PB15{slash}SPI2_MOSI{slash}TIM15_CH2-Pad36)">
+      <node ref="U3" pin="36" pinfunction="PB15/SPI2_MOSI/TIM15_CH2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="112" name="unconnected-(U3-PC1{slash}LPUART1_TX-Pad9)">
+      <node ref="U3" pin="9" pinfunction="PC1/LPUART1_TX" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="113" name="unconnected-(U3-PC2{slash}SPI2_MISO-Pad10)">
+      <node ref="U3" pin="10" pinfunction="PC2/SPI2_MISO" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="114" name="unconnected-(U3-PC3{slash}SPI2_MOSI-Pad11)">
+      <node ref="U3" pin="11" pinfunction="PC3/SPI2_MOSI" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="115" name="unconnected-(U3-PC4{slash}USART3_TX-Pad24)">
+      <node ref="U3" pin="24" pinfunction="PC4/USART3_TX" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="116" name="unconnected-(U3-PC6-Pad37)">
+      <node ref="U3" pin="37" pinfunction="PC6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="117" name="unconnected-(U3-PC9-Pad40)">
+      <node ref="U3" pin="40" pinfunction="PC9" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="118" name="unconnected-(U3-PC10-Pad51)">
+      <node ref="U3" pin="51" pinfunction="PC10" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="119" name="unconnected-(U3-PC11{slash}SPI3_MISO{slash}USART3_RX-Pad52)">
+      <node ref="U3" pin="52" pinfunction="PC11/SPI3_MISO/USART3_RX" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="120" name="unconnected-(U3-PC12{slash}SPI3_MOSI-Pad53)">
+      <node ref="U3" pin="53" pinfunction="PC12/SPI3_MOSI" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="121" name="unconnected-(U3-PD2-Pad54)">
+      <node ref="U3" pin="54" pinfunction="PD2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="122" name="unconnected-(U6-NC-Pad4)">
+      <node ref="U6" pin="4" pinfunction="NC" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>

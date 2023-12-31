@@ -1,42 +1,36 @@
-"Source:","/Users/spud/Documents/GitHub/spud-hardware/Design/spudglo_driver_v4p3/spudglo_driver_v4p3.kicad_sch"
-"Date:","2023 May 07, Sunday 22:01:09"
-"Tool:","Eeschema 7.0.2-0"
-"Generator:","/Applications/KiCad/KiCad.app/Contents/SharedSupport/plugins/bom_csv_grouped_by_value.py"
-"Component Count:","84"
-
-"Collated Components:"
-
-"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","DNP","AVAILABILITY","DESCRIPTION","MF","MP","PACKAGE","PARTREV","STANDARD"
-"1","2","C1, C2","1u","Device:C_Small","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","~","","","","","","","",""
-"2","2","C3, C7","6p","spudglo_driver_v3p1-rescue:CP_Small-Device","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","","","","","","","","",""
-"3","2","C4, C5","8p","spudglo_driver_v3p1-rescue:CP_Small-Device","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","","","","","","","","",""
-"4","7","C6, C8, C9, C10, C11, C12, C13","0.1u","spudglo_driver_v3p1-rescue:CP_Small-Device","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","","","","","","","","",""
-"5","1","C14","4.7u","spudglo_driver_v3p1-rescue:CP_Small-Device","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","","","","","","","","",""
-"6","7","C15, C17, C18, C25, C26, C27, C28","1u","spudglo_driver_v3p1-rescue:CP_Small-Device","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","","","","","","","","",""
-"7","1","C16","0.01u","spudglo_driver_v3p1-rescue:CP_Small-Device","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","","","","","","","","",""
-"8","1","C19","10u","spudglo_driver_v3p1-rescue:CP_Small-Device","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","","","","","","","","",""
-"9","1","D1","GREEN LED","Device:LED","LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder","https://jlcpcb.com/partdetail/EverlightElec-16_213SYGC_S530_E3TR8/C264408","","","","","","","",""
-"10","1","D3","RED_LED","Device:LED","LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder","16-213/SDRC/S530-A3/TR8 (https://jlcpcb.com/partdetail/EverlightElec-16_213_SDRC_S530_A3TR8/C71911)","","","","","","","",""
-"11","1","F1","Fuse-2410FA","srw_custom:Fuse-2410FA","srw_custom:2410FA","","","","","","","","",""
-"12","1","J1","Conn_01x08_Male","Connector:Conn_01x08_Male","Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical","~","","","","","","","",""
-"13","1","J2","Barrel_Jack_Switch","Connector:Barrel_Jack_Switch","Connector_BarrelJack:BarrelJack_Wuerth_6941xx301002","~","","","","","","","",""
-"14","1","J3","terminal_custom_12pin","srw_custom:terminal_custom_12pin","srw_custom:1984714","","","","","","","","",""
-"15","1","J4","Conn_01x08_Male","Connector:Conn_01x08_Male","Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical","~","","","","","","","",""
-"16","2","MH1, MH2","MountingHole_Pad","Mechanical:MountingHole_Pad","MountingHole:MountingHole_3mm","~","","","","","","","",""
-"17","21","R1, R2, R3, R4, R5, R10, R11, R12, R13, R14, R15, R16, R17, R18, R19, R20, R21, R22, R33, R34, R36","10k","Device:R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","~","","","","","","","",""
-"18","4","R6, R7, R8, R9","1k","Device:R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","~","","","","","","","",""
-"19","5","R23, R24, R25, R26, R32","DNI","Device:R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","~","","","","","","","",""
-"20","5","R27, R28, R29, R30, R31","0","Device:R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","~","","","","","","","",""
-"21","1","R35","28k","Device:R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","~","","","","","","","",""
-"22","2","R37, R39","1k","Device:R","Resistor_SMD:R_0402_1005Metric","~","","","","","","","",""
-"23","4","U1, U3, U4, U5","receiver_433MHz","spudglo_driver_v3p1-rescue:receiver_433MHz-srw_custom","Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical","","","","","","","","",""
-"24","1","U2","TXS0104EDR","srw_custom:TXS0104EDR","Package_SO:SOIC-14_3.9x8.7mm_P1.27mm","","","","","","","","",""
-"25","1","U6","PS2501-4","spudglo_driver_v3p1-rescue:PS2501-4-srw_custom","srw_custom:PS2501-4XSM","","","","","","","","",""
-"26","1","U7","ECS-.327-9-1210-TR","Device:Crystal","ECS-:XTAL_ECS-.327-9-1210-TR","~","","","","","","","",""
-"27","1","U8","ECS-480-8-36-RWN-TR","spudglo_driver_v3p1-rescue:ECS-480-8-36-RWN-TR-ECS-480-8-36-RWN-TR","XTAL_ECS-480-8-36-RWN-TR","","","Good","The minature ECX-2236 is a compact SMD Crystal. The industry standard 2.5 x 2.0 x 0.55 mm ceramic package is ideal for today’s SMD manufacturing environment.","ECS INC","ECX-2236","SMD-4 ECX","2017","Manufacturer Recommendation"
-"28","1","U9","SN74HCT245PW","spudglo_driver_v3p1-rescue:SN74HCT245PW-srw_custom","Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm","","","","","","","","",""
-"29","1","U10","STM32L431RCTx","spudglo_driver_v3p1-rescue:STM32L431RCTx-MCU_ST_STM32L4","Package_QFP:LQFP-64_10x10mm_P0.5mm","http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257211.pdf","","","","","","","",""
-"30","1","U11","LP5907MFX-3.3","Regulator_Linear:LP5907MFX-3.3","Package_TO_SOT_SMD:SOT-23-5","http://www.ti.com/lit/ds/symlink/lp5907.pdf","","","","","","","",""
-"31","1","U12","USB-C-31-M-12","srw_custom:USB-C-31-M-12","Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12","","","","","","","","",""
-"32","1","U13","XR21B1411",":XR21B1411_1","srw_custom:XR21B1411","","","","","","","","",""
-"33","1","U14","NCP361",":NCP361_1","srw_custom:NCP361","","","","","","","","",""
+Comment,Designator,Footprint,JLCPCB Part #_optional_
+1u,"C1, C2",Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,
+6p,"C3, C7",Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,
+8p,"C4, C5",Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,
+0.1u,"C6, C8, C9, C10, C11, C12, C13",Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,
+4.7u,C14,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,
+1u,"C15, C17, C18, C25, C26, C27, C28",Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,
+0.01u,C16,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,
+10u,C19,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,
+GREEN LED,D1,LED_SMD:LED_0603_1608Metric,C72043
+BLUE LED,D2,LED_SMD:LED_0603_1608Metric,C72041
+RED_LED,D3,LED_SMD:LED_0603_1608Metric,C389517
+ORANGE LED,D4,LED_SMD:LED_0603_1608Metric,C84269
+Fuse-2410FA,F1,srw_custom:2410FA,
+Conn_01x08_Male,J1,Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical,
+Barrel_Jack_Switch,J2,Connector_BarrelJack:BarrelJack_Wuerth_6941xx301002,
+terminal_custom_12pin,J3,srw_custom:1984714,
+Conn_01x08_Male,J4,Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical,
+MountingHole_Pad,"MH1, MH2",MountingHole:MountingHole_3mm,
+10k,"R1, R2, R3, R4, R5, R10, R11, R12, R13, R14, R15, R16, R17, R18, R19, R20, R21, R22, R33, R34, R36",Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,
+1k,"R6, R7, R8, R9",Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,
+DNI,"R23, R24, R25, R26, R32",Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,
+0,"R27, R28, R29, R30, R31",Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,
+28k,R35,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,
+100,"R37, R38, R39, R40",Resistor_SMD:R_0402_1005Metric,
+receiver_433MHz,"U1, U3, U4, U5",Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical,
+TXS0104EDR,U2,Package_SO:SOIC-14_3.9x8.7mm_P1.27mm,
+PS2501-4,U6,srw_custom:PS2501-4XSM,
+ECS-.327-9-1210-TR,U7,ECS-:XTAL_ECS-.327-9-1210-TR,
+ECS-480-8-36-RWN-TR,U8,XTAL_ECS-480-8-36-RWN-TR,
+SN74HCT245PW,U9,Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm,
+STM32L431RCTx,U10,Package_QFP:LQFP-64_10x10mm_P0.5mm,
+LP5907MFX-3.3,U11,Package_TO_SOT_SMD:SOT-23-5,
+USB-C-31-M-12,U12,Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12,
+XR21B1411,U13,srw_custom:XR21B1411,
+NCP361,U14,srw_custom:NCP361,

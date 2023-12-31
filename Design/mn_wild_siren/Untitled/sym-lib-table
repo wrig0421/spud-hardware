@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "mn_wild_siren_micro-rescue")(type "KiCad")(uri "${KIPRJMOD}/mn_wild_siren_micro-rescue.kicad_sym")(options "")(descr ""))
+  (lib (name "mn_wild_siren-rescue")(type "KiCad")(uri "${KIPRJMOD}/mn_wild_siren-rescue.kicad_sym")(options "")(descr ""))
+)

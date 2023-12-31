@@ -29,6 +29,7 @@
       "zones": true
     },
     "visible_items": [
+      0,
       1,
       2,
       3,
@@ -45,6 +46,7 @@
       16,
       17,
       18,
+      19,
       20,
       21,
       22,
@@ -62,7 +64,7 @@
       35,
       36
     ],
-    "visible_layers": "003ff8f_00000000",
+    "visible_layers": "003ffbf_00000003",
     "zone_display_mode": 0
   },
   "meta": {
