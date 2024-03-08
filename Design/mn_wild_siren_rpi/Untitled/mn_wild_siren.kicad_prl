@@ -64,8 +64,14 @@
       35,
       36
     ],
-    "visible_layers": "003ffbf_00000003",
+    "visible_layers": "003ffbf_00000001",
     "zone_display_mode": 0
+  },
+  "git": {
+    "repo_password": "",
+    "repo_type": "",
+    "repo_username": "",
+    "ssh_key": ""
   },
   "meta": {
     "filename": "mn_wild_siren.kicad_prl",

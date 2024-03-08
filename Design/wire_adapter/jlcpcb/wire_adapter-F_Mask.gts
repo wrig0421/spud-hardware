@@ -1,0 +1,35 @@
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,7.0.2-0*
+G04 #@! TF.CreationDate,2024-01-28T15:47:01-06:00*
+G04 #@! TF.ProjectId,wire_adapter,77697265-5f61-4646-9170-7465722e6b69,rev?*
+G04 #@! TF.SameCoordinates,Original*
+G04 #@! TF.FileFunction,Soldermask,Top*
+G04 #@! TF.FilePolarity,Negative*
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 7.0.2-0) date 2024-01-28 15:47:01*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%ADD10C,2.600000*%
+G04 APERTURE END LIST*
+D10*
+G04 #@! TO.C,J6*
+X157480000Y-101600000D03*
+G04 #@! TD*
+G04 #@! TO.C,J5*
+X157480000Y-95250000D03*
+G04 #@! TD*
+G04 #@! TO.C,J4*
+X157480000Y-88900000D03*
+G04 #@! TD*
+G04 #@! TO.C,J3*
+X132080000Y-101600000D03*
+G04 #@! TD*
+G04 #@! TO.C,J2*
+X132080000Y-95250000D03*
+G04 #@! TD*
+G04 #@! TO.C,J1*
+X132080000Y-88900000D03*
+G04 #@! TD*
+M02*

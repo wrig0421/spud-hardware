@@ -34,6 +34,7 @@
       3,
       4,
       5,
+      7,
       8,
       9,
       10,
@@ -64,8 +65,14 @@
       39,
       40
     ],
-    "visible_layers": "fffffff_7ffffffd",
+    "visible_layers": "fffffff_ffffffff",
     "zone_display_mode": 0
+  },
+  "git": {
+    "repo_password": "",
+    "repo_type": "",
+    "repo_username": "",
+    "ssh_key": ""
   },
   "meta": {
     "filename": "spudglo_driver_v6p0.kicad_prl",

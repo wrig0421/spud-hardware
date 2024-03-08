@@ -1,0 +1,39 @@
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,7.0.2-0*
+G04 #@! TF.CreationDate,2024-01-28T20:09:11-06:00*
+G04 #@! TF.ProjectId,bus_bar,6275735f-6261-4722-9e6b-696361645f70,rev?*
+G04 #@! TF.SameCoordinates,Original*
+G04 #@! TF.FileFunction,Paste,Top*
+G04 #@! TF.FilePolarity,Positive*
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 7.0.2-0) date 2024-01-28 20:09:11*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+G04 Aperture macros list*
+%AMRotRect*
+0 Rectangle, with rotation*
+0 The origin of the aperture is its center*
+0 $1 length*
+0 $2 width*
+0 $3 Rotation angle, in degrees counterclockwise*
+0 Add horizontal line*
+21,1,$1,$2,0,0,$3*%
+G04 Aperture macros list end*
+%ADD10RotRect,5.000000X10.000000X30.000000*%
+G04 APERTURE END LIST*
+D10*
+X243991385Y-40731182D03*
+X199892294Y-65949316D03*
+X254046384Y-58146953D03*
+X210157295Y-83728820D03*
+X166163205Y-109128818D03*
+X122169114Y-134528817D03*
+X78175023Y-159928818D03*
+X34180934Y-185328819D03*
+X155898205Y-91349317D03*
+X111904115Y-116749316D03*
+X68015024Y-142331182D03*
+X24020932Y-167731182D03*
+M02*
