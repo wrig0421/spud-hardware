@@ -1,7 +1,7 @@
 (export (version "E")
   (design
     (source "/Users/spud/Documents/GitHub/spud-hardware/Design/led_dog_collar/led_dog_collar.kicad_sch")
-    (date "2024-03-08T13:34:37-0600")
+    (date "2024-03-08T15:56:37-0600")
     (tool "Eeschema 8.0.0")
     (sheet (number "1") (name "/") (tstamps "/")
       (title_block
@@ -1094,7 +1094,7 @@
       (node (ref "C5") (pin "1") (pintype "passive"))
       (node (ref "J1") (pin "1") (pinfunction "Pin_1") (pintype "passive"))
       (node (ref "L1") (pin "1") (pinfunction "1") (pintype "passive"))
-      (node (ref "SW2") (pin "1") (pinfunction "1") (pintype "unspecified"))
+      (node (ref "SW2") (pin "2") (pinfunction "2") (pintype "unspecified"))
       (node (ref "U1") (pin "6") (pinfunction "VIN") (pintype "input")))
     (net (code "18") (name "VBAT_EN")
       (node (ref "R7") (pin "1") (pintype "passive"))
@@ -1106,8 +1106,8 @@
       (node (ref "J3") (pin "4") (pinfunction "Pin_4") (pintype "passive+no_connect")))
     (net (code "21") (name "unconnected-(J3-Pin_5-Pad5)")
       (node (ref "J3") (pin "5") (pinfunction "Pin_5") (pintype "passive+no_connect")))
-    (net (code "22") (name "unconnected-(SW2-Pad2)")
-      (node (ref "SW2") (pin "2") (pinfunction "2") (pintype "unspecified+no_connect")))
+    (net (code "22") (name "unconnected-(SW2-Pad1)")
+      (node (ref "SW2") (pin "1") (pinfunction "1") (pintype "unspecified+no_connect")))
     (net (code "23") (name "unconnected-(U3-NC-Pad4)")
       (node (ref "U3") (pin "4") (pinfunction "NC") (pintype "no_connect")))
     (net (code "24") (name "unconnected-(U4-PA0_WKUP1-Pad14)")

@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name "small_led_driver-rescue")(type "Legacy")(uri "${KIPRJMOD}/small_led_driver-rescue.lib")(options "")(descr ""))
+  (version 7)
+  (lib (name "small_led_driver-rescue")(type "KiCad")(uri "${KIPRJMOD}/small_led_driver-rescue.kicad_sym")(options "")(descr ""))
 )
