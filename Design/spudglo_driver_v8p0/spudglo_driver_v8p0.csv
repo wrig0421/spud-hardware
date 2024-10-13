@@ -1,48 +1,38 @@
-Comment,Designator,Footprint
-Battery_Cell,BT1,Battery:BatteryHolder_Keystone_500
-1u,"C1, C2, C3, C11, C18, C19, C20, C21, C22, C23, C25, C26, C29, C30, C31, C32",Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder
-10u,"C4, C5",Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder
-0.1u,"C6, C8, C16, C28",Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder
-6p,"C7, C33",Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder
-4.7u,C9,Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder
-0.01u,"C10, C15",Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder
-100n,"C12, C13, C14",Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder
-0.1n,C17,Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder
-22u,"C24, C27",Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder
-AMCA31-2R450G-S1F-T3,E1,srw_custom:XDCR_AMCA31-2R450G-S1F-T3
-Fuse-2410FA,F1,srw_custom:2410FA
-MountingHole,"H1, H2, H3, H4",MountingHole:MountingHole_4.5mm
-AP63205,IC1,srw_custom:AP63205
-Conn_01x08_Male,J1,Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical
-Barrel_Jack_Switch,J2,Connector_BarrelJack:BarrelJack_Wuerth_6941xx301002
-terminal_custom_12pin,J3,srw_custom:1984714
-Conn_01x01_Pin,"J4, J5",Connector_Pin:Pin_D1.3mm_L11.0mm_LooseFit
-Conn_02x02_Top_Bottom,J7,Connector_PinHeader_2.00mm:PinHeader_2x02_P2.00mm_Vertical
-L,L1,Inductor_SMD:L_1008_2520Metric_Pad1.43x2.20mm_HandSolder
-2.2u,L2,Inductor_SMD:L_1008_2520Metric_Pad1.43x2.20mm_HandSolder
-8.3nH,L3,Inductor_SMD:L_0402_1005Metric
-DNI,L4,Inductor_SMD:L_0402_1005Metric
-9.3nH,L5,Inductor_SMD:L_0402_1005Metric
-10n,L6,Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder
-150044M155260,LED1,150044M155260_WRE
-1M,"R1, R3, R4, R5, R13",Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
-10k,"R2, R8, R11, R12, R15, R16, R23, R34",Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
-60k,R6,Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
-40k,R7,Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
-0,"R9, R14, R18, R24",Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
-10k,R10,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
-100,"R20, R21, R22",Resistor_SMD:R_0402_1005Metric
-28k,R35,Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder
-rf_433MHz_module,"U1, U2, U3, U4",srw_cuustom:433MHz_receiver
-RV-8803,U5,srw_custom:rv-8803-c7
-XR21B1411,U6,srw_cuustom:XR21B1411
-~,U7,srw_custom:MIC826SYMT
-~,U8,srw_custom:MLPF-WB55-01E3_STM
-SN74HCT245PW,U9,Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm
-STM32WB55CGUx,U10,Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.6x5.6mm
-USB-C-31-M-12,U12,Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12
-NCP361,U13,srw_cuustom:NCP361
-LP5907MFX-3.3,U14,Package_TO_SOT_SMD:SOT-23-5
-TPS22916BYFPT,U16,srw_custom:TPS22916BYFPT
-~,U17,srw_custom:TPS22810TDBVRQ1
-ECS-480-8-36-RWN-TR,Y1,srw_custom:XTAL_ECS-480-8-36-RWN-TR
+"Reference","Value","Datasheet","Footprint","Qty","DNP"
+"BT1","Battery_Cell","~","Battery:BatteryHolder_Keystone_500","1",""
+"C1,C2,C3,C11,C18,C19,C20,C21,C22,C23,C25,C26,C29,C30,C31,C32","1u","~","Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder","16",""
+"C4,C5,C12","10u","~","Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder","3",""
+"C6,C8,C9,C28,C34,C35","0.1u","~","Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder","6",""
+"C7,C33","6p","~","Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder","2",""
+"C10,C15","0.01u","~","Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder","2",""
+"C24,C27","22u","~","Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder","2",""
+"C37","4.7u","~","Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder","1",""
+"F1","Fuse-2410FA","","srw_custom:2410FA","1",""
+"H1,H2,H3,H4","MountingHole","~","MountingHole:MountingHole_4.5mm","4",""
+"IC1","AP63205","","srw_custom:AP63205","1",""
+"J1","Conn_01x08_Male","~","Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical","1",""
+"J2","Barrel_Jack_Switch","~","Connector_BarrelJack:BarrelJack_Wuerth_6941xx301002","1",""
+"J3","terminal_custom_12pin","","srw_custom:1984714","1",""
+"J4,J5","Conn_01x01_Pin","~","Connector_Pin:Pin_D1.3mm_L11.0mm_LooseFit","2",""
+"J6,J7","Conn_02x02_Top_Bottom","~","Connector_PinHeader_2.00mm:PinHeader_2x02_P2.00mm_Vertical","2",""
+"L1","L","CIGT252010EH2R2MNE","Inductor_SMD:L_1008_2520Metric_Pad1.43x2.20mm_HandSolder","1",""
+"LED1","150044M155260","150044M155260","150044M155260_WRE","1",""
+"R1,R3,R4,R5,R13","1M","~","Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder","5",""
+"R2,R8,R10,R11,R12,R14,R15,R16,R17,R23,R34","10k","~","-- mixed values --","11",""
+"R6","60k","~","Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder","1",""
+"R7","40k","~","Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder","1",""
+"R9,R24","0","~","Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder","2",""
+"R18,R19","DNI","~","Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder","2",""
+"R20,R21,R22","100","~","Resistor_SMD:R_0402_1005Metric","3",""
+"R35","28k","~","Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder","1",""
+"U1,U2,U3,U4","rf_433MHz_module","","srw_cuustom:433MHz_receiver","4",""
+"U5","RV-8803","https://www.emmicroelectronic.com/sites/default/files/products/datasheets/rv-8803-c7-mn01.pdf","srw_custom:rv-8803-c7","1",""
+"U6","XR21B1411","","srw_cuustom:XR21B1411","1",""
+"U7,U17","~","","-- mixed values --","2",""
+"U8","STM32L431RCTx","http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00257211.pdf","Package_QFP:LQFP-64_10x10mm_P0.5mm","1",""
+"U9","SN74HCT245PW","","Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm","1",""
+"U12","USB-C-31-M-12","","Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12","1",""
+"U13","NCP361","","srw_cuustom:NCP361","1",""
+"U14","LP5907MFX-3.3","http://www.ti.com/lit/ds/symlink/lp5907.pdf","Package_TO_SOT_SMD:SOT-23-5","1",""
+"U16","TPS22916BYFPT","","srw_custom:TPS22916BYFPT","1",""
+"Y1","ECS-480-8-36-RWN-TR","","srw_custom:XTAL_ECS-480-8-36-RWN-TR","1",""

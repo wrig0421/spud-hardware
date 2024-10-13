@@ -1,0 +1,30 @@
+Comment,Designator,Footprint
+BC2AAPC,BT1,srw_custom:BAT_BC2AAPC
+4.7uF,"C1, C2, C5, C6, C7",Capacitor_SMD:C_0402_1005Metric
+10uF,C3,Capacitor_SMD:C_0402_1005Metric
+1uF,C4,Capacitor_SMD:C_0402_1005Metric
+0.1u,"C8, C9, C10, C11, C12, C13, C14",Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+4.7u,C15,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+0.01u,C16,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+1u,"C17, C22, C23, C24",Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+6p,"C18, C21",Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+8p,"C19, C20",Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder
+0.1uF,"C25, C26, C27, C28, C29, C30, C31, C32, C33, C34, C35, C36, C37, C38, C39, C40, C41, C42, C43, C44, C45, C46, C47, C48, C49, C50, C51, C52, C53, C54, C55, C56, C57, C58, C59, C60, C61, C62, C63, C64, C65, C66, C67, C68, C69, C70",Capacitor_SMD:C_0201_0603Metric
+WS2812B-2020,"D1, D2, D3, D4, D5, D6, D7, D8, D9, D10, D11, D12, D13, D14, D15, D16, D17, D18, D19, D20, D21, D22, D23, D24, D25, D26, D27, D28, D29, D30, D31, D32, D33, D34, D35, D36, D37, D38, D39, D40, D41, D42, D43, D44, D45, D46",LED_SMD:LED_WS2812B-2020_PLCC4_2.0x2.0mm
+RED_LED,D47,LED_SMD:LED_0603_1608Metric
+Conn_01x08_Male,J1,Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical
+LQM21PN1R0MC0,L1,Inductor_SMD:L_0805_2012Metric
+100k,R1,Resistor_SMD:R_0402_1005Metric
+10k,"R2, R3, R4, R5, R6, R7, R8, R11, R12",Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+DNI,R9,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+0,R10,Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+100k,"R13, R14, R15, R16",Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
+100,R17,Resistor_SMD:R_0402_1005Metric
+SW_DIP_x01,SW1,srw_custom:SW_CFS-0102MA_NDC-L
+~,U1,Package_DFN_QFN:DFN-6-1EP_2x2mm_P0.65mm_EP1x1.6mm
+SN74HCT245PW,U2,Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm
+STM32L431RCTx,U3,Package_QFP:LQFP-64_10x10mm_P0.5mm
+ECS-480-8-36-RWN-TR,U4,srw_custom:XTAL_ECS-480-8-36-RWN-TR
+ECS-.327-9-1210-TR,U5,srw_custom:XTAL_ECS-.327-9-1210-TR
+LP5907MFX-3.3,U6,Package_TO_SOT_SMD:SOT-23-5
+~,"U7, U8, U9, U10",srw_custom:MCSLPT4848C3DTR
