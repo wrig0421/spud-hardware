@@ -1,0 +1,33 @@
+Qty,Reference,Value,Footprint,JLCPCB part #,Price per part for >= 100,~ Cost per board
+1,C2,0.1u,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,C24452,$0.01 ,$0.01 
+7,"C6,C8,C9,C14,C18,C34,C35",0.1u,Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,C77008,$0.00 ,$0.03 
+3,"C11,C21,C22",1u,Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,C29266,$0.00 ,$0.00 
+1,C3,1u,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,C15849,$0.00 ,$0.00 
+2,"C7,C33",6p,Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,C162119,$0.00 ,$0.01 
+1,C10,0.01u,Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,C162190,$0.01 ,$0.01 
+2,"C19,C20",10u,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,C344022,$0.02 ,$0.05 
+2,"C15,C16,C19,C20",10u,Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,C76991,$0.01 ,$0.01 
+1,C17,22u,Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,C415703,$0.03 ,$0.03 
+1,L1,4.7u,Inductor_SMD:L_1008_2520Metric_Pad1.43x2.20mm_HandSolder,C391306,$0.07 ,$0.07 
+2,C37,4.7u,Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,C77004,$0.02 ,$0.03 
+1,CR2,SMDJ12A,srw_custom:SMDJSeries_LTF,C4154714,$0.08 ,$0.08 
+1,F1,Fuse-2410FA,srw_custom:2410FA,C2838934,$0.13 ,$0.13 
+4,"H1,H2,H3,H4",MountingHole,MountingHole:MountingHole_4.5mm,NA,$0 ,$0.00 
+4,"J1,J8,J9,J10",Conn_01x01_Pin,Connector_Pin:Pin_D1.3mm_L11.0mm_LooseFit,NA,$0 ,$0.00 
+1,J2,1935161,CONN_1935161_PXC,C3819953,$0.36 ,$0.36 
+1,J5,Conn_01x08_Male,Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical,C492421,$0.03 ,$0.03 
+3,"J12,J13,J14",1935174,srw_custom:CONN_1935174_PXC,C3816891,$0.50 ,$1.49 
+1,R1,54.9k,Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,C11626,$0.00 ,$0.00 
+1,R2,10k,Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder,C60490,$0.00 ,$0.00 
+4,"U1,U2,U3,U4",rf_433MHz_module,srw_cuustom:433MHz_receiver,C5116483,$0.02 ,$0.07 
+1,U5,TPS7A2033PDBVR,srw_custom:DBV0005A-IPC_A,C2862740,$0.12 ,$0.12 
+1,U7,TPS561201DDCR,srw_custom:DDC0006A_N,C220433,$0.15 ,$0.15 
+1,U8,STM32L431RCTx,Package_QFP:LQFP-64_10x10mm_P0.5mm,C92468,$1.27 ,$1.27 
+1,U9,SN74HCT245PW,Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm,C6779,$0.23 ,$0.23 
+1,Y1,ECS-480-8-36-RWN-TR,srw_custom:XTAL_ECS-480-8-36-RWN-TR,C2450270,$0.40 ,$0.40 
+,,,,,,
+4,,transceiver modules,,,$1.07,$4.29 
+,,,,,,
+,,,,,Total part cost per board,$8.89 
+,,,,,Total cost without the transceivers,$4.53 
+,,,,,Total cost without transceivers and without headers,$2.67 

@@ -1,0 +1,14 @@
+Comment,Designator,Footprint,JLCPCB Part #_optional_
+1u,"C9,C10",Capacitor_SMD:C_0402_1005Metric,C14445
+0.1u,"C11,C12,C13,C14,C15,C16,C24,C25",Capacitor_SMD:C_0402_1005Metric,C1525
+4.7u,C17,Capacitor_SMD:C_0402_1005Metric,C77004
+6p,"C20,C23",Capacitor_SMD:C_0402_1005Metric,C318621
+PESD5V0C1BSFYL,CR2,srw_custom:PESD5V0C1BSFYL_NEX,
+MountingHole,"H1,H2,H3",MountingHole:MountingHole_2mm,
+Conn_01x01_Male,"J1,J2,J4,J5,J7",Connector_Pin:Pin_D1.3mm_L11.0mm,
+Conn_01x08_Male,J3,Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical,C5116483
+10k,R6,Resistor_SMD:R_0402_1005Metric,C60490
+LP5907MFX-3.3,U3,Package_TO_SOT_SMD:SOT-23-5,C80670
+STM32L431RCTx,U4,Package_QFP:LQFP-64_10x10mm_P0.5mm,C92468
+ECS-480-8-36-RWN-TR,U5,srw_custom:XTAL_ECS-480-8-36-RWN-TR,C2450270
+SN74LVC1T45DBV,U7,Package_TO_SOT_SMD:SOT-23-6,C7843

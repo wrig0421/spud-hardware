@@ -1,0 +1,14 @@
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"H3,H1,H2";"MountingHole_2mm";3;"MountingHole";;;
+2;"C25,C24,C16,C15,C14,C13,C12,C11";"C_0402_1005Metric";8;"0.1u";;;
+3;"C23,C20";"C_0402_1005Metric";2;"6p";;;
+4;"C17";"C_0402_1005Metric";1;"4.7u";;;
+5;"C10,C9";"C_0402_1005Metric";2;"1u";;;
+6;"R6";"R_0402_1005Metric";1;"10k";;;
+7;"J7,J1,J2,J4,J5";"Pin_D1.3mm_L11.0mm";5;"Conn_01x01_Male";;;
+8;"U7";"SOT-23-6";1;"SN74LVC1T45DBV";;;
+9;"U4";"LQFP-64_10x10mm_P0.5mm";1;"STM32L431RCTx";;;
+10;"J3";"PinHeader_2x04_P2.54mm_Vertical";1;"Conn_01x08_Male";;;
+11;"U5";"XTAL_ECS-480-8-36-RWN-TR";1;"ECS-480-8-36-RWN-TR";;;
+12;"U3";"SOT-23-5";1;"LP5907MFX-3.3";;;
+13;"CR2";"PESD5V0C1BSFYL_NEX";1;"PESD5V0C1BSFYL";;;
