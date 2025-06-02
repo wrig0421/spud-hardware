@@ -1,0 +1,21 @@
+Comment,Designator,Footprint,JLCPCB Part #_optional_
+1u,"C1,C2,C3,C4,C5,",Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,C1592
+1u,"C6,C7,C8,C9,C10,C11,C12,C14",Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder,C14445
+Conn_01x20_Male,J1,Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical,C5116480
+Conn_01x08_Male,J2,Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical,C492421
+XL-2012UBC,LED1,srw_custom:XL-2012,C965817
+XL-2012UGC,LED2,srw_custom:XL-2012,C965815
+XL-2012SURC,LED3,srw_custom:XL-2012,C965812
+XL-2012UPC,LED4,srw_custom:XL-2012,C965821
+USB_C_Plug,P1,Connector_USB:USB_C_Plug_JAE_DX07P024AJ1,C5352764
+2N7002,"Q1,Q2",Package_TO_SOT_SMD:SOT-23,C8545
+0,"R1,R6",Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,C100044
+DNI,"R2,R3,R5",Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,
+10k,"R4,R7,R8,R9,R13",Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,C98220
+100,"R10,R14,R16,R17",Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,C122970
+100k,"R11,R12",Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,C14675
+XR21B1411,U1,srw_cuustom:XR21B1411,C517976
+USB-C-31-M-12,U2,Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12,C165948
+NCP361,U3,srw_cuustom:NCP361,C233713
+TPS22917DBV,U4,Package_TO_SOT_SMD:SOT-23-6,C2681320
+SN74LVC1G0832DBVR,U5,srw_custom:DBV6,C206101

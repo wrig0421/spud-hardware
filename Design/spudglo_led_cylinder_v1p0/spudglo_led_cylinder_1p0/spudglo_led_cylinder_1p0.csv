@@ -1,0 +1,5 @@
+"Reference","Value","Datasheet","Footprint","Qty","DNP"
+"C1,C2,C3,C4,C5,C6,C7,C8,C9,C10,C11","0.1u","~","Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder","11",""
+"D1,D2,D3,D4,D5,D6,D7,D8,D9,D10,D11","WS2813","http://www.normandled.com/upload/201605/WS2813%20LED%20Datasheet.pdf","LED_SMD:LED_WS2812_PLCC6_5.0x5.0mm_P1.6mm","11",""
+"J1,J2","Conn_01x03_Pin","~","Connector_PinHeader_1.00mm:PinHeader_1x03_P1.00mm_Horizontal","2",""
+"R1,R2,R3,R4,R5,R6,R7,R8,R9,R10,R11","200","~","Resistor_SMD:R_0201_0603Metric_Pad0.64x0.40mm_HandSolder","11",""
